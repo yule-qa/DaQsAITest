@@ -1,0 +1,10 @@
+#这是数据源文件
+name: qs_study  #http://apidoc.dev.com/project/279/interface/api/24176
+actions:
+  systemStatus:
+    get: http://qs.api.test.com/studyApi/study/V1/systemStatus
+    query:
+      examId: 176
+      userExtendId: 2079
+      userId: 1879
+    save: purchaseStatus  # 记录购买状态 1：已购买；2：未购买
