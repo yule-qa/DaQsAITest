@@ -23,16 +23,20 @@ public class ApiObjectActionModel {
     public String get;
 
     public Response run() {
+        String url="";
+        String method="get";
         if (post != null) {
-            return given().log().all().queryParams(query).post(post) //发送请求
-                    .then().log().all() // 打印日志
-                    .extract().response(); //截取响应
+             url=post;
+             method="post";
         }
         if (get != null) {
-            return given().log().all().queryParams(query).get(get)  //发送请求
-                    .then().log().all() // 打印日志
-                    .extract().response(); //截取响应
+            url=post;
+            method="get";
         }
-        return null;
+        //读取配置文件，获得域名与ip对应关系，在此替换 ,这里解决多环境问题
+        url=url.replaceAll("domain","ip");
+        return given().log().all().queryParams(query).request(method,url)  //发送请求
+                .then().log().all() // 打印日志
+                .extract().response(); //截取响应;
     }
 }

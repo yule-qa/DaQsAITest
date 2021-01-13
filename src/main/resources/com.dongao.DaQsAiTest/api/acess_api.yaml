@@ -7,4 +7,7 @@ actions:
       examId: 176
       userExtendId: 2079
       userId: 1879
+#    参数传递
+#    json:
+#      tag_id: []
     save: purchaseStatus  # 记录购买状态 1：已购买；2：未购买
