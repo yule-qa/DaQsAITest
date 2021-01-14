@@ -8,10 +8,10 @@ actions:
 #      msg: "成功"
 
 
-  startStudyQues:
-    #ApiObjectActionModel
-    get: http://qs.api.test.com/studyApi/study/V3/startStudyQues
-    query:
-      userExtendId: 2079
-      userId: 1879
+#  startStudyQues:
+#    #ApiObjectActionModel
+#    get: http://qs.api.test.com/studyApi/study/V3/startStudyQues
+#    query:
+#      userExtendId: 2079
+#      userId: 1879
 

@@ -17,13 +17,14 @@ import static io.restassured.RestAssured.given;
  */
 public class ApiObjectActionModel {
 
-
-//    public String save;
-//    public HashMap<String, Object> json;
+    public HashMap<String, String> query;
+    public String save;
+    public HashMap<String, Object> json;
     public String post;
     public String get;
 
-    public Response run(HashMap<String, String> query) {
+    public Response run(HashMap query)
+    {
         String url="";
         String method="get";
         if (post != null) {

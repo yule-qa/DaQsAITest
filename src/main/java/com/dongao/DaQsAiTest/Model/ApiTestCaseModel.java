@@ -22,7 +22,7 @@ import static org.junit.jupiter.api.Assertions.assertAll;
 public class ApiTestCaseModel {
     public String name="";
     public String description="";
-    public List<HashMap<String,HashMap<String,String>>> steps;
+    public List<HashMap<String,Object>> steps;
 
     /**
      * 加载一个yaml文件，并转成测试用例的模型类
@@ -32,7 +32,8 @@ public class ApiTestCaseModel {
      */
     public static ApiTestCaseModel load(String path) throws IOException {
         ObjectMapper objectMapper=new ObjectMapper(new YAMLFactory());
-        return objectMapper.readValue(new File(path),ApiTestCaseModel.class);
+        ApiTestCaseModel apiTestCaseModel=objectMapper.readValue(new File(path),ApiTestCaseModel.class);
+        return apiTestCaseModel;
     }
 
     /**
@@ -44,7 +45,8 @@ public class ApiTestCaseModel {
 //            step.entrySet().forEach( entry->{
 //                baseApi.run(entry.getKey(), (String) entry.getValue());
 //            });
-            baseApi.run(step.get("api").toString(),step.get("action").toString(),step.get("params"));
+
+            baseApi.run(step.get("api").toString(),step.get("action").toString(), (HashMap) step.get("params"));
             if (step.get("actual")!=null){
                 assertAll(()->{
                     if(step.get("matcher").equals("equalTo")) {

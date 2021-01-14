@@ -62,6 +62,11 @@
             <artifactId>jackson-databind</artifactId>
             <version>2.11.4</version>
         </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.datatype</groupId>
+            <artifactId>jackson-datatype-jsr310</artifactId>
+            <version>2.11.2</version>
+        </dependency>
 
         <dependency>
             <groupId>io.appium</groupId>
@@ -127,6 +132,12 @@
             <groupId>maven</groupId>
             <artifactId>maven-jar-plugin</artifactId>
             <version>1.8.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.70</version>
+            <scope>compile</scope>
         </dependency>
 
     </dependencies>
@@ -200,5 +211,5 @@
             <url>https://jitpack.io</url>
         </repository>
     </repositories>
-    
+
 </project>
