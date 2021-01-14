@@ -1,5 +1,6 @@
-package com.dongao.DaQsAiTest;
+package com.dongao.DaQsAiTest.Model;
 
+import com.dongao.DaQsAiTest.Util.HeadersUtil;
 import io.restassured.response.Response;
 
 import java.util.HashMap;
@@ -16,13 +17,13 @@ import static io.restassured.RestAssured.given;
  */
 public class ApiObjectActionModel {
 
-    public HashMap<String, Object> query;
-    public String save;
-    public HashMap<String, Object> json;
+
+//    public String save;
+//    public HashMap<String, Object> json;
     public String post;
     public String get;
 
-    public Response run() {
+    public Response run(HashMap<String, String> query) {
         String url="";
         String method="get";
         if (post != null) {
@@ -30,11 +31,12 @@ public class ApiObjectActionModel {
              method="post";
         }
         if (get != null) {
-            url=post;
+            url=get;
             method="get";
         }
         //读取配置文件，获得域名与ip对应关系，在此替换 ,这里解决多环境问题
-        url=url.replaceAll("domain","ip");
+//        url=url.replaceAll("domain","ip");
+        HeadersUtil.preforHeaders(query);
         return given().log().all().queryParams(query).request(method,url)  //发送请求
                 .then().log().all() // 打印日志
                 .extract().response(); //截取响应;

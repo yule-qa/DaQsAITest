@@ -21,9 +21,9 @@ class BaseApiTest {
         assertThat(baseApi.apis.size(),greaterThan(1));  //比1大，证明里面apis里面已经有内容了
     }
 
-    @Test
-    void run() {
-        baseApi.run("qs_study_index","index");
-        baseApi.run("qs_study","systemStatus");
-    }
+//    @Test
+//    void run() {
+//        baseApi.run("qs_study_index","index");
+//        baseApi.run("qs_study","systemStatus");
+//    }
 }

@@ -1,5 +1,6 @@
-package com.dongao.DaQsAiTest;
+package com.dongao.DaQsAiTest.Model;
 
+import com.dongao.DaQsAiTest.BaseApi;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
 
@@ -21,7 +22,7 @@ import static org.junit.jupiter.api.Assertions.assertAll;
 public class ApiTestCaseModel {
     public String name="";
     public String description="";
-    public List<HashMap<String,Object>> steps;
+    public List<HashMap<String,HashMap<String,String>>> steps;
 
     /**
      * 加载一个yaml文件，并转成测试用例的模型类
@@ -43,7 +44,7 @@ public class ApiTestCaseModel {
 //            step.entrySet().forEach( entry->{
 //                baseApi.run(entry.getKey(), (String) entry.getValue());
 //            });
-            baseApi.run(step.get("api").toString(),step.get("action").toString());
+            baseApi.run(step.get("api").toString(),step.get("action").toString(),step.get("params"));
             if (step.get("actual")!=null){
                 assertAll(()->{
                     if(step.get("matcher").equals("equalTo")) {

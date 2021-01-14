@@ -1,4 +1,4 @@
-package com.dongao.DaQsAiTest;
+package com.dongao.DaQsAiTest.Model;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
@@ -16,7 +16,8 @@ import java.util.HashMap;
  */
 public class ApiObjectModel {
     public String name;
-    public HashMap<String,ApiObjectActionModel> actions;
+    public HashMap<String, ApiObjectActionModel> actions;
+
 
     /**
      * 加载yaml文件，返回ApiObjectModel解析对象
@@ -33,9 +34,9 @@ public class ApiObjectModel {
     /**
      * 运行这个apiobject中的某个封装的方法
      */
-    public void run(ApiObjectActionModel action){
-        action.run();
-    }
+//    public void run(ApiObjectActionModel action){
+//        action.run();
+//    }
 
 
 }

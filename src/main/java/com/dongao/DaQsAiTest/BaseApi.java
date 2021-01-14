@@ -1,10 +1,13 @@
 package com.dongao.DaQsAiTest;
 
+import com.dongao.DaQsAiTest.Model.ApiObjectModel;
+
 import java.io.File;
 import java.io.FilenameFilter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -41,10 +44,10 @@ public class BaseApi {
      * @param action
      */
 
-    public void run(String name,String action){
+    public void run(String name, String action, HashMap query){
         //apis为一个List，所以用流式对象来遍历里面的值api。并且执行api里的方法。来执行测试用例
         apis.stream().filter(api->api.name.equals(name)).forEach(api->{
-            api.actions.get(action).run(); //这里实际调用过的是ApiObjectActionModel里的run方法
+            api.actions.get(action).run(query); //这里实际调用过的是ApiObjectActionModel里的run方法
         });
     }
 }
