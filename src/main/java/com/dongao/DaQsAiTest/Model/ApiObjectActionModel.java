@@ -6,6 +6,7 @@ import io.restassured.response.Response;
 import java.util.HashMap;
 
 import static io.restassured.RestAssured.given;
+import static org.hamcrest.CoreMatchers.equalTo;
 
 /**
  * @Author: yule
@@ -17,7 +18,6 @@ import static io.restassured.RestAssured.given;
  */
 public class ApiObjectActionModel {
 
-    public HashMap<String, String> query;
     public String save;
     public HashMap<String, Object> json;
     public String post;
@@ -40,6 +40,7 @@ public class ApiObjectActionModel {
         HeadersUtil.preforHeaders(query);
         return given().log().all().queryParams(query).request(method,url)  //发送请求
                 .then().log().all() // 打印日志
+                .statusCode(200)
                 .extract().response(); //截取响应;
     }
 }

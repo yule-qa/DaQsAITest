@@ -13,7 +13,7 @@ class BaseApiTest {
     @BeforeAll
     static void beforeAll(){
         baseApi=new BaseApi();
-        baseApi.load("src/main/resources/com.dongao.DaQsAiTest");
+        baseApi.load("src/main/resources/com.dongao.DaQsAiTest/api");
     }
 
     @Test

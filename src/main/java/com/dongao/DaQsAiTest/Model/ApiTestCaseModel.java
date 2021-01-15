@@ -3,6 +3,8 @@ package com.dongao.DaQsAiTest.Model;
 import com.dongao.DaQsAiTest.BaseApi;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
+import io.restassured.builder.ResponseBuilder;
+import io.restassured.response.Response;
 
 import java.io.File;
 import java.io.IOException;
@@ -40,17 +42,17 @@ public class ApiTestCaseModel {
      * 借助于baseApi,去运行对应的测试用例，主要是运行其中的测试步骤steps.将来可能会有断言
      * @param baseApi
      */
-    public void run(BaseApi baseApi){
-        steps.stream().forEach(step ->{
-//            step.entrySet().forEach( entry->{
-//                baseApi.run(entry.getKey(), (String) entry.getValue());
-//            });
-
-            baseApi.run(step.get("api").toString(),step.get("action").toString(), (HashMap) step.get("params"));
-            if (step.get("actual")!=null){
+    public void run(BaseApi baseApi){ steps.stream().forEach(step ->{
+            Response response=baseApi.run(step.get("api").toString(),step.get("action").toString(), (HashMap) step.get("params"));
+            if (step.get("assertparams")!=null){
                 assertAll(()->{
-                    if(step.get("matcher").equals("equalTo")) {
-                        assertThat(step.get("actual"), equalTo(step.get("expect")));
+                    HashMap pararmmap=(HashMap)step.get("assertparams");
+                    if(pararmmap.get("matcher").equals("equalTo")) {
+                        String assertparam= (String) pararmmap.get("assertparam");
+                        ResponseBuilder responseBuilder=new ResponseBuilder().clone(response);
+
+                        System.out.println( responseBuilder.build());
+//                        assertThat(,equalTo(step.get("expect")));
                     }
                 });
             }

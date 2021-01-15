@@ -1,6 +1,7 @@
 package com.dongao.DaQsAiTest;
 
 import com.dongao.DaQsAiTest.Model.ApiObjectModel;
+import io.restassured.response.Response;
 
 import java.io.File;
 import java.io.FilenameFilter;
@@ -18,6 +19,7 @@ import java.util.List;
 public class BaseApi {
     //保存了所有api对象
     List<ApiObjectModel> apis=new ArrayList<>();
+    private Response response;
 
     /**
      * 通过给定目录，将所有的api对象， 加载到apis里
@@ -31,7 +33,10 @@ public class BaseApi {
             }
         })).forEach(path -> {
             try {
-                apis.add(ApiObjectModel.load(dir+"/"+path));
+                String filePath=dir+"/"+path;
+                if(filePath.contains("yaml")) {
+                    apis.add(ApiObjectModel.load(dir + "/" + path));
+                }
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -44,10 +49,11 @@ public class BaseApi {
      * @param action
      */
 
-    public void run(String name, String action, HashMap query){
+    public Response run(String name, String action, HashMap query){
         //apis为一个List，所以用流式对象来遍历里面的值api。并且执行api里的方法。来执行测试用例
         apis.stream().filter(api->api.name.equals(name)).forEach(api->{
-            api.actions.get(action).run(query); //这里实际调用过的是ApiObjectActionModel里的run方法
+             response= api.actions.get(action).run(query); //这里实际调用过的是ApiObjectActionModel里的run方法
         });
+        return response;
     }
 }

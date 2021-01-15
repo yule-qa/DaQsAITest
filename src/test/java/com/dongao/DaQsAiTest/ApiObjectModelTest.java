@@ -14,12 +14,12 @@ class ApiObjectModelTest {
     static ApiObjectModel api;
     @BeforeAll
     static void beforeAll() throws IOException {
-        api=ApiObjectModel.load("src/main/resources/com.dongao.DaQsAiTest/api/acess_api.yaml");
+        api=ApiObjectModel.load("src/main/resources/com.dongao.DaQsAiTest/api/index_api.yaml");
 
     }
     @Test
     void load() {
-        assertThat(api.name,equalTo("qs_study"));
+        assertThat(api.name,equalTo("qs_study_index"));
 
     }
 
