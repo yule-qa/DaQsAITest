@@ -1,1 +1,7 @@
 2021-01-14 17:13:53 INFO  MyTest:42 - io.restassured.internal.RestAssuredResponseImpl@1af05b03
+2021-01-17 16:32:23 INFO  MyTest:44 - io.restassured.internal.RestAssuredResponseImpl@50305a
+2021-01-17 16:58:52 INFO  MyTest:44 - io.restassured.internal.RestAssuredResponseImpl@4a67318f
+2021-01-17 17:09:40 INFO  MyTest:47 - {"msg":"成功","code":0,"obj":{"summary":{"list":[{"itemName":"总进度完成","itemValue":"0.0","itemUnit":"%"},{"itemName":"初级会计实务","itemValue":"0.0","itemUnit":"分"},{"itemName":"经济法基础","itemValue":"0.0","itemUnit":"分"}],"hintContent":"考试倒计时118天"},"curriculum":{"name":"今日课表","planList":[]},"startStudy":"剩余0小时0分"}}
+2021-01-17 17:11:00 INFO  MyTest:47 - {"msg":"成功","code":0,"obj":{"summary":{"list":[{"itemName":"总进度完成","itemValue":"0.0","itemUnit":"%"},{"itemName":"初级会计实务","itemValue":"0.0","itemUnit":"分"},{"itemName":"经济法基础","itemValue":"0.0","itemUnit":"分"}],"hintContent":"考试倒计时118天"},"curriculum":{"name":"今日课表","planList":[]},"startStudy":"剩余0小时0分"}}
+2021-01-17 17:25:47 INFO  MyTest:50 - {"msg":"成功","code":0,"obj":{"summary":{"list":[{"itemName":"总进度完成","itemValue":"0.0","itemUnit":"%"},{"itemName":"初级会计实务","itemValue":"0.0","itemUnit":"分"},{"itemName":"经济法基础","itemValue":"0.0","itemUnit":"分"}],"hintContent":"考试倒计时118天"},"curriculum":{"name":"今日课表","planList":[]},"startStudy":"剩余0小时0分"}}
+2021-01-17 17:31:32 INFO  MyTest:51 - text/plain;charset=UTF-8

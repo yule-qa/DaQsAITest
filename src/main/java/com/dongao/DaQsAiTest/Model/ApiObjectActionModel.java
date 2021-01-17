@@ -6,6 +6,7 @@ import io.restassured.response.Response;
 import java.util.HashMap;
 
 import static io.restassured.RestAssured.given;
+import static io.restassured.http.ContentType.JSON;
 import static org.hamcrest.CoreMatchers.equalTo;
 
 /**
@@ -38,9 +39,14 @@ public class ApiObjectActionModel {
         //读取配置文件，获得域名与ip对应关系，在此替换 ,这里解决多环境问题
 //        url=url.replaceAll("domain","ip");
         HeadersUtil.preforHeaders(query);
-        return given().log().all().queryParams(query).request(method,url)  //发送请求
+        Response response=given().log().all().queryParams(query).request(method,url)//发送请求
                 .then().log().all() // 打印日志
+                .contentType("text/plain;charset=UTF-8")
                 .statusCode(200)
                 .extract().response(); //截取响应;
+
+        System.out.println(response.path("obj").toString());
+        return response;
     }
 }
+
