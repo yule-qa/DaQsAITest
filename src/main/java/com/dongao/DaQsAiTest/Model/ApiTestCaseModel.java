@@ -49,8 +49,8 @@ public class ApiTestCaseModel {
                     HashMap pararmmap=(HashMap)step.get("assertparams");
                     if(pararmmap.get("matcher").equals("equalTo")) {
                         String assertparam= (String) pararmmap.get("assertparam");
-                        System.out.println();
-//                        assertThat(,equalTo(step.get("expect")));
+
+                        assertThat(((HashMap)response.path(assertparam)).size(),equalTo(pararmmap.get("expect")));
                     }
                 });
             }

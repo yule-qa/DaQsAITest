@@ -15,7 +15,6 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Base64;
 import java.util.List;
 
 import static org.junit.jupiter.params.provider.Arguments.arguments;
@@ -27,6 +26,11 @@ import static org.junit.jupiter.params.provider.Arguments.arguments;
  */
 public class ApiDDTest {
     private static BaseApi baseApi;
+    @BeforeAll
+    void com_filter(){
+        //todo
+    }
+
 
     @ParameterizedTest(name = "{index} {1}") //标明这个标明是参数化的测试用例  {index} {1} index标志执行测试用例的索引，1标志下方的参数，name
     @MethodSource //同@Test,是一个测试用例，与上面@ParameterizedTest同时使用，如果没加参数（方法名），则默认找测试用例名称相同的方法名，并引用，作为数据的提供来源
