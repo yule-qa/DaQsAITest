@@ -9,6 +9,6 @@ steps:     # 下方带-，证明是一个序列，反序列化时，需要用lis
         userId: 1879
    #断言 ，一般以数据驱动为模式的接口测试框架，不建议加过多断言，断言可以增加到代码里
       assertparams:
-        assertparam: code
+        assertparam: obj
         expect: 3
         matcher: equalTo

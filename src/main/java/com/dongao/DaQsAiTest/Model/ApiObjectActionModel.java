@@ -41,11 +41,9 @@ public class ApiObjectActionModel {
         HeadersUtil.preforHeaders(query);
         Response response=given().log().all().queryParams(query).request(method,url)//发送请求
                 .then().log().all() // 打印日志
-                .contentType("text/plain;charset=UTF-8")
                 .statusCode(200)
                 .extract().response(); //截取响应;
 
-        System.out.println(response.path("obj").toString());
         return response;
     }
 }
