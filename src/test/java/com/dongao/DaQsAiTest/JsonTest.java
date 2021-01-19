@@ -9,6 +9,9 @@ import org.junit.jupiter.api.Test;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
 
 /**
  * @Author: yule
@@ -42,15 +45,37 @@ public class JsonTest {
         String apipath = jsonFileDto.getPath();
         String[] apiarray = apipath.split("/");
         StringBuffer apiname = new StringBuffer();
+        StringBuffer action = new StringBuffer();
         apiname.append("qs_");
         for (int i = 0; i < apiarray.length; i++) {
             if (apiarray[i].contains("V")) {
                 apiname = apiname.append(apiarray[i - 1]).append("_").append(apiarray[i + 1]);
+                action.append(apiarray[i+1]);
             }
 
         }
-        System.out.println(apiname.toString());
         caseYamlStepDto.setApi(apiname.toString());
+        //填充aciton
+        caseYamlStepDto.setAction(action.toString());
+        //填充params
+        String query = jsonFileDto.getQuery();
+        String[] queryArray = query.split("&");
+        HashMap params = new HashMap();
+        for(int i=0;i<queryArray.length;i++){
+            String[] mapArray=queryArray[i].split("=");
+            params.put(mapArray[0],mapArray[1]);
+        }
+        caseYamlStepDto.setParams(params);
+
+        //填充assertparams
+        //todo
+        //填充caseYamlFileDto
+        List<CaseYamlStepDto> steps=new ArrayList<>();
+        steps.add(caseYamlStepDto);
+        caseYamlFileDto.setSteps(steps);
+        caseYamlFileDto.setName(caseYamlStepDto.getAction());
+        caseYamlFileDto.setDescription(apipath+" 接口测试用例");
+        System.out.println(caseYamlFileDto);
         return caseYamlFileDto;
     }
 
