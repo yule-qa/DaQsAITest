@@ -34,6 +34,7 @@ public class ApiTestCaseModel {
      */
     public static ApiTestCaseModel load(String path) throws IOException {
         ObjectMapper objectMapper=new ObjectMapper(new YAMLFactory());
+
         ApiTestCaseModel apiTestCaseModel=objectMapper.readValue(new File(path),ApiTestCaseModel.class);
         return apiTestCaseModel;
     }
@@ -49,7 +50,6 @@ public class ApiTestCaseModel {
                     HashMap pararmmap=(HashMap)step.get("assertparams");
                     if(pararmmap.get("matcher").equals("equalTo")) {
                         String assertparam= (String) pararmmap.get("assertparam");
-
                         assertThat(((HashMap)response.path(assertparam)).size(),equalTo(pararmmap.get("expect")));
                     }
                 });
