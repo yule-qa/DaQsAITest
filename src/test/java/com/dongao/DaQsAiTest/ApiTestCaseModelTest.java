@@ -28,7 +28,7 @@ class ApiTestCaseModelTest {
 
         baseApi=new BaseApi();
         baseApi.load("src/main/resources/com.dongao.DaQsAiTest/api");
-        apiTestCase=ApiTestCaseModel.load("src/main/resources/com.dongao.DaQsAiTest/case/index_test.yaml");
+        apiTestCase=ApiTestCaseModel.load("src/main/resources/com.dongao.DaQsAiTest/case/V3/study/qs_study_index.yaml");
 
 
     }

@@ -5,11 +5,11 @@ import java.util.List;
 /**
  * @Author: yule
  * @Description:
- * @Date: create in 2021/1/19 4:08 下午
+ * @Date: create in 2021/1/20 5:10 下午
  */
-public class RequestHeaderDto {
+public class ResponseHeaderDto {
     public String firstLine;
-    public List<RequestFinalHeadersDto> headers;
+    public List<ResponseFinalHeadersDto> headers;
 
     public String getFirstLine() {
         return firstLine;
@@ -19,11 +19,11 @@ public class RequestHeaderDto {
         this.firstLine = firstLine;
     }
 
-    public List<RequestFinalHeadersDto> getHeaders() {
+    public List<ResponseFinalHeadersDto> getHeaders() {
         return headers;
     }
 
-    public void setHeaders(List<RequestFinalHeadersDto> headers) {
+    public void setHeaders(List<ResponseFinalHeadersDto> headers) {
         this.headers = headers;
     }
 

@@ -34,7 +34,6 @@ public class ApiTestCaseModel {
      */
     public static ApiTestCaseModel load(String path) throws IOException {
         ObjectMapper objectMapper=new ObjectMapper(new YAMLFactory());
-
         ApiTestCaseModel apiTestCaseModel=objectMapper.readValue(new File(path),ApiTestCaseModel.class);
         return apiTestCaseModel;
     }

@@ -1,12 +1,14 @@
-package com.dongao.DaQsAiTest;
+package com.dongao.DaQsAiTest.Util;
 
 import com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto;
 import com.dongao.DaQsAiTest.FileDto.CaseYamlStepDto;
 import com.dongao.DaQsAiTest.FileDto.JsonFileDto;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import io.netty.handler.codec.haproxy.HAProxyProtocolException;
 import org.junit.jupiter.api.Test;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.yaml.snakeyaml.Yaml;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -15,23 +17,20 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import org.yaml.snakeyaml.Yaml;
-
 /**
  * @Author: yule
- * @Description:
- * @Date: create in 2021/1/19 3:30 下午
+ * @Description: 通过charles导出json文件，自动生成yaml测试用例
+ * @Date: create in 2021/1/20 2:37 下午
  */
-public class JsonTest {
-    private static final Logger logger = LoggerFactory.getLogger(JsonTest.class);
-    String apiVersion="";
-    String busniessAction="";
-    @Test
+public class JsonToYamlUtils {
+    private static final Logger logger = LoggerFactory.getLogger(JsonToYamlUtils.class);
+    private static String apiVersion;
+    private static String busniessAction;
+
+
     //从json文件中生成yaml的对象
-    public void jsonToobj() {
-        String jsonpath = "src/main/resources/com.dongao.DaQsAiTest/data/test.chlsj";
+    public static JsonFileDto jsonToobj(String jsonpath) {
+        //jsonpath为charles导出文件的路径地址
         File file = new File(jsonpath);
         ObjectMapper objectMapper = new ObjectMapper();
         JsonFileDto jsonFileDto = null;
@@ -43,10 +42,11 @@ public class JsonTest {
             logger.error("解析{}异常,失败信息:{}", file.getName(), e.getMessage());
         }
 
-        objToYaml(createCaseYmlDto(jsonFileDto));
+        return jsonFileDto;
     }
 
-    public CaseYamlFileDto createCaseYmlDto(JsonFileDto jsonFileDto) {
+    //创建yaml 对象，
+    public static CaseYamlFileDto createCaseYmlDto(JsonFileDto jsonFileDto) {
         CaseYamlFileDto caseYamlFileDto = new CaseYamlFileDto();
         CaseYamlStepDto caseYamlStepDto = new CaseYamlStepDto();
 
@@ -92,7 +92,8 @@ public class JsonTest {
         return caseYamlFileDto;
     }
 
-    public void objToYaml(CaseYamlFileDto caseYamlFileDto){
+    //yaml实例对象转成真正的yaml文件
+    public static void objToYaml(CaseYamlFileDto caseYamlFileDto){
         Yaml yaml = new Yaml();
         String yamlPath=null;
         String yamlDir="src/main/resources/com.dongao.DaQsAiTest/case/"+apiVersion+"/"+busniessAction;
@@ -100,15 +101,18 @@ public class JsonTest {
         File filedir=new File(yamlDir);
         if(!filedir.exists()){
             filedir.mkdirs();
-            logger.info("api版本文件夹不存在，重新创建");
+            logger.info("api版本文件夹不存在，重新创建"+yamlPath);
         }
         //拼接测试用例路径
         yamlPath=yamlDir+"/"+caseYamlFileDto.getSteps().get(0).getApi()+".yaml";
-        logger.info("创建测试用例路径=====》"+yamlPath);
+        logger.info("成功创建测试用例路径=====》"+yamlPath);
         try {
             yaml.dump(caseYamlFileDto, new FileWriter(yamlPath));
         } catch (IOException e) {
             logger.error("生成测试用例文件yaml失败", e.getMessage());
         }
+    }
+    public static void createTestcaseYaml(String jsonpath){
+        objToYaml(createCaseYmlDto(jsonToobj(jsonpath))) ;
     }
 }

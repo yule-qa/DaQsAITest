@@ -27,8 +27,14 @@ import static org.junit.jupiter.params.provider.Arguments.arguments;
 public class ApiDDTest {
     private static BaseApi baseApi;
     @BeforeAll
-    void com_filter(){
-        //todo
+    void beforeAll(){
+        RestAssured.filters((req, res, ctx)->{
+            Response originalResponse=ctx.next(req,res);
+            ResponseBuilder responseBuilder=new ResponseBuilder().clone(originalResponse);
+            responseBuilder.setContentType("application/json; charset=UTF-8");
+            return responseBuilder.build();
+        });
+
     }
 
 
@@ -50,11 +56,6 @@ public class ApiDDTest {
 
         if(System.getProperty("api")!=null){
             baseApi.load(System.getProperty("api"));
-        }else{
-//            写日志
-
-
-
         }
 
         //用来传递给参数化用例
@@ -68,6 +69,7 @@ public class ApiDDTest {
             testCaseDir=System.getProperty("case");
         }
         String finalTestCaseDir = testCaseDir;
+        //todo  这里需要改造，现在case目录下增加了版本号和业务线文件夹
         Arrays.stream(new File(testCaseDir).list())
                 .forEach(name ->{
                     String path= finalTestCaseDir +"/"+ name;

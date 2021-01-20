@@ -11,8 +11,19 @@ public class ResponseDto {
     public String status;
     public ResponseSizeDto sizes;
     public ResponseBodyDto body;
+    public ResponseHeaderDto header;
 
+    public String mimeType;
+    public String charset;
+    public String contentEncoding;
 
+    public String getContentEncoding() {
+        return contentEncoding;
+    }
+
+    public void setContentEncoding(String contentEncoding) {
+        this.contentEncoding = contentEncoding;
+    }
 
     public String getStatus() {
         return status;
@@ -21,6 +32,7 @@ public class ResponseDto {
     public void setStatus(String status) {
         this.status = status;
     }
+
     public ResponseSizeDto getSizes() {
         return sizes;
     }
@@ -37,4 +49,27 @@ public class ResponseDto {
         this.body = body;
     }
 
+    public ResponseHeaderDto getHeader() {
+        return header;
+    }
+
+    public void setHeader(ResponseHeaderDto header) {
+        this.header = header;
+    }
+
+    public String getMimeType() {
+        return mimeType;
+    }
+
+    public void setMimeType(String mimeType) {
+        this.mimeType = mimeType;
+    }
+
+    public String getCharset() {
+        return charset;
+    }
+
+    public void setCharset(String charset) {
+        this.charset = charset;
+    }
 }
