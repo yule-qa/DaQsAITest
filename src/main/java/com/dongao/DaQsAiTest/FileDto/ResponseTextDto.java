@@ -8,6 +8,15 @@ package com.dongao.DaQsAiTest.FileDto;
 public class ResponseTextDto {
     public String msg;
     public String code;
+    public ResponseObjDto obj;
+
+    public ResponseObjDto getObj() {
+        return obj;
+    }
+
+    public void setObj(ResponseObjDto obj) {
+        this.obj = obj;
+    }
 
     public String getMsg() {
         return msg;

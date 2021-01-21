@@ -1,4 +1,0 @@
-name: qs_study_index
-actions:
-  index:
-    get: http://qs.api.test.com/studyApi/study/V3/index

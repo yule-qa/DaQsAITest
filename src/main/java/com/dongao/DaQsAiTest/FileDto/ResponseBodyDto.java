@@ -1,5 +1,7 @@
 package com.dongao.DaQsAiTest.FileDto;
 
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
+
 import java.util.List;
 
 /**
@@ -8,6 +10,7 @@ import java.util.List;
  * @Date: create in 2021/1/19 4:28 下午
  */
 public class ResponseBodyDto {
+        @JsonDeserialize(using = ResponseTextDtoDeserializer.class)
         public ResponseTextDto text;
         public String charset;
         public String decoded;
