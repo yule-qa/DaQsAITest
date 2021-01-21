@@ -42,7 +42,8 @@ public class ApiTestCaseModel {
      * 借助于baseApi,去运行对应的测试用例，主要是运行其中的测试步骤steps.将来可能会有断言
      * @param baseApi
      */
-    public void run(BaseApi baseApi){ steps.stream().forEach(step ->{
+    public void run(BaseApi baseApi){
+        steps.stream().forEach(step ->{
             Response response=baseApi.run(step.get("api").toString(),step.get("action").toString(), (HashMap) step.get("params"));
             if (step.get("assertparams")!=null){
                 assertAll(()->{

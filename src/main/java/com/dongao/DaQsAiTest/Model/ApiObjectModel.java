@@ -18,6 +18,21 @@ public class ApiObjectModel {
     public String name;
     public HashMap<String, ApiObjectActionModel> actions;
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public HashMap<String, ApiObjectActionModel> getActions() {
+        return actions;
+    }
+
+    public void setActions(HashMap<String, ApiObjectActionModel> actions) {
+        this.actions = actions;
+    }
 
     /**
      * 加载yaml文件，返回ApiObjectModel解析对象

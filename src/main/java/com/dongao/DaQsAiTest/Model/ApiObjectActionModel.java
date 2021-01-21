@@ -24,6 +24,38 @@ public class ApiObjectActionModel {
     public String post;
     public String get;
 
+    public String getSave() {
+        return save;
+    }
+
+    public void setSave(String save) {
+        this.save = save;
+    }
+
+    public HashMap<String, Object> getJson() {
+        return json;
+    }
+
+    public void setJson(HashMap<String, Object> json) {
+        this.json = json;
+    }
+
+    public String getPost() {
+        return post;
+    }
+
+    public void setPost(String post) {
+        this.post = post;
+    }
+
+    public String getGet() {
+        return get;
+    }
+
+    public void setGet(String get) {
+        this.get = get;
+    }
+
     public Response run(HashMap query)
     {
         String url="";

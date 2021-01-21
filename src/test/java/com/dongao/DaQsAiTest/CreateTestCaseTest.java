@@ -30,15 +30,22 @@ public class CreateTestCaseTest {
     private static final Logger logger = LoggerFactory.getLogger(CreateTestCaseTest.class);
 
     @Test
-    //从json文件中生成yaml的对象
-    public void createTestcase() {
+    //从json文件中生成测试用例yaml文件
+    public void createTestcaseYaml() {
 
         List testcaseSourceJsonFileList=load("src/main/resources/com.dongao.DaQsAiTest/data");
         //遍历测试用例列表，根据每个用例json文件地址，生成对应的测试用例
         for (Object testcaseSourceJsonFile : testcaseSourceJsonFileList) {
-            JsonToYamlUtils.createTestcaseYaml(testcaseSourceJsonFile.toString());
+            JsonToYamlUtils.createTestcaseYaml("case",testcaseSourceJsonFile.toString());
         }
     }
+
+    @Test
+    //生成apiobj 的yaml文件
+    public void createApiObjYaml(){
+
+    }
+
     //从/data文件夹下，逐个加载测试用例json文件到List里，并返回
     public List load(String testcaseSourceJsonDir){
         List<String> testcases=new ArrayList<>();

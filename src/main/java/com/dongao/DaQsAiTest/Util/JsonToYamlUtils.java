@@ -3,6 +3,8 @@ package com.dongao.DaQsAiTest.Util;
 import com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto;
 import com.dongao.DaQsAiTest.FileDto.CaseYamlStepDto;
 import com.dongao.DaQsAiTest.FileDto.JsonFileDto;
+import com.dongao.DaQsAiTest.Model.ApiObjectActionModel;
+import com.dongao.DaQsAiTest.Model.ApiObjectModel;
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -27,6 +29,8 @@ public class JsonToYamlUtils {
     private static final Logger logger = LoggerFactory.getLogger(JsonToYamlUtils.class);
     private static String apiVersion;
     private static String busniessAction;
+    private static String caseYamlPath;
+    private static String apiYamlPath;
 
 
     //从json文件中生成yaml的对象
@@ -95,25 +99,47 @@ public class JsonToYamlUtils {
 
     //yaml实例对象转成真正的yaml文件
     public static void objToYaml(CaseYamlFileDto caseYamlFileDto){
+        //创建APiObjectModel对象
+        //todo
+
+
         Yaml yaml = new Yaml();
-        String yamlPath=null;
-        String yamlDir="src/main/resources/com.dongao.DaQsAiTest/case/"+apiVersion+"/"+busniessAction;
+        String caseyamlDir=createDir("case");
+        String apiyamlDir=createDir("data");
+        //拼接测试用例路径
+        caseYamlPath=caseyamlDir+"/"+caseYamlFileDto.getSteps().get(0).getApi()+".yaml";
+        apiYamlPath=apiyamlDir+"/"+caseYamlFileDto.getSteps().get(0).getApi()+".yaml";
+        logger.info("成功创建测试用例文件路径=====》"+caseYamlPath);
+        logger.info("成功创建对象文件路径=====》"+apiYamlPath);
+        try {
+            yaml.dump(caseYamlFileDto, new FileWriter(caseYamlPath));
+            yaml.dump(apiObjectModel, new FileWriter(caseYamlPath));
+        } catch (IOException e) {
+            logger.error("生成文件yaml失败", e.getMessage());
+        }
+    }
+    public static String createDir(String path){
+        String yamlDir="src/main/resources/com.dongao.DaQsAiTest/"+path+"/"+apiVersion+"/"+busniessAction;
         //判断系统版本文件夹是否存在，如果存在则不创建，直接创建文件，如果不存在，需要创建文件夹，再生产testcase文件
         File filedir=new File(yamlDir);
         if(!filedir.exists()){
             filedir.mkdirs();
-            logger.info("api版本文件夹不存在，重新创建"+yamlPath);
+            logger.info("文件夹不存在，现在创建"+yamlDir);
         }
-        //拼接测试用例路径
-        yamlPath=yamlDir+"/"+caseYamlFileDto.getSteps().get(0).getApi()+".yaml";
-        logger.info("成功创建测试用例路径=====》"+yamlPath);
-        try {
-            yaml.dump(caseYamlFileDto, new FileWriter(yamlPath));
-        } catch (IOException e) {
-            logger.error("生成测试用例文件yaml失败", e.getMessage());
-        }
+        return yamlDir;
     }
-    public static void createTestcaseYaml(String jsonpath){
+
+    public static ApiObjectModel createApiObject(CaseYamlFileDto caseYamlFileDto){
+        ApiObjectModel apiObjectModel=new ApiObjectModel();
+        ApiObjectActionModel  apiObjectActionModel=new ApiObjectActionModel();
+        //todo
+
+
+    }
+
+
+    public static void createTestcaseYaml(String dirCreatePath,String jsonpath){
         objToYaml(createCaseYmlDto(jsonToobj(jsonpath))) ;
     }
+
 }

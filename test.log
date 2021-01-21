@@ -21,3 +21,5 @@
  at [Source: UNKNOWN; line: -1, column: -1] (through reference chain: com.dongao.DaQsAiTest.FileDto.JsonFileDto["response"]->com.dongao.DaQsAiTest.FileDto.ResponseDto["body"]->com.dongao.DaQsAiTest.FileDto.ResponseBodyDto["text"])
 2021-01-21 11:06:55 INFO  JsonToYamlUtils:105 - api版本文件夹不存在，重新创建null
 2021-01-21 11:06:55 INFO  JsonToYamlUtils:109 - 成功创建测试用例路径=====》src/main/resources/com.dongao.DaQsAiTest/case/V3/study/qs_study_index.yaml
+2021-01-21 17:55:11 INFO  JsonToYamlUtils:105 - 文件夹不存在，现在创建null
+2021-01-21 17:55:11 INFO  JsonToYamlUtils:109 - 成功创建文件路径=====》src/main/resources/com.dongao.DaQsAiTest/case/V3/study/qs_study_index.yaml
