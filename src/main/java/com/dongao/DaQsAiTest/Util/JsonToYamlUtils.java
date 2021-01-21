@@ -31,6 +31,7 @@ public class JsonToYamlUtils {
     private static String busniessAction;
     private static String caseYamlPath;
     private static String apiYamlPath;
+    private static JsonFileDto jsonFileDto;
 
 
     //从json文件中生成yaml的对象
@@ -38,7 +39,7 @@ public class JsonToYamlUtils {
         //jsonpath为charles导出文件的路径地址
         File file = new File(jsonpath);
         ObjectMapper objectMapper = new ObjectMapper();
-        JsonFileDto jsonFileDto = null;
+
         try {
             JsonNode jsonNode = objectMapper.readTree(file);
             jsonFileDto = objectMapper.treeToValue(jsonNode, JsonFileDto.class);
@@ -100,12 +101,11 @@ public class JsonToYamlUtils {
     //yaml实例对象转成真正的yaml文件
     public static void objToYaml(CaseYamlFileDto caseYamlFileDto){
         //创建APiObjectModel对象
-        //todo
-
+        ApiObjectModel apiObjectModel = createApiObject(caseYamlFileDto);
 
         Yaml yaml = new Yaml();
         String caseyamlDir=createDir("case");
-        String apiyamlDir=createDir("data");
+        String apiyamlDir=createDir("api");
         //拼接测试用例路径
         caseYamlPath=caseyamlDir+"/"+caseYamlFileDto.getSteps().get(0).getApi()+".yaml";
         apiYamlPath=apiyamlDir+"/"+caseYamlFileDto.getSteps().get(0).getApi()+".yaml";
@@ -113,7 +113,7 @@ public class JsonToYamlUtils {
         logger.info("成功创建对象文件路径=====》"+apiYamlPath);
         try {
             yaml.dump(caseYamlFileDto, new FileWriter(caseYamlPath));
-            yaml.dump(apiObjectModel, new FileWriter(caseYamlPath));
+            yaml.dump(apiObjectModel, new FileWriter(apiYamlPath));
         } catch (IOException e) {
             logger.error("生成文件yaml失败", e.getMessage());
         }
@@ -129,11 +129,22 @@ public class JsonToYamlUtils {
         return yamlDir;
     }
 
+    //创建apiobj
     public static ApiObjectModel createApiObject(CaseYamlFileDto caseYamlFileDto){
         ApiObjectModel apiObjectModel=new ApiObjectModel();
         ApiObjectActionModel  apiObjectActionModel=new ApiObjectActionModel();
-        //todo
+        String method=jsonFileDto.getMethod();
+        if (method.equals("GET")){
+            apiObjectActionModel.setGet("http://"+jsonFileDto.getHost()+jsonFileDto.getPath());
+        }else if(method.equals("POST")){
+            apiObjectActionModel.setPost("http://"+jsonFileDto.getHost()+jsonFileDto.getPath());
+        }
+        apiObjectModel.setName(caseYamlFileDto.getSteps().get(0).getApi());
+        HashMap<String,ApiObjectActionModel> actions=new HashMap();
+        actions.put(caseYamlFileDto.getName(),apiObjectActionModel);
+        apiObjectModel.setActions(actions);
 
+        return apiObjectModel;
 
     }
 

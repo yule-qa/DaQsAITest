@@ -23,3 +23,11 @@
 2021-01-21 11:06:55 INFO  JsonToYamlUtils:109 - 成功创建测试用例路径=====》src/main/resources/com.dongao.DaQsAiTest/case/V3/study/qs_study_index.yaml
 2021-01-21 17:55:11 INFO  JsonToYamlUtils:105 - 文件夹不存在，现在创建null
 2021-01-21 17:55:11 INFO  JsonToYamlUtils:109 - 成功创建文件路径=====》src/main/resources/com.dongao.DaQsAiTest/case/V3/study/qs_study_index.yaml
+2021-01-21 23:14:21 INFO  JsonToYamlUtils:127 - 文件夹不存在，现在创建src/main/resources/com.dongao.DaQsAiTest/case/V3/study
+2021-01-21 23:14:21 INFO  JsonToYamlUtils:127 - 文件夹不存在，现在创建src/main/resources/com.dongao.DaQsAiTest/data/V3/study
+2021-01-21 23:14:21 INFO  JsonToYamlUtils:112 - 成功创建测试用例文件路径=====》src/main/resources/com.dongao.DaQsAiTest/case/V3/study/qs_study_index.yaml
+2021-01-21 23:14:21 INFO  JsonToYamlUtils:113 - 成功创建对象文件路径=====》src/main/resources/com.dongao.DaQsAiTest/data/V3/study/qs_study_index.yaml
+2021-01-21 23:18:50 INFO  JsonToYamlUtils:127 - 文件夹不存在，现在创建src/main/resources/com.dongao.DaQsAiTest/case/V3/study
+2021-01-21 23:18:50 INFO  JsonToYamlUtils:127 - 文件夹不存在，现在创建src/main/resources/com.dongao.DaQsAiTest/api/V3/study
+2021-01-21 23:18:50 INFO  JsonToYamlUtils:112 - 成功创建测试用例文件路径=====》src/main/resources/com.dongao.DaQsAiTest/case/V3/study/qs_study_index.yaml
+2021-01-21 23:18:50 INFO  JsonToYamlUtils:113 - 成功创建对象文件路径=====》src/main/resources/com.dongao.DaQsAiTest/api/V3/study/qs_study_index.yaml
