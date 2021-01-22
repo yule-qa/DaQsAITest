@@ -36,7 +36,7 @@ public class CreateTestCaseTest {
         List testcaseSourceJsonFileList=load("src/main/resources/com.dongao.DaQsAiTest/data");
         //遍历测试用例列表，根据每个用例json文件地址，生成对应的测试用例
         for (Object testcaseSourceJsonFile : testcaseSourceJsonFileList) {
-            JsonToYamlUtils.createTestcaseYaml("case",testcaseSourceJsonFile.toString());
+            JsonToYamlUtils.createTestcaseYaml(testcaseSourceJsonFile.toString());
         }
     }
 

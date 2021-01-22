@@ -31,3 +31,13 @@
 2021-01-21 23:18:50 INFO  JsonToYamlUtils:127 - 文件夹不存在，现在创建src/main/resources/com.dongao.DaQsAiTest/api/V3/study
 2021-01-21 23:18:50 INFO  JsonToYamlUtils:112 - 成功创建测试用例文件路径=====》src/main/resources/com.dongao.DaQsAiTest/case/V3/study/qs_study_index.yaml
 2021-01-21 23:18:50 INFO  JsonToYamlUtils:113 - 成功创建对象文件路径=====》src/main/resources/com.dongao.DaQsAiTest/api/V3/study/qs_study_index.yaml
+2021-01-22 10:34:29 INFO  JsonToYamlUtils:127 - 文件夹不存在，现在创建src/main/resources/com.dongao.DaQsAiTest/case/V3/study
+2021-01-22 10:34:29 INFO  JsonToYamlUtils:127 - 文件夹不存在，现在创建src/main/resources/com.dongao.DaQsAiTest/api/V3/study
+2021-01-22 10:34:29 INFO  JsonToYamlUtils:112 - 成功创建测试用例文件路径=====》src/main/resources/com.dongao.DaQsAiTest/case/V3/study/qs_study_index.yaml
+2021-01-22 10:34:29 INFO  JsonToYamlUtils:113 - 成功创建对象文件路径=====》src/main/resources/com.dongao.DaQsAiTest/api/V3/study/qs_study_index.yaml
+2021-01-22 15:55:21 ERROR JsonToYamlUtils:48 - 解析course_syncCourseRecord.chlsj异常,失败信息:Cannot deserialize instance of `com.dongao.DaQsAiTest.FileDto.JsonFileDto` out of START_ARRAY token
+ at [Source: UNKNOWN; line: -1, column: -1]
+2021-01-22 15:58:18 ERROR JsonToYamlUtils:48 - 解析course_syncCourseRecord.chlsj异常,失败信息:Cannot construct instance of `com.dongao.DaQsAiTest.FileDto.ResponseObjDto` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('')
+ at [Source: (String)"{"code":0,"msg":"成功","obj":""}"; line: 1, column: 28] (through reference chain: com.dongao.DaQsAiTest.FileDto.JsonFileDto["response"]->com.dongao.DaQsAiTest.FileDto.ResponseDto["body"]->com.dongao.DaQsAiTest.FileDto.ResponseBodyDto["text"]->com.dongao.DaQsAiTest.FileDto.ResponseTextDto["obj"])
+2021-01-22 16:05:39 ERROR JsonToYamlUtils:48 - 解析course_syncCourseRecord.chlsj异常,失败信息:Cannot construct instance of `com.dongao.DaQsAiTest.FileDto.ResponseObjDto` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('')
+ at [Source: (String)"{"code":0,"msg":"成功","obj":""}"; line: 1, column: 28] (through reference chain: com.dongao.DaQsAiTest.FileDto.JsonFileDto["response"]->com.dongao.DaQsAiTest.FileDto.ResponseDto["body"]->com.dongao.DaQsAiTest.FileDto.ResponseBodyDto["text"]->com.dongao.DaQsAiTest.FileDto.ResponseTextDto["obj"])

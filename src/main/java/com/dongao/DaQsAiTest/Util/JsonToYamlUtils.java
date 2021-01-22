@@ -38,6 +38,10 @@ public class JsonToYamlUtils {
     public static JsonFileDto jsonToobj(String jsonpath) {
         //jsonpath为charles导出文件的路径地址
         File file = new File(jsonpath);
+        //todo 将导入文件的[]去掉
+        //todo 将response中body-text-obj-为空是""转换成null
+
+
         ObjectMapper objectMapper = new ObjectMapper();
 
         try {
@@ -149,7 +153,7 @@ public class JsonToYamlUtils {
     }
 
 
-    public static void createTestcaseYaml(String dirCreatePath,String jsonpath){
+    public static void createTestcaseYaml(String jsonpath){
         objToYaml(createCaseYmlDto(jsonToobj(jsonpath))) ;
     }
 
