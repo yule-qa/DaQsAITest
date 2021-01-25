@@ -8,34 +8,14 @@ package com.dongao.DaQsAiTest.Util;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.*;
 import java.util.ArrayList;
 
 public class FileUtils {
-
-    //json转对象
-    public static void main(String[] args){
-        actionPerformed();
-//        String path = FileUtils.class.getClassLoader().getResource("test.json").getPath();
-//        String s = FileUtils.readJsonFile("src/main/resources/com.dongao.DaQsAiTest/data/course_syncCourseRecord.chlsj");
-//        JSONObject jobj = JSON.parseObject(s);
-//        JSONObject text = jobj.getJSONObject("response").getJSONObject("body").getJSONObject("text");
-//        String obj=text.get("obj").toString();
-//
-//        System.out.println("obj:"+obj);
-
-//
-//        JSONArray links = jobj.getJSONArray("links");
-//
-//        for (int i = 0 ; i < links.size();i++){
-//            JSONObject key1 = (JSONObject)links.get(i);
-//            String name = (String)key1.get("name");
-//            String url = (String)key1.get("url");
-//            System.out.println(name);
-//            System.out.println(url);
-//        }
-    }
+    private static final Logger logger = LoggerFactory.getLogger(JsonToYamlUtils.class);
 
     /**
      * 读取json文件，返回json串
@@ -63,35 +43,77 @@ public class FileUtils {
             return null;
         }
     }
-    public static void actionPerformed() {
 
-        ArrayList<String> lines = new ArrayList<String>();
+    /**
+     * 读json.chalres文件，
+     * 1.去掉[]
+     * 2.将obj="" 替换成obj=null
+     */
+    public static void actionPerformed(String filePath) {
         String line = null;
+        String newFile= null;
+        if(filePath.contains("_new")){
+            logger.info("不存在需要更新的charles导出文件");
+        }else {
 
-        try {
-            FileReader fr = new FileReader("src/main/resources/com.dongao.DaQsAiTest/data/course_syncCourseRecord.chlsj");
-            BufferedReader br = new BufferedReader(fr);
+            try {
+                BufferedReader in = new BufferedReader(new InputStreamReader(new FileInputStream(filePath), "GBK"));
+                String newFilestr[] = filePath.split(".chlsj");
+                newFile = newFilestr[0] + "_new" + ".chlsj";
+                BufferedWriter out = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(newFile), "GBK"));
 
-            line = br.readLine();
-            while (line != null) {
-                line.replaceFirst("[","");
-                if (line.contains("obj:\"\"")){
-                    line.replace("\"obj\":\"\"","\"obj\":null");
+                while ((line = in.readLine()) != null) {
+                    //去掉前后[]
+                    line = line.substring(1, line.length() - 1);
+                    //将obj 换成null，用于解析post请求体
+                    if (line.contains("\\\"obj\\\":\\\"\\\"")) {
+                        line = line.replace("\\\"obj\\\":\\\"\\\"", "\\\"obj\\\":null");
                     }
-                lines.add(line);
+                    out.write(line);
+                    out.newLine();
+                }
+                logger.info("创建新文件成功，去掉前后[],修改obj:null====》" + newFile);
+                //清楚缓存
+                out.flush();
+                //关闭流
+                in.close();
+                out.close();
 
-                FileWriter fw = new FileWriter("src/main/resources/com.dongao.DaQsAiTest/data/course_syncCourseRecord1.chlsj");
-                BufferedWriter bw = new BufferedWriter(fw);
-                bw.write(line);
-                fw.close();
-                bw.close();
+            }     //end try
+            catch (Exception e) {
 
-            }  //end if
-
-        }     //end try
-        catch (Exception e) {
-
-        }  //end catch
+            }  //end catch
+            deleteFile(filePath);
+        }
     }
 
+    /**
+     * 删除老文件，只保留新文件，并改名成老文件
+     */
+    public static void changeFile(String oldFile,String newFile){
+        File oldfile=new File(oldFile);
+        File newfile=new File(newFile);
+
+        if(oldfile.exists()){
+            newfile.renameTo(oldfile);
+
+        }
+        logger.info("新文件覆盖老文件成功");
+    }
+
+    /**
+    * 删除文件
+     */
+    public static void deleteFile(String oldFile){
+        File file=new File(oldFile);
+        if(file.exists()){
+            file.delete();
+            logger.info(oldFile+"文件删除成功！！！！");
+        }
+        logger.info(oldFile+"文件不存在！！！！");
+    }
+    public static void main(String[] args) {
+        actionPerformed("src/main/resources/com.dongao.DaQsAiTest/data/course_syncCourseRecord.chlsj");
+
+    }
 }

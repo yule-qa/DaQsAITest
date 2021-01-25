@@ -3,6 +3,7 @@ package com.dongao.DaQsAiTest;
 import com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto;
 import com.dongao.DaQsAiTest.FileDto.CaseYamlStepDto;
 import com.dongao.DaQsAiTest.FileDto.JsonFileDto;
+import com.dongao.DaQsAiTest.Util.FileUtils;
 import com.dongao.DaQsAiTest.Util.JsonToYamlUtils;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -32,10 +33,11 @@ public class CreateTestCaseTest {
     @Test
     //从json文件中生成测试用例yaml文件
     public void createTestcaseYaml() {
-
-        List testcaseSourceJsonFileList=load("src/main/resources/com.dongao.DaQsAiTest/data");
+        String caseSourceFileDir="src/main/resources/com.dongao.DaQsAiTest/data";
+        List testcaseSourceJsonFileList=load(caseSourceFileDir);
         //遍历测试用例列表，根据每个用例json文件地址，生成对应的测试用例
         for (Object testcaseSourceJsonFile : testcaseSourceJsonFileList) {
+            FileUtils.actionPerformed(caseSourceFileDir);
             JsonToYamlUtils.createTestcaseYaml(testcaseSourceJsonFile.toString());
         }
     }
