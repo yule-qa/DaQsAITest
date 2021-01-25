@@ -49,13 +49,12 @@ public class FileUtils {
      * 1.去掉[]
      * 2.将obj="" 替换成obj=null
      */
-    public static void actionPerformed(String filePath) {
+    public static String actionPerformed(String filePath) {
         String line = null;
         String newFile= null;
         if(filePath.contains("_new")){
             logger.info("不存在需要更新的charles导出文件");
         }else {
-
             try {
                 BufferedReader in = new BufferedReader(new InputStreamReader(new FileInputStream(filePath), "GBK"));
                 String newFilestr[] = filePath.split(".chlsj");
@@ -85,6 +84,7 @@ public class FileUtils {
             }  //end catch
             deleteFile(filePath);
         }
+        return newFile;
     }
 
     /**
@@ -109,8 +109,9 @@ public class FileUtils {
         if(file.exists()){
             file.delete();
             logger.info(oldFile+"文件删除成功！！！！");
+        }else {
+            logger.info(oldFile+"文件不存在！！！！");
         }
-        logger.info(oldFile+"文件不存在！！！！");
     }
     public static void main(String[] args) {
         actionPerformed("src/main/resources/com.dongao.DaQsAiTest/data/course_syncCourseRecord.chlsj");

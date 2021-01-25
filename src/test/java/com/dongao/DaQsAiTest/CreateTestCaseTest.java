@@ -33,13 +33,16 @@ public class CreateTestCaseTest {
     @Test
     //从json文件中生成测试用例yaml文件
     public void createTestcaseYaml() {
-        String caseSourceFileDir="src/main/resources/com.dongao.DaQsAiTest/data";
+        String caseSourceFileDir="src/main/resources/com.dongao.DaQsAiTest/data/V1/study";
         List testcaseSourceJsonFileList=load(caseSourceFileDir);
         //遍历测试用例列表，根据每个用例json文件地址，生成对应的测试用例
+        int i=1;
         for (Object testcaseSourceJsonFile : testcaseSourceJsonFileList) {
             //先修改一下源文件，将前后[]取消，并且修改post响应中obj=“” 改成obj=null，这样才能解析成功
-            FileUtils.actionPerformed(caseSourceFileDir);
-            JsonToYamlUtils.createTestcaseYaml(testcaseSourceJsonFile.toString());
+            logger.info("======================第"+i+"次创建测试用例===================");
+            String newtestcaseSourceJsonFile=FileUtils.actionPerformed(testcaseSourceJsonFile.toString());
+            JsonToYamlUtils.createTestcaseYaml(newtestcaseSourceJsonFile);
+            i++;
         }
     }
 
@@ -52,8 +55,11 @@ public class CreateTestCaseTest {
         Arrays.stream(new File(testcaseSourceJsonDir).list())
                 .forEach(name-> {
                     String testcaseSourceJsonFile = testcaseSourceJsonDir + "/" + name;
-                    testcases.add(testcaseSourceJsonFile);
-                        }
+                    if(testcaseSourceJsonFile.contains("_new")){
+                    }else {
+                        testcases.add(testcaseSourceJsonFile);
+                    }
+                }
                 );
         return  testcases;
     }
