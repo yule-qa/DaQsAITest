@@ -80,17 +80,23 @@ public class JsonToYamlUtils {
         caseYamlStepDto.setApi(apiname.toString());
         //填充aciton
         caseYamlStepDto.setAction(action.toString());
+        String query=null;
         //填充params
-        String query = jsonFileDto.getQuery();
+        if("GET".equals(jsonFileDto.getMethod())) {
+            query = jsonFileDto.getQuery();
+        }else if("POST".equals(jsonFileDto.getMethod())){
+            query = jsonFileDto.getRequest().getBody().getText();
+        }
         String[] queryArray = query.split("&");
         HashMap params = new HashMap();
-        for(int i=0;i<queryArray.length;i++){
-            String[] mapArray=queryArray[i].split("=");
-            params.put(mapArray[0],mapArray[1]);
+        for (int i = 0; i < queryArray.length; i++) {
+            String[] mapArray = queryArray[i].split("=");
+            params.put(mapArray[0], mapArray[1]);
         }
         caseYamlStepDto.setParams(params);
 
-        //填充assertparams
+
+        //填充assertparams.
         //todo
         //填充caseYamlFileDto
         List<CaseYamlStepDto> steps=new ArrayList<>();

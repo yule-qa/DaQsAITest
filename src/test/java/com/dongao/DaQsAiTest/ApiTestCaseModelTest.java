@@ -27,8 +27,8 @@ class ApiTestCaseModelTest {
         });
 
         baseApi=new BaseApi();
-        baseApi.load("src/main/resources/com.dongao.DaQsAiTest/api/V3/study");
-        apiTestCase=ApiTestCaseModel.load("src/main/resources/com.dongao.DaQsAiTest/case/V3/study/qs_study_index.yaml");
+        baseApi.load("src/main/resources/com.dongao.DaQsAiTest/api/V1/course");
+        apiTestCase=ApiTestCaseModel.load("src/main/resources/com.dongao.DaQsAiTest/case/V1/course/qs_course_syncCourseRecord.yaml");
 
 
     }

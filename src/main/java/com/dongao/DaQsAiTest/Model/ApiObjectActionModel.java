@@ -71,7 +71,7 @@ public class ApiObjectActionModel {
         //读取配置文件，获得域名与ip对应关系，在此替换 ,这里解决多环境问题
 //        url=url.replaceAll("domain","ip");
         HeadersUtil.preforHeaders(query);
-        Response response=given().log().all().queryParams(query).request(method,url)//发送请求
+        Response response=given().log().all().formParams(query).request(method,url)//发送请求
                 .then().log().all() // 打印日志
                 .statusCode(200)
                 .extract().response(); //截取响应;

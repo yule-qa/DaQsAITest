@@ -37,6 +37,7 @@ public class CreateTestCaseTest {
         List testcaseSourceJsonFileList=load(caseSourceFileDir);
         //遍历测试用例列表，根据每个用例json文件地址，生成对应的测试用例
         for (Object testcaseSourceJsonFile : testcaseSourceJsonFileList) {
+            //先修改一下源文件，将前后[]取消，并且修改post响应中obj=“” 改成obj=null，这样才能解析成功
             FileUtils.actionPerformed(caseSourceFileDir);
             JsonToYamlUtils.createTestcaseYaml(testcaseSourceJsonFile.toString());
         }
