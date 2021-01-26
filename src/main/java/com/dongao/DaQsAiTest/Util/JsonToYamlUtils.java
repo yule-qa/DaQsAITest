@@ -93,7 +93,11 @@ public class JsonToYamlUtils {
 
 
         //填充assertparams todo
-
+        HashMap<String,String> assertparams=new HashMap<String,String>();
+        assertparams.put("matcher","equalTo");
+        assertparams.put("assertparam","obj");
+        assertparams.put("expect", String.valueOf(jsonFileDto.getResponse().getBody().getText().getObj().size()));
+        caseYamlStepDto.setAssertparams(assertparams);
 
         //填充caseYamlFileDto
         List<CaseYamlStepDto> steps=new ArrayList<>();

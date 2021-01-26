@@ -48,8 +48,6 @@ public class CreateTestCaseTest {
         }
     }
 
-
-
     //从/data文件夹下，逐个加载测试用例json文件到List里，并返回
     public List load(String testcaseSourceJsonDir){
         List<String> testcases=new ArrayList<>();

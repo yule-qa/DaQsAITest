@@ -1,10 +1,13 @@
 package com.dongao.DaQsAiTest.Model;
 
 import com.dongao.DaQsAiTest.BaseApi;
+import com.dongao.DaQsAiTest.Util.JsonToYamlUtils;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
 import io.restassured.builder.ResponseBuilder;
 import io.restassured.response.Response;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.File;
 import java.io.IOException;
@@ -22,6 +25,8 @@ import static org.junit.jupiter.api.Assertions.assertAll;
  * @Date: create in 2021/1/11 3:53 下午
  */
 public class ApiTestCaseModel {
+    private static final Logger logger = LoggerFactory.getLogger(ApiTestCaseModel.class);
+
     public String name="";
     public String description="";
     public List<HashMap<String,Object>> steps;
@@ -50,7 +55,9 @@ public class ApiTestCaseModel {
                     HashMap pararmmap=(HashMap)step.get("assertparams");
                     if(pararmmap.get("matcher").equals("equalTo")) {
                         String assertparam= (String) pararmmap.get("assertparam");
-                        assertThat(((HashMap)response.path(assertparam)).size(),equalTo(pararmmap.get("expect")));
+                        assertThat(String.valueOf(((HashMap)response.path(assertparam)).size()),equalTo(pararmmap.get("expect")));
+                        logger.info("测试用例"+step.get("api")+"断言完毕！！\n 期待obj返回消息体"+pararmmap.get("expect")+
+                                "\n 实际obj返回消息体"+String.valueOf(((HashMap)response.path(assertparam)).size()));
                     }
                 });
             }
