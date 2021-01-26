@@ -52,14 +52,14 @@ public class FileUtils {
     public static String actionPerformed(String filePath) {
         String line = null;
         String newFile= null;
-        if(filePath.contains("_new")){
+        if(filePath.contains("_new") || filePath.contains("DS")){ //DS为系统生成的隐藏文件，这个文件不需要执行
             logger.info("不存在需要更新的charles导出文件");
         }else {
             try {
-                BufferedReader in = new BufferedReader(new InputStreamReader(new FileInputStream(filePath), "GBK"));
+                BufferedReader in = new BufferedReader(new InputStreamReader(new FileInputStream(filePath), "UTF-8"));
                 String newFilestr[] = filePath.split(".chlsj");
                 newFile = newFilestr[0] + "_new" + ".chlsj";
-                BufferedWriter out = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(newFile), "GBK"));
+                BufferedWriter out = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(newFile), "UTF-8"));
 
                 while ((line = in.readLine()) != null) {
                     //去掉前后[]

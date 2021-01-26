@@ -40,6 +40,7 @@ public class CreateTestCaseTest {
         for (Object testcaseSourceJsonFile : testcaseSourceJsonFileList) {
             //先修改一下源文件，将前后[]取消，并且修改post响应中obj=“” 改成obj=null，这样才能解析成功
             logger.info("======================第"+i+"次创建测试用例===================");
+            //做准备工作，去掉文件前后[],替换obj=null
             String newtestcaseSourceJsonFile=FileUtils.actionPerformed(testcaseSourceJsonFile.toString());
             JsonToYamlUtils.createTestcaseYaml(newtestcaseSourceJsonFile);
             i++;

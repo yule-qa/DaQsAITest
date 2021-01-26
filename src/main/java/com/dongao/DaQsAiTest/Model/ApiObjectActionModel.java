@@ -19,26 +19,11 @@ import static org.hamcrest.CoreMatchers.equalTo;
  */
 public class ApiObjectActionModel {
 
-    public String save;
-    public HashMap<String, Object> json;
+
     public String post;
     public String get;
 
-    public String getSave() {
-        return save;
-    }
 
-    public void setSave(String save) {
-        this.save = save;
-    }
-
-    public HashMap<String, Object> getJson() {
-        return json;
-    }
-
-    public void setJson(HashMap<String, Object> json) {
-        this.json = json;
-    }
 
     public String getPost() {
         return post;

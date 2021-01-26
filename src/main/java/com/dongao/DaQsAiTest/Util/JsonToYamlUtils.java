@@ -34,14 +34,10 @@ public class JsonToYamlUtils {
     private static JsonFileDto jsonFileDto;
 
 
-    //从json文件中生成yaml的对象
+    //从json文件中生成yaml的对象（charles文件，生成JsonFileDto）
     public static JsonFileDto jsonToobj(String jsonpath) {
         //jsonpath为charles导出文件的路径地址
         File file = new File(jsonpath);
-        //todo 将导入文件的[]去掉
-        //todo 将response中body-text-obj-为空是""转换成null
-
-
         ObjectMapper objectMapper = new ObjectMapper();
 
         try {
@@ -55,7 +51,7 @@ public class JsonToYamlUtils {
         return jsonFileDto;
     }
 
-    //创建yaml 对象，
+    //创建测试用例的对象，用于转成测试用例yaml，（从jsonFileDto 提取有用信息到caseYamlFileDto里）
     public static CaseYamlFileDto createCaseYmlDto(JsonFileDto jsonFileDto) {
         CaseYamlFileDto caseYamlFileDto = new CaseYamlFileDto();
         CaseYamlStepDto caseYamlStepDto = new CaseYamlStepDto();
@@ -108,7 +104,7 @@ public class JsonToYamlUtils {
         return caseYamlFileDto;
     }
 
-    //yaml实例对象转成真正的yaml文件
+    //yaml实例对象转成真正的api yaml文件
     public static void objToYaml(CaseYamlFileDto caseYamlFileDto){
         //创建APiObjectModel对象
         ApiObjectModel apiObjectModel = createApiObject(caseYamlFileDto);

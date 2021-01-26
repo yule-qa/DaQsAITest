@@ -1,5 +1,7 @@
 package com.dongao.DaQsAiTest.FileDto;
 
+import java.util.HashMap;
+
 /**
  * @Author: yule
  * @Description:
@@ -8,13 +10,13 @@ package com.dongao.DaQsAiTest.FileDto;
 public class ResponseTextDto {
     public String msg;
     public String code;
-    public ResponseObjDto obj;
+    public HashMap<String,Object> obj;
 
-    public ResponseObjDto getObj() {
+    public HashMap<String, Object> getObj() {
         return obj;
     }
 
-    public void setObj(ResponseObjDto obj) {
+    public void setObj(HashMap<String, Object> obj) {
         this.obj = obj;
     }
 

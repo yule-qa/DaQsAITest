@@ -25,12 +25,9 @@ class ApiTestCaseModelTest {
             responseBuilder.setContentType("application/json; charset=UTF-8");
             return responseBuilder.build();
         });
-
         baseApi=new BaseApi();
-        baseApi.load("src/main/resources/com.dongao.DaQsAiTest/api/V1/course");
-        apiTestCase=ApiTestCaseModel.load("src/main/resources/com.dongao.DaQsAiTest/case/V1/course/qs_course_syncCourseRecord.yaml");
-
-
+        baseApi.load("src/main/resources/com.dongao.DaQsAiTest/api/V1/study");
+        apiTestCase=ApiTestCaseModel.load("src/main/resources/com.dongao.DaQsAiTest/case/V1/study/qs_study_systemStatus.yaml");
     }
 
     @Test
