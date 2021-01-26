@@ -92,8 +92,9 @@ public class JsonToYamlUtils {
         caseYamlStepDto.setParams(params);
 
 
-        //填充assertparams.
-        //todo
+        //填充assertparams todo
+
+
         //填充caseYamlFileDto
         List<CaseYamlStepDto> steps=new ArrayList<>();
         steps.add(caseYamlStepDto);
@@ -153,7 +154,6 @@ public class JsonToYamlUtils {
         return apiObjectModel;
 
     }
-
 
     public static void createTestcaseYaml(String jsonpath){
         objToYaml(createCaseYmlDto(jsonToobj(jsonpath))) ;

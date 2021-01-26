@@ -42,6 +42,7 @@ public class CreateTestCaseTest {
             logger.info("======================第"+i+"次创建测试用例===================");
             //做准备工作，去掉文件前后[],替换obj=null
             String newtestcaseSourceJsonFile=FileUtils.actionPerformed(testcaseSourceJsonFile.toString());
+            //开始创建yaml文件
             JsonToYamlUtils.createTestcaseYaml(newtestcaseSourceJsonFile);
             i++;
         }

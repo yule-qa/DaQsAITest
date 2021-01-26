@@ -1,5 +1,0 @@
-!!com.dongao.DaQsAiTest.Model.ApiObjectModel
-actions:
-  syncCourseRecord: {get: null, json: null, post: 'http://qs.api.test.com/courseApi/course/V1/syncCourseRecord',
-    save: null}
-name: qs_course_syncCourseRecord
