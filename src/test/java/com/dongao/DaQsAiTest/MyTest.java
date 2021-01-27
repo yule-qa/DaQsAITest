@@ -92,6 +92,12 @@ public class MyTest {
 
 
     }
+    @Test
+    public void test3(){
+      HashMap map=new HashMap();
+      map.put("key",null);
+        System.out.println(map);
+    }
 
 
 }

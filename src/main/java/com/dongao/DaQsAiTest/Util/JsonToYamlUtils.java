@@ -16,6 +16,8 @@ import org.yaml.snakeyaml.Yaml;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.UnsupportedEncodingException;
+import java.net.URLDecoder;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -60,53 +62,70 @@ public class JsonToYamlUtils {
         StringBuffer apiname = new StringBuffer();
         StringBuffer action = new StringBuffer();
         //填充api     /studyApi/study/V3/index => qs_study_index
-        String apipath = jsonFileDto.getPath();
-        String[] apiarray = apipath.split("/");
+        if(jsonFileDto !=null) {
+            String apipath = jsonFileDto.getPath();
+            String[] apiarray = apipath.split("/");
 
-        apiname.append("qs_");
-        for (int i = 0; i < apiarray.length; i++) {
-            if (apiarray[i].contains("V")) {
-                apiname = apiname.append(apiarray[i - 1]).append("_").append(apiarray[i + 1]);
-                apiVersion=apiarray[i];
-                busniessAction=apiarray[i-1];
-                action.append(apiarray[i+1]);
+            apiname.append("qs_");
+            for (int i = 0; i < apiarray.length; i++) {
+                if (apiarray[i].contains("V")) {
+                    apiname = apiname.append(apiarray[i - 1]).append("_").append(apiarray[i + 1]);
+                    apiVersion = apiarray[i];
+                    busniessAction = apiarray[i - 1];
+                    action.append(apiarray[i + 1]);
+                    break;
+                }
+
             }
+            caseYamlStepDto.setApi(apiname.toString());
+            //填充aciton
+            caseYamlStepDto.setAction(action.toString());
+            String query = null;
+            //填充params
+            if ("GET".equals(jsonFileDto.getMethod())) {
+                query = jsonFileDto.getQuery();
+            } else if ("POST".equals(jsonFileDto.getMethod())) {
+                query = jsonFileDto.getRequest().getBody().getText();
+            }
+            String[] queryArray = query.split("&");
+            HashMap params = new HashMap();
+            for (int i = 0; i < queryArray.length; i++) {
+                String[] mapArray = queryArray[i].split("=");
+                if(mapArray.length>1){
+                    mapArray[1]=urldecode(mapArray[1]); //将加密的值，变成解密
+                    params.put(mapArray[0], mapArray[1]);
+                }else {
+                    params.put(mapArray[0], "");
+                }
+            }
+            caseYamlStepDto.setParams(params);
 
+
+            //填充assertparams
+            HashMap<String, String> assertparams = new HashMap<String, String>();
+            assertparams.put("matcher", "equalTo");
+            assertparams.put("assertparam", "obj");
+            HashMap<String, Object> obj = jsonFileDto.getResponse().getBody().getText().getObj();
+            if (obj != null) {
+                //get请求的obj不为null
+                assertparams.put("expect", String.valueOf(obj.size()));
+            } else {
+                //post请求的obj为null
+                assertparams.put("expect", "0");
+
+            }
+            caseYamlStepDto.setAssertparams(assertparams);
+
+            //填充caseYamlFileDto
+            List<CaseYamlStepDto> steps = new ArrayList<>();
+            steps.add(caseYamlStepDto);
+            caseYamlFileDto.setSteps(steps);
+            caseYamlFileDto.setName(caseYamlStepDto.getAction());
+            caseYamlFileDto.setDescription(apipath + " 接口测试用例");
+            System.out.println(caseYamlFileDto);
+            return caseYamlFileDto;
         }
-        caseYamlStepDto.setApi(apiname.toString());
-        //填充aciton
-        caseYamlStepDto.setAction(action.toString());
-        String query=null;
-        //填充params
-        if("GET".equals(jsonFileDto.getMethod())) {
-            query = jsonFileDto.getQuery();
-        }else if("POST".equals(jsonFileDto.getMethod())){
-            query = jsonFileDto.getRequest().getBody().getText();
-        }
-        String[] queryArray = query.split("&");
-        HashMap params = new HashMap();
-        for (int i = 0; i < queryArray.length; i++) {
-            String[] mapArray = queryArray[i].split("=");
-            params.put(mapArray[0], mapArray[1]);
-        }
-        caseYamlStepDto.setParams(params);
-
-
-        //填充assertparams todo
-        HashMap<String,String> assertparams=new HashMap<String,String>();
-        assertparams.put("matcher","equalTo");
-        assertparams.put("assertparam","obj");
-        assertparams.put("expect", String.valueOf(jsonFileDto.getResponse().getBody().getText().getObj().size()));
-        caseYamlStepDto.setAssertparams(assertparams);
-
-        //填充caseYamlFileDto
-        List<CaseYamlStepDto> steps=new ArrayList<>();
-        steps.add(caseYamlStepDto);
-        caseYamlFileDto.setSteps(steps);
-        caseYamlFileDto.setName(caseYamlStepDto.getAction());
-        caseYamlFileDto.setDescription(apipath+" 接口测试用例");
-        System.out.println(caseYamlFileDto);
-        return caseYamlFileDto;
+            return  null;
     }
 
     //yaml实例对象转成真正的api yaml文件
@@ -159,8 +178,19 @@ public class JsonToYamlUtils {
 
     }
 
+    //urldecode,将抓取的query信息参数转码为正常值
+    public static String urldecode(String encodestr){
+        try {
+            String aa = URLDecoder.decode(encodestr,"UTF-8");
+            return  aa;
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
     public static void createTestcaseYaml(String jsonpath){
         objToYaml(createCaseYmlDto(jsonToobj(jsonpath))) ;
     }
+
 
 }

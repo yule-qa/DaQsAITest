@@ -1,0 +1,8 @@
+!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
+description: /courseApi/course/V1/genUserSign 接口测试用例
+name: genUserSign
+steps:
+- action: genUserSign
+  api: qs_course_genUserSign
+  assertparams: {expect: '1', matcher: equalTo, assertparam: obj}
+  params: {identifier: '2095', userExtendId: '2095', userId: '1889'}

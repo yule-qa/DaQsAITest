@@ -52,13 +52,13 @@ public class FileUtils {
     public static String actionPerformed(String filePath) {
         String line = null;
         String newFile= null;
-        if(filePath.contains("_new") || filePath.contains("DS")){ //DS为系统生成的隐藏文件，这个文件不需要执行
-            logger.info("不存在需要更新的charles导出文件");
+        if(filePath.contains("new_") || filePath.contains("DS")){ //DS为系统生成的隐藏文件，这个文件不需要执行
+            logger.info("这是new_文件或是Ds文件，不需要更新的charles导出文件");
         }else {
             try {
                 BufferedReader in = new BufferedReader(new InputStreamReader(new FileInputStream(filePath), "UTF-8"));
-                String newFilestr[] = filePath.split(".chlsj");
-                newFile = newFilestr[0] + "_new" + ".chlsj";
+                int i=filePath.lastIndexOf("/");
+                newFile =filePath.substring(0,i+1)+"new_"+filePath.substring(i+1);
                 BufferedWriter out = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(newFile), "UTF-8"));
 
                 while ((line = in.readLine()) != null) {
@@ -82,7 +82,7 @@ public class FileUtils {
             catch (Exception e) {
 
             }  //end catch
-            deleteFile(filePath);
+
         }
         return newFile;
     }

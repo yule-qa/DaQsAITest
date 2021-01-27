@@ -54,10 +54,15 @@ public class ApiTestCaseModel {
                 assertAll(()->{
                     HashMap pararmmap=(HashMap)step.get("assertparams");
                     if(pararmmap.get("matcher").equals("equalTo")) {
-                        String assertparam= (String) pararmmap.get("assertparam");
-                        assertThat(String.valueOf(((HashMap)response.path(assertparam)).size()),equalTo(pararmmap.get("expect")));
-                        logger.info("测试用例"+step.get("api")+"断言完毕！！\n 期待obj返回消息体"+pararmmap.get("expect")+
-                                "\n 实际obj返回消息体"+String.valueOf(((HashMap)response.path(assertparam)).size()));
+                        String assertparam = (String) pararmmap.get("assertparam");
+                        Object arr = response.path(assertparam);
+                        if (arr == null || arr.equals("")) {
+                            logger.info("返回消息obj体中为空，无需断言");
+                        }else{
+                            assertThat(String.valueOf(((HashMap) arr).size()), equalTo(pararmmap.get("expect")));
+                            logger.info("测试用例" + step.get("api") + "断言完毕！！\n 期待obj返回消息体" + pararmmap.get("expect") +
+                                    "\n 实际obj返回消息体" + String.valueOf(((HashMap) response.path(assertparam)).size()));
+                        }
                     }
                 });
             }

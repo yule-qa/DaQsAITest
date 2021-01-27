@@ -1,0 +1,4 @@
+!!com.dongao.DaQsAiTest.Model.ApiObjectModel
+actions:
+  syncKpVoiceRecord: {get: null, post: 'http://qs.api.test.com/knowledgePointApi/knowledgePoint/V1/syncKpVoiceRecord'}
+name: qs_knowledgePoint_syncKpVoiceRecord

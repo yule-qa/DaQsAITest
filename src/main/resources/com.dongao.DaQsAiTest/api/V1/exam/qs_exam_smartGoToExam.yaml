@@ -1,0 +1,4 @@
+!!com.dongao.DaQsAiTest.Model.ApiObjectModel
+actions:
+  smartGoToExam: {get: null, post: 'http://qs.api.test.com/examApi/exam/V1/smartGoToExam'}
+name: qs_exam_smartGoToExam

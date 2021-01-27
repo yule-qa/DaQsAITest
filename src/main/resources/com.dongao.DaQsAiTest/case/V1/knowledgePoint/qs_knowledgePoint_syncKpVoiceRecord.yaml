@@ -1,0 +1,8 @@
+!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
+description: /knowledgePointApi/knowledgePoint/V1/syncKpVoiceRecord 接口测试用例
+name: syncKpVoiceRecord
+steps:
+- action: syncKpVoiceRecord
+  api: qs_knowledgePoint_syncKpVoiceRecord
+  assertparams: {expect: '0', matcher: equalTo, assertparam: obj}
+  params: {userExtendId: '2095', userId: '1889', tdata: '%7B%0A%20%20%22userExtendId%22%20%3A%20%222095%22%2C%0A%20%20%22listenList%22%20%3A%20%5B%0A%20%20%20%20%7B%0A%20%20%20%20%20%20%22kpId%22%20%3A%202627%2C%0A%20%20%20%20%20%20%22listenDate%22%20%3A%20%222021-01-22%2014%3A45%3A55%22%2C%0A%20%20%20%20%20%20%22listenTime%22%20%3A%2014%2C%0A%20%20%20%20%20%20%22currentPlayTime%22%20%3A%20%2215%22%0A%20%20%20%20%7D%0A%20%20%5D%0A%7D'}

@@ -1,0 +1,5 @@
+!!com.dongao.DaQsAiTest.Model.ApiObjectModel
+actions:
+  genKpListByMode: {get: 'http://qs.api.test.com/knowledgePointApi/knowledgePoint/V1/genKpListByMode',
+    post: null}
+name: qs_knowledgePoint_genKpListByMode

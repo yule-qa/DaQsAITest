@@ -1,0 +1,8 @@
+!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
+description: /knowledgePointApi/knowledgePoint/V1/selfModeKpList 接口测试用例
+name: selfModeKpList
+steps:
+- action: selfModeKpList
+  api: qs_knowledgePoint_selfModeKpList
+  assertparams: {expect: '1', matcher: equalTo, assertparam: obj}
+  params: {userExtendId: '2095', seasonId: '15', userId: '1889'}
