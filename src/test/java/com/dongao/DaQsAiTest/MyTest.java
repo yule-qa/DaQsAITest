@@ -94,9 +94,14 @@ public class MyTest {
     }
     @Test
     public void test3(){
-      HashMap map=new HashMap();
-      map.put("key",null);
-        System.out.println(map);
+     String a="/classApi/class/V1/classDetai/classReport";
+     String[] b=a.split("V1");
+     int c=b[1].indexOf("/",1);
+     if(c != -1){
+         b[1]=b[1].replaceAll("/","_");
+         System.out.println(b[1]);
+     }
+
     }
 
 
