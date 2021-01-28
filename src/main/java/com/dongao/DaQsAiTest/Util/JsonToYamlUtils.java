@@ -82,13 +82,16 @@ public class JsonToYamlUtils {
                     if(busniessIndex != -1){
                         busniessPath[1]=busniessPath[1].replaceAll("/","_");
                         apiname=apiname.append(apiarray[i - 1]).append(busniessPath[1]);
+                        //为了填充action，又拆分了一次，为了取出路径最后的那个api name
+                        String[] actionStr=busniessPath[1].split("_");
+                        action.append(actionStr[actionStr.length-1]);
                     }else {
                         apiname = apiname.append(apiarray[i - 1]).append("_").append(apiarray[i + 1]);
-
+                        action.append(apiarray[i + 1]);
                     }
                     apiVersion = apiarray[i];
                     busniessAction = apiarray[i - 1];
-                    action.append(apiarray[i + 1]);
+
                     break;
                 }
 
