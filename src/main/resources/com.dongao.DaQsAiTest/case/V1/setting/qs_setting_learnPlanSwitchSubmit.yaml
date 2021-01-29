@@ -1,0 +1,8 @@
+!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
+description: /settingApi/setting/V1/learnPlanSwitchSubmit 接口测试用例
+name: learnPlanSwitchSubmit
+steps:
+- action: learnPlanSwitchSubmit
+  api: qs_setting_learnPlanSwitchSubmit
+  assertparams: {expect: '0', matcher: equalTo, assertparam: obj}
+  params: {userExtendId: '839', userId: '339', pathTypeId: '2'}
