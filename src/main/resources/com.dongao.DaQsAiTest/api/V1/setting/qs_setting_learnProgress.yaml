@@ -1,0 +1,5 @@
+!!com.dongao.DaQsAiTest.Model.ApiObjectModel
+actions:
+  learnProgress: {get: 'http://qs.api.test.com/settingApi/setting/V1/learnProgress',
+    post: null}
+name: qs_setting_learnProgress

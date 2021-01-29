@@ -1,0 +1,8 @@
+!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
+description: /solveApi/solve/V1/getReplyExpireMsg 接口测试用例
+name: getReplyExpireMsg
+steps:
+- action: getReplyExpireMsg
+  api: qs_solve_getReplyExpireMsg
+  assertparams: {expect: '1', matcher: equalTo, assertparam: obj}
+  params: {userExtendId: '2095', userId: '1889'}
