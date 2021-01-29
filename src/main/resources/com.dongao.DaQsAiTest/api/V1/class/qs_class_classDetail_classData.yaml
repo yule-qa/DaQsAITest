@@ -1,0 +1,5 @@
+!!com.dongao.DaQsAiTest.Model.ApiObjectModel
+actions:
+  classData: {get: 'http://qs.api.test.com/classApi/class/V1/classDetail/classData',
+    post: null}
+name: qs_class_classDetail_classData
