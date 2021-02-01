@@ -1,0 +1,9 @@
+!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
+description: /courseApi/course/V1/courseByLectureId 接口测试用例
+name: courseByLectureId
+steps:
+- action: courseByLectureId
+  api: qs_course_courseByLectureId
+  assertparams: {expect: '7', matcher: equalTo, assertparam: obj}
+  params: {userExtendId: '2095', playInfo: '{"planType":43,"teacherId":23,"lectureList":[{"sort":2,"lectureId":885}],"planId":12603,"planUserExtendId":2095}',
+    userId: '1889', lectureId: '885'}
