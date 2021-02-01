@@ -5,5 +5,5 @@ steps:
 - action: createRoom
   api: qs_course_createRoom
   assertparams: {expect: '6', matcher: equalTo, assertparam: obj}
-  params: {playStatus: '1', userExtendId: '2095', playInfo: '%7B%22planType%22%3A43%2C%22teacherId%22%3A23%2C%22lectureList%22%3A%5B%7B%22sort%22%3A2%2C%22lectureId%22%3A885%7D%5D%2C%22planId%22%3A12603%2C%22planUserExtendId%22%3A2095%7D',
-    playTime: 00%3A03%3A36, userId: '1889', speed: '1.5', lectureId: '885'}
+  params: {playStatus: '1', userExtendId: '2095', playInfo: '{"planType":43,"teacherId":23,"lectureList":[{"sort":2,"lectureId":885}],"planId":12603,"planUserExtendId":2095}',
+    playTime: '00:03:36', userId: '1889', speed: '1.5', lectureId: '885'}

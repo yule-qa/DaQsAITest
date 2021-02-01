@@ -1,0 +1,5 @@
+!!com.dongao.DaQsAiTest.Model.ApiObjectModel
+actions:
+  normalMode: {get: 'http://qs.api.test.com/activationApi/activation/V1/normalMode',
+    post: null}
+name: qs_activation_normalMode

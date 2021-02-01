@@ -1,0 +1,4 @@
+!!com.dongao.DaQsAiTest.Model.ApiObjectModel
+actions:
+  prizeExchange: {get: 'http://qs.api.test.com/shopApi/shop/V1/prizeExchange', post: null}
+name: qs_shop_prizeExchange

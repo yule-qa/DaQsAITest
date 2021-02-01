@@ -1,0 +1,8 @@
+!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
+description: /shopApi/shop/V1/prizeExchange 接口测试用例
+name: prizeExchange
+steps:
+- action: prizeExchange
+  api: qs_shop_prizeExchange
+  assertparams: {expect: '1', matcher: equalTo, assertparam: obj}
+  params: {userExtendId: '2061', userId: '3319', prizeId: '13'}
