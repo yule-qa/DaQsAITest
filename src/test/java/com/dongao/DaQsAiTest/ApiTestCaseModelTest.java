@@ -26,8 +26,8 @@ class ApiTestCaseModelTest {
             return responseBuilder.build();
         });
         baseApi=new BaseApi();
-        baseApi.load("src/main/resources/com.dongao.DaQsAiTest/api/V1/knowledgePoint");
-        apiTestCase=ApiTestCaseModel.load("src/main/resources/com.dongao.DaQsAiTest/case/V1/knowledgePoint/qs_knowledgePoint_selfModeChooseKp.yaml");
+        baseApi.load("src/main/resources/com.dongao.DaQsAiTest/api/V1/solve");
+        apiTestCase=ApiTestCaseModel.load("src/main/resources/com.dongao.DaQsAiTest/case/V1/solve/qs_solve_saveAskQuestion.yaml");
     }
 
     @Test
