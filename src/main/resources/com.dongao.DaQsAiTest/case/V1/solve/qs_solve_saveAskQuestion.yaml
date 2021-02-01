@@ -1,9 +1,0 @@
-!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
-description: /solveApi/solve/V1/saveAskQuestion 接口测试用例
-name: saveAskQuestion
-steps:
-- action: saveAskQuestion
-  api: qs_solve_saveAskQuestion
-  assertparams: {expect: '0', matcher: equalTo, assertparam: obj}
-  params: {userExtendId: '2095', questionId: '1769', plainContent: 提问你的电脑能否能否能否, seasonId: '15',
-    chapterId: '0', examId: '1', source: '0', userId: '1889', subjectId: '1'}
