@@ -2,7 +2,12 @@
 description: /examApi/exam/V1/unCollectQues 接口测试用例
 name: unCollectQues
 steps:
+- action: collectQues
+  api: qs_exam_collectQues
+  assertparams: {expect: '0', matcher: equalTo, assertparam: obj}
+  params: {userExtendId: '2095', questionId: '3225', userId: '1889'}
+
 - action: unCollectQues
   api: qs_exam_unCollectQues
   assertparams: {expect: '0', matcher: equalTo, assertparam: obj}
-  params: {userExtendId: '2061', questionId: '1775', userId: '3319'}
+  params: {userExtendId: '2095', questionId: '3225', userId: '1889'}

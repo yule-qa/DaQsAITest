@@ -22,12 +22,12 @@ class ApiTestCaseModelTest {
         RestAssured.filters((req, res, ctx)->{
             Response originalResponse=ctx.next(req,res);
             ResponseBuilder responseBuilder=new ResponseBuilder().clone(originalResponse);
-            responseBuilder.setContentType("application/json; charset=UTF-8");
+            responseBuilder.setContentType("application/json;charset=utf-8");
             return responseBuilder.build();
         });
         baseApi=new BaseApi();
-        baseApi.load("src/main/resources/com.dongao.DaQsAiTest/api/V1/solve");
-        apiTestCase=ApiTestCaseModel.load("src/main/resources/com.dongao.DaQsAiTest/case/V1/solve/qs_solve_saveAskQuestion.yaml");
+        baseApi.load("src/main/resources/com.dongao.DaQsAiTest/api/V1/exam");
+        apiTestCase=ApiTestCaseModel.load("src/main/resources/com.dongao.DaQsAiTest/case/V1/exam/qs_exam_unCollectQues.yaml");
     }
 
     @Test
