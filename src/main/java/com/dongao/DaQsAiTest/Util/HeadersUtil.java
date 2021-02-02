@@ -29,7 +29,6 @@ public class HeadersUtil {
             headers.put("sign", GetSign.sign(finalmap,"9538b01d8d3e4c1ab3ba450adb3bea6a"));
 
             req.headers(headers);
-            System.out.println("这是我打印的请求"+req.getHeaders().toString());
             return ctx.next(req, res);
         });
     }

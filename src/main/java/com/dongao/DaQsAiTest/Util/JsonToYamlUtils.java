@@ -37,7 +37,7 @@ public class JsonToYamlUtils {
 
 
     /**
-     * 从json文件中生成yaml的对象
+     * 从charles-json文件中生成yaml的对象
      * （charles文件，生成JsonFileDto）
      */
 
