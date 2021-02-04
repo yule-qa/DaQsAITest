@@ -1,0 +1,8 @@
+!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
+description: /classApi/class/V2/index 接口测试用例
+name: index
+steps:
+- action: index
+  api: qs_class_index
+  assertparams: {expect: '4', matcher: equalTo, assertparam: obj}
+  params: {userExtendId: '3011', userId: '3319'}
