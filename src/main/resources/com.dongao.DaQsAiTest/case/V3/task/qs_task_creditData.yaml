@@ -1,0 +1,8 @@
+!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
+description: /taskApi/task/V3/creditData 接口测试用例
+name: creditData
+steps:
+- action: creditData
+  api: qs_task_creditData
+  assertparams: {expect: '6', matcher: equalTo, assertparam: obj}
+  params: {userExtendId: '3013', pageNo: '1', pageSize: '20', userId: '3319'}
