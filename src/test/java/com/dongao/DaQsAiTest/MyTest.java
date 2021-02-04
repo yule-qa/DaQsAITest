@@ -69,9 +69,15 @@ public class MyTest {
     }
     @Test
     public void test2() {
-        query.put("tdata","%7B%22userExtendId%22%3A%222095%22%2C%22listenList%22%3A%5B%7B%22listenTime%22%3A%224%22%2C%22planId%22%3A%226671%22%2C%22roomId%22%3A%220%22%2C%22currentPlayTime%22%3A%2200%3A00%3A05%22%2C%22planType%22%3A%2243%22%2C%22listenDate%22%3A%222021-01-25%2015%3A32%3A12%22%2C%22lectureId%22%3A%221059%22%2C%22planUserExtendId%22%3A%222095%22%7D%5D%7D");
         query.put("userExtendId","2095");
+        query.put("questionId","1769");
+        query.put("plainContent","你好你好你好");
+        query.put("seasonId","15");
+        query.put("chapterId","0");
+        query.put("examId","1");
+        query.put("source","0");
         query.put("userId","1889");
+        query.put("subjectId","1");
         HeadersUtil.preforHeaders(query);
 //        方法一：
 //        String response = given().contentType("application/json").log().all().queryParams(query).request("get", "http://qs.api.test.com/studyApi/study/V3/index")
@@ -80,10 +86,9 @@ public class MyTest {
 //        HashMap obj=from(response).get("obj");
 
 //        方法二：
-        String a="tdata=%7B%22userExtendId%22%3A%222095%22%2C%22listenList%22%3A%5B%7B%22listenTime%22%3A%224%22%2C%22planId%22%3A%226671%22%2C%22roomId%22%3A%220%22%2C%22currentPlayTime%22%3A%2200%3A00%3A05%22%2C%22planType%22%3A%2243%22%2C%22listenDate%22%3A%222021-01-25%2015%3A32%3A12%22%2C%22lectureId%22%3A%221059%22%2C%22planUserExtendId%22%3A%222095%22%7D%5D%7D&userExtendId=2095&userId=1889";
         Response response = given().log().all().formParams(query)
                 .contentType("application/x-www-form-urlencoded")
-                .request("post", "http://qs.api.test.com/courseApi/course/V1/syncCourseRecord")
+                .request("post", "http://qs.api.test.com/solveApi/solve/V1/saveAskQuestion")
                 .then().log().all()
                 .extract().response();
 

@@ -50,6 +50,7 @@ public class ApiTestCaseModel {
     public void run(BaseApi baseApi){
         steps.stream().forEach(step ->{
             Response response=baseApi.run(step.get("api").toString(),step.get("action").toString(), (HashMap) step.get("params"));
+
             if (step.get("assertparams")!=null){
                 assertAll(()->{
                     HashMap pararmmap=(HashMap)step.get("assertparams");

@@ -3,7 +3,6 @@ package com.dongao.DaQsAiTest;
 import com.dongao.DaQsAiTest.Model.ApiTestCaseModel;
 import io.restassured.RestAssured;
 import io.restassured.builder.ResponseBuilder;
-import io.restassured.http.Headers;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -27,7 +26,7 @@ import static org.junit.jupiter.params.provider.Arguments.arguments;
 public class ApiDDTest {
     private static BaseApi baseApi;
     @BeforeAll
-    void beforeAll(){
+    static void beforeAll(){
         RestAssured.filters((req, res, ctx)->{
             Response originalResponse=ctx.next(req,res);
             ResponseBuilder responseBuilder=new ResponseBuilder().clone(originalResponse);
@@ -54,20 +53,21 @@ public class ApiDDTest {
         //api 为api目录地址，将api作为参数传递，通过java执行命令执行jar包时，通过命令加参形式传入
         // java执行命令：java -jar -Dapi=src/main/resources/com.dongao.DaQsAiTest/api target/DaQsAITest-1.0-SNAPSHOT-jar-with-dependencies.jar
 
-        if(System.getProperty("api")!=null){
-            baseApi.load(System.getProperty("api"));
-        }
-
+//        if(System.getProperty("api")!=null){
+//            baseApi.load(System.getProperty("api")); //返回api对象
+//        }
+        baseApi.load("src/main/resources/com.dongao.DaQsAiTest/api/V1/class"); //返回api对象
         //用来传递给参数化用例
         List<Arguments> testcases=new ArrayList<>();
 
         //读取所有的测试用例
         //="src/main/resources/com.dongao.DaQsAiTest/case"
         String testCaseDir=null;
-        if(System.getProperty("case")!=null){
-            //通过环境变量获取case的路径 ，这个是在外部执行java -jar -Dcase=case路径添加的
-            testCaseDir=System.getProperty("case");
-        }
+//        if(System.getProperty("case")!=null){
+//            //通过环境变量获取case的路径 ，这个是在外部执行java -jar -Dcase=case路径添加的
+//            testCaseDir=System.getProperty("case");
+//        }
+        testCaseDir="src/main/resources/com.dongao.DaQsAiTest/case/V1/class";
         String finalTestCaseDir = testCaseDir;
         //todo  这里需要改造，现在case目录下增加了版本号和业务线文件夹
         Arrays.stream(new File(testCaseDir).list())
@@ -75,7 +75,8 @@ public class ApiDDTest {
                     String path= finalTestCaseDir +"/"+ name;
                     try {
                         ApiTestCaseModel apiTestCase=ApiTestCaseModel.load(path);
-                        testcases.add(arguments(apiTestCase,apiTestCase.name));
+                        Arguments testcase = arguments(apiTestCase, apiTestCase.name); //这个是为了返回对象变成arguments类型，并且不能为空
+                        testcases.add(testcase);
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
