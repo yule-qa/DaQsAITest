@@ -1,0 +1,9 @@
+!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
+description: /marketingMessageApi/marketingMessage/V3/getMarketingMessageDetail 接口测试用例
+name: getMarketingMessageDetail
+steps:
+- action: getMarketingMessageDetail
+  api: qs_marketingMessage_getMarketingMessageDetail
+  assertparams: {expect: '3', matcher: equalTo, assertparam: obj}
+  params: {userExtendId: '2059', operateParam: '{"type":"both","param":{"businessId":5079,"buttonName":"去看看","chatRecordId":1649,"businessType":71}}',
+    messageId: '97', userId: '2187'}
