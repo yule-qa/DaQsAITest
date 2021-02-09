@@ -1,0 +1,5 @@
+!!com.dongao.DaQsAiTest.Model.ApiObjectModel
+actions:
+  courseByLectureId: {get: 'http://qs.api.test.com/courseApi/course/V2/courseByLectureId',
+    post: null}
+name: qs_course_courseByLectureId
