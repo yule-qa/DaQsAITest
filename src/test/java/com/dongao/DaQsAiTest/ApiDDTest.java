@@ -1,6 +1,10 @@
 package com.dongao.DaQsAiTest;
 
 import com.dongao.DaQsAiTest.Model.ApiTestCaseModel;
+import com.dongao.DaQsAiTest.Model.HeadersModel;
+import com.dongao.DaQsAiTest.Util.FakerUtils;
+import com.dongao.DaQsAiTest.Util.GetSign;
+import com.dongao.DaQsAiTest.Util.HeadersUtil;
 import io.restassured.RestAssured;
 import io.restassured.builder.ResponseBuilder;
 import io.restassured.response.Response;
@@ -14,7 +18,9 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
+import java.util.concurrent.atomic.AtomicReference;
 
 import static org.junit.jupiter.params.provider.Arguments.arguments;
 
@@ -27,6 +33,13 @@ public class ApiDDTest {
     private static BaseApi baseApi;
     @BeforeAll
     static void beforeAll(){
+        // 发送请求前准备请求参数 计算sign
+        RestAssured.filters((req, res, ctx)->{
+            HashMap headers=HeadersUtil.preforHeaders(req);
+            req.headers(headers);
+            return ctx.next(req, res);
+        });
+        //发送请求后，对响应消息进行格式化
         RestAssured.filters((req, res, ctx)->{
             Response originalResponse=ctx.next(req,res);
             ResponseBuilder responseBuilder=new ResponseBuilder().clone(originalResponse);
@@ -56,7 +69,7 @@ public class ApiDDTest {
 //        if(System.getProperty("api")!=null){
 //            baseApi.load(System.getProperty("api")); //返回api对象
 //        }
-        baseApi.load("src/main/resources/com.dongao.DaQsAiTest/api/V1/class"); //返回api对象
+        baseApi.load("src/main/resources/com.dongao.DaQsAiTest/api/V1/exam"); //返回api对象
         //用来传递给参数化用例
         List<Arguments> testcases=new ArrayList<>();
 
@@ -67,7 +80,7 @@ public class ApiDDTest {
 //            //通过环境变量获取case的路径 ，这个是在外部执行java -jar -Dcase=case路径添加的
 //            testCaseDir=System.getProperty("case");
 //        }
-        testCaseDir="src/main/resources/com.dongao.DaQsAiTest/case/V1/class";
+        testCaseDir="src/main/resources/com.dongao.DaQsAiTest/case/V1/exam";
         String finalTestCaseDir = testCaseDir;
         //todo  这里需要改造，现在case目录下增加了版本号和业务线文件夹
         Arrays.stream(new File(testCaseDir).list())

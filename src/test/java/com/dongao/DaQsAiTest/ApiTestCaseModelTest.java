@@ -26,8 +26,8 @@ class ApiTestCaseModelTest {
             return responseBuilder.build();
         });
         baseApi=new BaseApi();
-        baseApi.load("src/main/resources/com.dongao.DaQsAiTest/api/V1/activation");
-        apiTestCase=ApiTestCaseModel.load("src/main/resources/com.dongao.DaQsAiTest/case/V1/activation/qs_activation_normalMode.yaml");
+        baseApi.load("src/main/resources/com.dongao.DaQsAiTest/api/V1/class");
+        apiTestCase=ApiTestCaseModel.load("src/main/resources/com.dongao.DaQsAiTest/case/V1/class/qs_class_classDetail_classData.yaml");
     }
 
     @Test

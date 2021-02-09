@@ -55,7 +55,7 @@ public class ApiObjectActionModel {
         }
         //读取配置文件，获得域名与ip对应关系，在此替换 ,这里解决多环境问题
 //        url=url.replaceAll("domain","ip");
-        HeadersUtil.preforHeaders(query);
+
         Response response=given().log().all().formParams(query)
                 .contentType("application/x-www-form-urlencoded;charset=utf-8")
                 .request(method,url)//发送请求
