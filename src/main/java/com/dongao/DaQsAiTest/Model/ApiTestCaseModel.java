@@ -13,6 +13,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -60,9 +61,16 @@ public class ApiTestCaseModel {
                         if (arr == null || arr.equals("")) {
                             logger.info("返回消息obj体中为空，无需断言");
                         }else{
-                            assertThat(String.valueOf(((HashMap) arr).size()), equalTo(pararmmap.get("expect")));
-                            logger.info("测试用例" + step.get("api") + "断言完毕！！\n 期待obj返回消息体" + pararmmap.get("expect") +
-                                    "\n 实际obj返回消息体" + String.valueOf(((HashMap) response.path(assertparam)).size()));
+                            if(arr instanceof Map) {
+                                assertThat(String.valueOf(((HashMap) arr).size()), equalTo(pararmmap.get("expect")));
+                                logger.info("测试用例" + step.get("api") + "断言完毕！！\n 期待obj返回消息体" + pararmmap.get("expect") +
+                                        "\n 实际obj返回消息体" + String.valueOf(((HashMap) response.path(assertparam)).size()));
+                            }
+
+                            assertThat(response.path("msg"),equalTo("成功"));
+                            logger.info("测试用例" + step.get("api") + "断言完毕！！\n 返回消息体msg-----" + response.path("msg"));
+                            assertThat(response.path("code"),equalTo(0));
+                            logger.info("测试用例" + step.get("api") + "断言完毕！！\n 返回消息体code-----" + response.path("code"));
                         }
                     }
                 });

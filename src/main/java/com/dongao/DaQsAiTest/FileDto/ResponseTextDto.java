@@ -7,16 +7,16 @@ import java.util.HashMap;
  * @Description:
  * @Date: create in 2021/1/19 4:30 下午
  */
-public class ResponseTextDto {
+public class ResponseTextDto<T> {
     public String msg;
     public String code;
-    public HashMap<String,Object> obj;
+    public T obj;
 
-    public HashMap<String, Object> getObj() {
+    public T getObj() {
         return obj;
     }
 
-    public void setObj(HashMap<String, Object> obj) {
+    public void setObj(T obj) {
         this.obj = obj;
     }
 

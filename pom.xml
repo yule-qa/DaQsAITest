@@ -139,6 +139,12 @@
             <version>1.2.70</version>
             <scope>compile</scope>
         </dependency>
+        <!--用于类型转换 -->
+        <dependency>
+            <groupId>commons-beanutils</groupId>
+            <artifactId>commons-beanutils</artifactId>
+            <version>1.9.4</version>
+        </dependency>
 
     </dependencies>
 

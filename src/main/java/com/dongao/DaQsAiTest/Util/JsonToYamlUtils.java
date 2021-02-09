@@ -5,13 +5,12 @@ import com.dongao.DaQsAiTest.FileDto.CaseYamlStepDto;
 import com.dongao.DaQsAiTest.FileDto.JsonFileDto;
 import com.dongao.DaQsAiTest.Model.ApiObjectActionModel;
 import com.dongao.DaQsAiTest.Model.ApiObjectModel;
-import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.yaml.snakeyaml.Yaml;
+
 
 import java.io.File;
 import java.io.FileWriter;
@@ -21,6 +20,7 @@ import java.net.URLDecoder;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * @Author: yule
@@ -124,10 +124,15 @@ public class JsonToYamlUtils {
             HashMap<String, String> assertparams = new HashMap<String, String>();
             assertparams.put("matcher", "equalTo");
             assertparams.put("assertparam", "obj");
-            HashMap<String, Object> obj = jsonFileDto.getResponse().getBody().getText().getObj();
-            if (obj != null) {
+            Object obj = jsonFileDto.getResponse().getBody().getText().getObj();
+            if (obj != null ) {
                 //get请求的obj不为null
-                assertparams.put("expect", String.valueOf(obj.size()));
+                if(obj instanceof HashMap) {
+                    Map objmap=new org.apache.commons.beanutils.BeanMap(obj);
+                   assertparams.put("expect", String.valueOf(objmap.size()));
+                }else if(obj instanceof String){
+                    assertparams.put("expect", "1");
+                }
             } else {
                 //post请求的obj为null
                 assertparams.put("expect", "0");
