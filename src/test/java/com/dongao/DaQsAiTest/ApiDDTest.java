@@ -69,7 +69,7 @@ public class ApiDDTest {
 //        if(System.getProperty("api")!=null){
 //            baseApi.load(System.getProperty("api")); //返回api对象
 //        }
-        baseApi.load("src/main/resources/com.dongao.DaQsAiTest/api/V1/exam"); //返回api对象
+        baseApi.load("src/main/resources/com.dongao.DaQsAiTest/api/V1/study"); //返回api对象
         //用来传递给参数化用例
         List<Arguments> testcases=new ArrayList<>();
 
@@ -80,7 +80,7 @@ public class ApiDDTest {
 //            //通过环境变量获取case的路径 ，这个是在外部执行java -jar -Dcase=case路径添加的
 //            testCaseDir=System.getProperty("case");
 //        }
-        testCaseDir="src/main/resources/com.dongao.DaQsAiTest/case/V1/exam";
+        testCaseDir="src/main/resources/com.dongao.DaQsAiTest/case/V1/study";
         String finalTestCaseDir = testCaseDir;
         //todo  这里需要改造，现在case目录下增加了版本号和业务线文件夹
         Arrays.stream(new File(testCaseDir).list())

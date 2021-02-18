@@ -1,24 +1,23 @@
 package com.dongao.DaQsAiTest;
 
 
-import com.dongao.DaQsAiTest.Model.HeadersModel;
 import com.dongao.DaQsAiTest.Util.HeadersUtil;
 import io.restassured.RestAssured;
 import io.restassured.builder.ResponseBuilder;
 import io.restassured.response.Response;
-import io.restassured.response.ValidatableResponse;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 
-import java.io.UnsupportedEncodingException;
-import java.util.Base64;
+import java.io.File;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
 
 import static io.restassured.RestAssured.given;
-import static io.restassured.http.ContentType.JSON;
 import static io.restassured.path.json.JsonPath.from;
 import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -49,7 +48,7 @@ public class MyTest {
     void test1(){
         query.put("userExtendId","2079");
         query.put("userId","1879");
-        HeadersUtil.preforHeaders(query);
+//        HeadersUtil.preforHeaders(req);
 //        方法一：
 //        String response = given().contentType("application/json").log().all().queryParams(query).request("get", "http://qs.api.test.com/studyApi/study/V3/index")
 //                .then().log().all()
@@ -78,7 +77,7 @@ public class MyTest {
         query.put("source","0");
         query.put("userId","1889");
         query.put("subjectId","1");
-        HeadersUtil.preforHeaders(query);
+//        HeadersUtil.preforHeaders(req);
 //        方法一：
 //        String response = given().contentType("application/json").log().all().queryParams(query).request("get", "http://qs.api.test.com/studyApi/study/V3/index")
 //                .then().log().all()
@@ -107,6 +106,41 @@ public class MyTest {
          System.out.println(b[1]);
      }
 
+    }
+
+    @Test
+    public void test4(){
+        folderMethod2("src/main/resources/com.dongao.DaQsAiTest/api");
+        }
+    public static void folderMethod2(String path) {
+        File file = new File(path);
+        if (file.exists()) {
+            File[] files = file.listFiles();
+            if (null != files) {
+                for (File file2 : files) {
+                    if (file2.isDirectory()) {
+                        System.out.println("文件夹:" + file2.getAbsolutePath());
+                        folderMethod2(file2.getAbsolutePath());
+                    } else {
+                        System.out.println("文件:" + file2.getAbsolutePath());
+                    }
+                }
+            }
+        } else {
+            System.out.println("文件不存在!");
+        }
+    }
+
+    @Test
+    public void test5() {
+        String s[][]=new String[2][2];
+        s[0][0]="a";
+        s[1][1]="b";
+        s[0][1]="c";
+        s[1][0]="d";
+        for(int i=0;i<s.length;i++) {
+            System.out.println(Arrays.toString(s[i]));
+        }
     }
 
 

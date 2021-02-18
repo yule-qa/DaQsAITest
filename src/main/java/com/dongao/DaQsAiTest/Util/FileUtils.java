@@ -13,12 +13,15 @@ import org.slf4j.LoggerFactory;
 
 import java.io.*;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
 
 public class FileUtils {
     private static final Logger logger = LoggerFactory.getLogger(JsonToYamlUtils.class);
 
     /**
      * 读取json文件，返回json串
+     *
      * @param fileName
      * @return
      */
@@ -28,7 +31,7 @@ public class FileUtils {
             File jsonFile = new File(fileName);
             FileReader fileReader = new FileReader(jsonFile);
 
-            Reader reader = new InputStreamReader(new FileInputStream(jsonFile),"utf-8");
+            Reader reader = new InputStreamReader(new FileInputStream(jsonFile), "utf-8");
             int ch = 0;
             StringBuffer sb = new StringBuffer();
             while ((ch = reader.read()) != -1) {
@@ -36,7 +39,7 @@ public class FileUtils {
             }
             fileReader.close();
             reader.close();
-            jsonStr = sb.toString().substring(1,sb.length()-1);
+            jsonStr = sb.toString().substring(1, sb.length() - 1);
             return jsonStr;
         } catch (IOException e) {
             e.printStackTrace();
@@ -51,14 +54,14 @@ public class FileUtils {
      */
     public static String actionPerformed(String filePath) {
         String line = null;
-        String newFile= null;
-        if(filePath.contains("new_") || filePath.contains("DS")){ //DS为系统生成的隐藏文件，这个文件不需要执行
+        String newFile = null;
+        if (filePath.contains("new_") || filePath.contains("DS")) { //DS为系统生成的隐藏文件，这个文件不需要执行
             logger.info("这是new_文件或是Ds文件，不需要更新的charles导出文件");
-        }else {
+        } else {
             try {
                 BufferedReader in = new BufferedReader(new InputStreamReader(new FileInputStream(filePath), "UTF-8"));
-                int i=filePath.lastIndexOf("/");
-                newFile =filePath.substring(0,i+1)+"new_"+filePath.substring(i+1);
+                int i = filePath.lastIndexOf("/");
+                newFile = filePath.substring(0, i + 1) + "new_" + filePath.substring(i + 1);
                 BufferedWriter out = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(newFile), "UTF-8"));
 
                 while ((line = in.readLine()) != null) {
@@ -90,11 +93,11 @@ public class FileUtils {
     /**
      * 删除老文件，只保留新文件，并改名成老文件
      */
-    public static void changeFile(String oldFile,String newFile){
-        File oldfile=new File(oldFile);
-        File newfile=new File(newFile);
+    public static void changeFile(String oldFile, String newFile) {
+        File oldfile = new File(oldFile);
+        File newfile = new File(newFile);
 
-        if(oldfile.exists()){
+        if (oldfile.exists()) {
             newfile.renameTo(oldfile);
 
         }
@@ -102,19 +105,51 @@ public class FileUtils {
     }
 
     /**
-    * 删除文件
+     * 删除文件
      */
-    public static void deleteFile(String oldFile){
-        File file=new File(oldFile);
-        if(file.exists()){
+    public static void deleteFile(String oldFile) {
+        File file = new File(oldFile);
+        if (file.exists()) {
             file.delete();
-            logger.info(oldFile+"文件删除成功！！！！");
-        }else {
-            logger.info(oldFile+"文件不存在！！！！");
+            logger.info(oldFile + "文件删除成功！！！！");
+        } else {
+            logger.info(oldFile + "文件不存在！！！！");
         }
     }
+
+    /**
+     * 递归查找文件夹里的文件
+     */
+    static List<String> finaldirList=new ArrayList<>();
+    public static List findFile(String path) {
+        List<List<String>> dirList = new ArrayList<>();
+        File file = new File(path);
+        if (file.exists()) {
+            File[] files = file.listFiles();
+            if (null != files) {
+                for (File file2 : files) {
+                    if (file2.isDirectory()) {
+                        String filepath=file2.getAbsolutePath();
+                        System.out.println("文件夹:" + filepath);
+                        findFile(filepath);
+                        if(!filepath.substring(filepath.length()-2).contains("V")){
+                            finaldirList.add(filepath);
+                            System.out.println("for循环里面的打印"+finaldirList);
+                        }
+                    }
+                }
+
+            }
+        } else {
+            System.out.println("文件不存在!");
+        }
+        System.out.println("for循环外面的打印"+finaldirList);
+        return dirList;
+    }
+
+
     public static void main(String[] args) {
-        actionPerformed("src/main/resources/com.dongao.DaQsAiTest/data/course_syncCourseRecord.chlsj");
+        System.out.println("最后结果"+findFile("src/main/resources/com.dongao.DaQsAiTest/case"));
 
     }
 }

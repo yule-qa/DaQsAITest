@@ -5,4 +5,4 @@ steps:
 - action: completeActivation
   api: qs_activation_completeActivation
   assertparams: {expect: '1', matcher: equalTo, assertparam: obj}
-  params: {userExtendId: '3009', userId: '2336'}
+  params: {userExtendId: '839', userId: '339'}
