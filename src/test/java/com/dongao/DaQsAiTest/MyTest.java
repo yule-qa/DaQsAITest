@@ -133,14 +133,9 @@ public class MyTest {
 
     @Test
     public void test5() {
-        String s[][]=new String[2][2];
-        s[0][0]="a";
-        s[1][1]="b";
-        s[0][1]="c";
-        s[1][0]="d";
-        for(int i=0;i<s.length;i++) {
-            System.out.println(Arrays.toString(s[i]));
-        }
+     String a="sdfasdfasdfasdfV1/asdfasdfasdf";
+     String s=a.substring(a.indexOf("V"));
+        System.out.println(s);
     }
 
 

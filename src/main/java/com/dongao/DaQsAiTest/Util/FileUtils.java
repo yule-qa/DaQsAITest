@@ -121,7 +121,7 @@ public class FileUtils {
      * 递归查找文件夹里的文件
      */
     static List<String> finaldirList=new ArrayList<>();
-    public static List findFile(String path) {
+    public static List findDir(String path) {
         List<List<String>> dirList = new ArrayList<>();
         File file = new File(path);
         if (file.exists()) {
@@ -130,11 +130,9 @@ public class FileUtils {
                 for (File file2 : files) {
                     if (file2.isDirectory()) {
                         String filepath=file2.getAbsolutePath();
-                        System.out.println("文件夹:" + filepath);
-                        findFile(filepath);
+                        findDir(filepath);
                         if(!filepath.substring(filepath.length()-2).contains("V")){
-                            finaldirList.add(filepath);
-                            System.out.println("for循环里面的打印"+finaldirList);
+                            finaldirList.add(filepath.substring(filepath.indexOf("V")));
                         }
                     }
                 }
@@ -143,13 +141,13 @@ public class FileUtils {
         } else {
             System.out.println("文件不存在!");
         }
-        System.out.println("for循环外面的打印"+finaldirList);
-        return dirList;
+
+        return finaldirList;
     }
 
 
     public static void main(String[] args) {
-        System.out.println("最后结果"+findFile("src/main/resources/com.dongao.DaQsAiTest/case"));
+        System.out.println("最后结果"+findDir("src/main/resources/com.dongao.DaQsAiTest/case"));
 
     }
 }
