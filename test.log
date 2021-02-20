@@ -2790,3 +2790,5 @@
 2021-02-20 16:44:58 INFO  JsonToYamlUtils:170 - 成功创建测试用例文件路径=====》src/main/resources/com.dongao.DaQsAiTest/case/V1/activation/qs_V1_activation_cancelQues.yaml
 2021-02-20 16:44:58 INFO  JsonToYamlUtils:171 - 成功创建对象文件路径=====》src/main/resources/com.dongao.DaQsAiTest/api/V1/activation/qs_V1_activation_cancelQues.yaml
 2021-02-20 16:44:58 INFO  JsonToYamlUtils:113 - src/main/resources/com.dongao.DaQsAiTest/data/V1/activation/activation_cancelQues.chlsj文件删除成功！！！！
+2021-02-20 17:05:16 INFO  JsonToYamlUtils:113 - /Users/christbella/IdeaProjects/DaQsAITest/src/main/resources/com.dongao.DaQsAiTest/data/V1/replyComment/new_replyComment_submitComment.chlsj文件删除成功！！！！
+2021-02-20 17:05:16 INFO  JsonToYamlUtils:113 - /Users/christbella/IdeaProjects/DaQsAITest/src/main/resources/com.dongao.DaQsAiTest/data/V1/replyComment/new_replyComment_getCommentView.chlsj文件删除成功！！！！

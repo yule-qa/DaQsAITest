@@ -169,6 +169,7 @@ public class FileUtils {
                             lineText="["+lineText+"]";
                             writer.write(lineText);
                         }
+                        buffer.close();
                         writer.close();
                         FileUtils.deleteFile(file2.getAbsolutePath());
                     }
@@ -180,6 +181,6 @@ public class FileUtils {
     }
     public static void main(String[] args) throws IOException {
 //        System.out.println("最后结果"+findDir("src/main/resources/com.dongao.DaQsAiTest/case"));
-        fileRollBack("src/main/resources/com.dongao.DaQsAiTest/data/V1/curriculum");
+        fileRollBack("src/main/resources/com.dongao.DaQsAiTest/data/V1/replyComment");
     }
 }

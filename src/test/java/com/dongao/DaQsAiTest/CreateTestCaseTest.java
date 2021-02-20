@@ -52,10 +52,8 @@ public class CreateTestCaseTest {
                     logger.error("charles文件解析错误："+e);
                     continue;
                 }
-
             }
             i++;
-
         }
     }
 
