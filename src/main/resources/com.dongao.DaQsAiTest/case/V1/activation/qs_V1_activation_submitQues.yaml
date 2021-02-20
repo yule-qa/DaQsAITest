@@ -3,6 +3,6 @@ description: /activationApi/activation/V1/submitQues 接口测试用例
 name: submitQues
 steps:
 - action: submitQues
-  api: qs_activation_submitQues
-  assertparams: {expect: '4', matcher: equalTo, assertparam: obj}
+  api: qs_V1_activation_submitQues
+  assertparams: {expect: '2', matcher: equalTo, assertparam: obj}
   params: {userExtendId: '3005', questionId: '1', userId: '484', submitId: '-1'}

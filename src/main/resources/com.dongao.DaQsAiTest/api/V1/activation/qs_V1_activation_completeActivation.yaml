@@ -2,4 +2,4 @@
 actions:
   completeActivation: {get: 'http://qs.api.test.com/activationApi/activation/V1/completeActivation',
     post: null}
-name: qs_activation_completeActivation
+name: qs_V1_activation_completeActivation

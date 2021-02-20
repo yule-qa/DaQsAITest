@@ -3,6 +3,6 @@ description: /activationApi/activation/V1/shareLearnPlan 接口测试用例
 name: shareLearnPlan
 steps:
 - action: shareLearnPlan
-  api: qs_activation_shareLearnPlan
+  api: qs_V1_activation_shareLearnPlan
   assertparams: {expect: '1', matcher: equalTo, assertparam: obj}
-  params: {userExtendId: '839'}
+  params: {userExtendId: '2061'}

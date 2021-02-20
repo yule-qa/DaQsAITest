@@ -58,7 +58,7 @@ public class JsonToYamlUtils {
     }
 
     /**
-     * 创建测试用例的对象，用于转成测试用例yaml，
+     * 创建测试用例的对象，用于转成测试用例yaml文件，
      * （从jsonFileDto 提取有用信息到caseYamlFileDto里）
      */
 
@@ -77,6 +77,7 @@ public class JsonToYamlUtils {
             apiname.append("qs_");
             for (int i = 0; i < apiarray.length; i++) {
                 if (apiarray[i].contains("V")) {
+                    apiname.append(apiarray[i]).append("_");
                     String[] busniessPath=apipath.split(apiarray[i]);// studyApi/study/V3/index =》[/studyApi/study/ 、 /index]
                     int busniessIndex=busniessPath[1].indexOf("/",1);//查看业务路径是否包含多个/，如果多个证明是多路径
                     if(busniessIndex != -1){

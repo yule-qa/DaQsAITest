@@ -2,4 +2,4 @@
 actions:
   questionsAndAnswers: {get: 'http://qs.api.test.com/activationApi/activation/V1/questionsAndAnswers',
     post: null}
-name: qs_activation_questionsAndAnswers
+name: qs_V1_activation_questionsAndAnswers

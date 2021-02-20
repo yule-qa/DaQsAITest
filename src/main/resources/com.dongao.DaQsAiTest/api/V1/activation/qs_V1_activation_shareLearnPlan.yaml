@@ -2,4 +2,4 @@
 actions:
   shareLearnPlan: {get: 'http://qs.api.test.com/activationApi/activation/V1/shareLearnPlan',
     post: null}
-name: qs_activation_shareLearnPlan
+name: qs_V1_activation_shareLearnPlan

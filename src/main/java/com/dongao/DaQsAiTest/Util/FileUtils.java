@@ -99,7 +99,6 @@ public class FileUtils {
 
         if (oldfile.exists()) {
             newfile.renameTo(oldfile);
-
         }
         logger.info("新文件覆盖老文件成功");
     }
@@ -145,9 +144,42 @@ public class FileUtils {
         return finaldirList;
     }
 
-
-    public static void main(String[] args) {
-        System.out.println("最后结果"+findDir("src/main/resources/com.dongao.DaQsAiTest/case"));
-
+    /**
+     * 文件回滚
+     */
+    public static void fileRollBack(String path) throws IOException {
+        File file = new File(path);
+        if (file.exists()) {
+            File[] files = file.listFiles();
+            if (null != files) {
+                for (File file2 : files) {
+                    //如果是文件夹，继续递归寻找底层文件
+                    if (file2.isDirectory()) {
+                        System.out.println("文件夹:" + file2.getAbsolutePath());
+                        fileRollBack(file2.getAbsolutePath());
+                    } else if(file2.getAbsolutePath().contains("new_")){
+                        //这里开始真正的回滚
+                        //文章前后增加[]
+                        String originalfile=file2.getAbsolutePath().split("new_")[0]+file2.getAbsolutePath().split("new_")[1];//创建文件新名
+                        BufferedReader buffer = new BufferedReader(new InputStreamReader(new FileInputStream(file2.getAbsolutePath())));
+                        BufferedWriter writer=new BufferedWriter(new OutputStreamWriter(new FileOutputStream(originalfile)));
+                        String lineText=null;
+                        while((lineText=buffer.readLine()) != null){
+                            lineText.replace("\n","");
+                            lineText="["+lineText+"]";
+                            writer.write(lineText);
+                        }
+                        writer.close();
+                        FileUtils.deleteFile(file2.getAbsolutePath());
+                    }
+                }
+            }
+        } else {
+        System.out.println("文件不存在!");
+        }
+    }
+    public static void main(String[] args) throws IOException {
+//        System.out.println("最后结果"+findDir("src/main/resources/com.dongao.DaQsAiTest/case"));
+        fileRollBack("src/main/resources/com.dongao.DaQsAiTest/data/V1/curriculum");
     }
 }

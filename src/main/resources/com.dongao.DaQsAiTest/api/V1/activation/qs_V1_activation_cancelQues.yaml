@@ -2,4 +2,4 @@
 actions:
   cancelQues: {get: 'http://qs.api.test.com/activationApi/activation/V1/cancelQues',
     post: null}
-name: qs_activation_cancelQues
+name: qs_V1_activation_cancelQues

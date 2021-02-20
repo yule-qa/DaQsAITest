@@ -2,4 +2,4 @@
 actions:
   normalMode: {get: 'http://qs.api.test.com/activationApi/activation/V1/normalMode',
     post: null}
-name: qs_activation_normalMode
+name: qs_V1_activation_normalMode

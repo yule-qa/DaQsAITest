@@ -3,6 +3,6 @@ description: /activationApi/activation/V1/normalMode 接口测试用例
 name: normalMode
 steps:
 - action: normalMode
-  api: qs_activation_normalMode
-  assertparams: {expect: '1', matcher: equalTo, assertparam: obj}
+  api: qs_V1_activation_normalMode
+  assertparams: {expect: '2', matcher: equalTo, assertparam: obj}
   params: {userExtendId: '2061', examId: '176', userId: '3319'}

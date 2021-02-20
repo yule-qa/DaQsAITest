@@ -45,18 +45,18 @@ public class CreateTestCaseTest {
             //开始创建yaml文件
             if(newtestcaseSourceJsonFile!=null) {
                 //增加捕获异常，如果遇见可以继续下面的创建用例，不至于停止
-//                try {
+                try {
                     JsonToYamlUtils.createTestcaseYaml(newtestcaseSourceJsonFile);
                     FileUtils.deleteFile(testcaseSourceJsonFile.toString());
-//                }catch (Exception e){
-//                    logger.error("charles文件解析错误："+e);
-//                    continue;
+                }catch (Exception e){
+                    logger.error("charles文件解析错误："+e);
+                    continue;
                 }
 
             }
             i++;
 
-//        }
+        }
     }
 
     //从/data文件夹下，逐个加载测试用例json文件到List里，并返回

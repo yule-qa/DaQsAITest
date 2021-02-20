@@ -11,7 +11,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 
-import java.io.File;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -134,8 +134,23 @@ public class MyTest {
     @Test
     public void test5() {
      String a="sdfasdfasdfasdfV1/asdfasdfasdf";
-     String s=a.substring(a.indexOf("V"));
-        System.out.println(s);
+     String[] s=a.split("V1/");
+        System.out.println(s[0]+"_"+s[1]);
+    }
+
+    @Test
+    public void test6() throws IOException {
+        String path="src/main/resources/com.dongao.DaQsAiTest/data/V1/class/class_classDetail_classData.chlsj";
+        String originalfile=path.split("new_")[0]+path.split("new_")[1];//创建文件新名
+        BufferedReader buffer = new BufferedReader(new InputStreamReader(new FileInputStream(path)));
+        BufferedWriter writer=new BufferedWriter(new OutputStreamWriter(new FileOutputStream(originalfile)));
+        String lineText=null;
+        while((lineText=buffer.readLine()) != null){
+            lineText.replace("\n","");
+            lineText="["+lineText+"]";
+            writer.write(lineText);
+        }
+        writer.close();
     }
 
 
