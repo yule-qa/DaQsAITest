@@ -1,5 +1,0 @@
-!!com.dongao.DaQsAiTest.Model.ApiObjectModel
-actions:
-  getKpVedioByKpId: {get: 'http://qs.api.test.com/knowledgePointApi/knowledgePoint/V1/getKpVedioByKpId',
-    post: null}
-name: qs_knowledgePoint_getKpVedioByKpId

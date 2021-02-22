@@ -1,5 +1,0 @@
-!!com.dongao.DaQsAiTest.Model.ApiObjectModel
-actions:
-  kpNoteByUserId: {get: 'http://qs.api.test.com/knowledgePointApi/knowledgePoint/V1/kpNoteByUserId',
-    post: null}
-name: qs_knowledgePoint_kpNoteByUserId

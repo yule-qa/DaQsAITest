@@ -1,8 +1,0 @@
-!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
-description: /examApi/exam/V1/getVideoPlayInfo 接口测试用例
-name: getVideoPlayInfo
-steps:
-- action: getVideoPlayInfo
-  api: qs_exam_getVideoPlayInfo
-  assertparams: {expect: '4', matcher: equalTo, assertparam: obj}
-  params: {userExtendId: '2889', videoId: '100002156324', userId: '3237'}

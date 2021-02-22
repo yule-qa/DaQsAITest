@@ -1,5 +1,0 @@
-!!com.dongao.DaQsAiTest.Model.ApiObjectModel
-actions:
-  classSwitchSubmit: {get: 'http://qs.api.test.com/settingApi/setting/V1/classSwitchSubmit',
-    post: null}
-name: qs_setting_classSwitchSubmit

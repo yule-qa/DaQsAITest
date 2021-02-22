@@ -1,4 +1,0 @@
-!!com.dongao.DaQsAiTest.Model.ApiObjectModel
-actions:
-  courseByKpId: {get: 'http://qs.api.test.com/courseApi/course/V1/courseByKpId', post: null}
-name: qs_course_courseByKpId

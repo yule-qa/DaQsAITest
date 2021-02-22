@@ -1,5 +1,0 @@
-!!com.dongao.DaQsAiTest.Model.ApiObjectModel
-actions:
-  saveAgainAskQuestion: {get: 'http://qs.api.test.com/solveApi/solve/V1/saveAgainAskQuestion',
-    post: null}
-name: qs_solve_saveAgainAskQuestion

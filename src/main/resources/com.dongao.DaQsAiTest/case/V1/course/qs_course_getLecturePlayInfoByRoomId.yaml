@@ -1,8 +1,0 @@
-!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
-description: /courseApi/course/V1/getLecturePlayInfoByRoomId 接口测试用例
-name: getLecturePlayInfoByRoomId
-steps:
-- action: getLecturePlayInfoByRoomId
-  api: qs_course_getLecturePlayInfoByRoomId
-  assertparams: {expect: '19', matcher: equalTo, assertparam: obj}
-  params: {userExtendId: '2095', userId: '1889', roomId: '1399'}

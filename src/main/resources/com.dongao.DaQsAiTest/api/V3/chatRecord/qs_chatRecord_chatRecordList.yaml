@@ -1,5 +1,0 @@
-!!com.dongao.DaQsAiTest.Model.ApiObjectModel
-actions:
-  chatRecordList: {get: 'http://qs.api.test.com/chatRecordApi/chatRecord/V3/chatRecordList',
-    post: null}
-name: qs_chatRecord_chatRecordList

@@ -1,5 +1,0 @@
-!!com.dongao.DaQsAiTest.Model.ApiObjectModel
-actions:
-  submitQues: {get: 'http://qs.api.test.com/activationApi/activation/V2/submitQues',
-    post: null}
-name: qs_activation_submitQues

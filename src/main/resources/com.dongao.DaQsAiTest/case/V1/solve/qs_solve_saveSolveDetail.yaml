@@ -1,9 +1,0 @@
-!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
-description: /solveApi/solve/V1/saveSolveDetail 接口测试用例
-name: saveSolveDetail
-steps:
-- action: saveSolveDetail
-  api: qs_solve_saveSolveDetail
-  assertparams: {expect: '0', matcher: equalTo, assertparam: obj}
-  params: {userExtendId: '2079', plainContent: 突突突方法柔柔弱弱日日日, solveDetailId: '509',
-    userId: '1879'}

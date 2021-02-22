@@ -1,4 +1,0 @@
-!!com.dongao.DaQsAiTest.Model.ApiObjectModel
-actions:
-  goToExam: {get: 'http://qs.api.test.com/examApi/exam/V2/goToExam', post: null}
-name: qs_exam_goToExam

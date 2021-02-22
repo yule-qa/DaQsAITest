@@ -1,5 +1,0 @@
-!!com.dongao.DaQsAiTest.Model.ApiObjectModel
-actions:
-  lectureVideoInfoWithLog: {get: 'http://qs.api.test.com/courseApi/course/V1/lectureVideoInfoWithLog',
-    post: null}
-name: qs_course_lectureVideoInfoWithLog

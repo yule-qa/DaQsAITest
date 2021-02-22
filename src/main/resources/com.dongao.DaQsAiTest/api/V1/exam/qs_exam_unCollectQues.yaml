@@ -1,4 +1,0 @@
-!!com.dongao.DaQsAiTest.Model.ApiObjectModel
-actions:
-  unCollectQues: {get: 'http://qs.api.test.com/examApi/exam/V1/unCollectQues', post: null}
-name: qs_exam_unCollectQues

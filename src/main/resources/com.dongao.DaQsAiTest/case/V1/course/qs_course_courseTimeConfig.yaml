@@ -1,9 +1,0 @@
-!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
-description: /courseApi/course/V1/courseTimeConfig 接口测试用例
-name: courseTimeConfig
-steps:
-- action: courseTimeConfig
-  api: qs_course_courseTimeConfig
-  assertparams: {expect: '2', matcher: equalTo, assertparam: obj}
-  params: {userExtendId: '2095', playInfo: '{"planType":43,"teacherId":23,"lectureList":[{"sort":2,"lectureId":885}],"planId":12603,"planUserExtendId":2095}',
-    studyFrom: '2', userId: '1889', lectureId: '885'}

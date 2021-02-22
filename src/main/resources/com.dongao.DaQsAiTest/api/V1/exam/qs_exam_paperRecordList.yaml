@@ -1,5 +1,0 @@
-!!com.dongao.DaQsAiTest.Model.ApiObjectModel
-actions:
-  paperRecordList: {get: 'http://qs.api.test.com/examApi/exam/V1/paperRecordList',
-    post: null}
-name: qs_exam_paperRecordList

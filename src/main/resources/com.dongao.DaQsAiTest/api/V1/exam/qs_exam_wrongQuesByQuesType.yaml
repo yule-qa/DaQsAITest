@@ -1,5 +1,0 @@
-!!com.dongao.DaQsAiTest.Model.ApiObjectModel
-actions:
-  wrongQuesByQuesType: {get: 'http://qs.api.test.com/examApi/exam/V1/wrongQuesByQuesType',
-    post: null}
-name: qs_exam_wrongQuesByQuesType

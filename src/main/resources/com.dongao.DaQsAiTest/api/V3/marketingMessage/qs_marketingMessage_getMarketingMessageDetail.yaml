@@ -1,5 +1,0 @@
-!!com.dongao.DaQsAiTest.Model.ApiObjectModel
-actions:
-  getMarketingMessageDetail: {get: 'http://qs.api.test.com/marketingMessageApi/marketingMessage/V3/getMarketingMessageDetail',
-    post: null}
-name: qs_marketingMessage_getMarketingMessageDetail

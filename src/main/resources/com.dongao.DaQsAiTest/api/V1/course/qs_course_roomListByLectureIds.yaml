@@ -1,5 +1,0 @@
-!!com.dongao.DaQsAiTest.Model.ApiObjectModel
-actions:
-  roomListByLectureIds: {get: 'http://qs.api.test.com/courseApi/course/V1/roomListByLectureIds',
-    post: null}
-name: qs_course_roomListByLectureIds

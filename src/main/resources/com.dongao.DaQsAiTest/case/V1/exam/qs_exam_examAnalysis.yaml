@@ -1,8 +1,0 @@
-!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
-description: /examApi/exam/V1/examAnalysis 接口测试用例
-name: examAnalysis
-steps:
-- action: examAnalysis
-  api: qs_exam_examAnalysis
-  assertparams: {expect: '2', matcher: equalTo, assertparam: obj}
-  params: {userExtendId: '2095', examRecordId: '19223', analysisType: '1', userId: '1889'}

@@ -1,4 +1,0 @@
-!!com.dongao.DaQsAiTest.Model.ApiObjectModel
-actions:
-  index: {get: 'http://qs.api.test.com/studyApi/study/V3/index', post: null}
-name: qs_study_index

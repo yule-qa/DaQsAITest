@@ -1,4 +1,0 @@
-!!com.dongao.DaQsAiTest.Model.ApiObjectModel
-actions:
-  smartExam: {get: 'http://qs.api.test.com/examApi/exam/V1/smartExam', post: null}
-name: qs_exam_smartExam

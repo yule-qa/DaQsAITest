@@ -1,8 +1,0 @@
-!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
-description: /solveApi/solve/V1/solveDetail 接口测试用例
-name: solveDetail
-steps:
-- action: solveDetail
-  api: qs_solve_solveDetail
-  assertparams: {expect: '9', matcher: equalTo, assertparam: obj}
-  params: {userExtendId: '2095', solveId: '47', userId: '1889'}

@@ -1,5 +1,0 @@
-!!com.dongao.DaQsAiTest.Model.ApiObjectModel
-actions:
-  getTodayLecture: {get: 'http://qs.api.test.com/studyApi/study/V1/getTodayLecture',
-    post: null}
-name: qs_study_getTodayLecture

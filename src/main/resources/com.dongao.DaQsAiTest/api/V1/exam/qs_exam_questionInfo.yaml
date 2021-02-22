@@ -1,4 +1,0 @@
-!!com.dongao.DaQsAiTest.Model.ApiObjectModel
-actions:
-  questionInfo: {get: 'http://qs.api.test.com/examApi/exam/V1/questionInfo', post: null}
-name: qs_exam_questionInfo
