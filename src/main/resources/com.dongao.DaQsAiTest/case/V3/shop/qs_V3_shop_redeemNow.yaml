@@ -1,8 +1,0 @@
-!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
-description: /shopApi/shop/V3/redeemNow 接口测试用例
-name: redeemNow
-steps:
-- action: redeemNow
-  api: qs_V3_shop_redeemNow
-  assertparams: {expect: '2', matcher: equalTo, assertparam: obj}
-  params: {userExtendId: '3013', userId: '3319', prizeId: '13'}

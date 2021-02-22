@@ -1,9 +1,0 @@
-!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
-description: /settingApi/setting/V1/switchTeacherSubmit 接口测试用例
-name: switchTeacherSubmit
-steps:
-- action: switchTeacherSubmit
-  api: qs_V1_setting_switchTeacherSubmit
-  assertparams: {expect: '0', matcher: equalTo, assertparam: obj}
-  params: {userExtendId: '2079', subjectPlanConfigurationExtendId: '45', userId: '1879',
-    subjectId: '1'}

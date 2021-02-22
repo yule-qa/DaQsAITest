@@ -1,8 +1,0 @@
-!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
-description: /examApi/exam/V1/subjectListByUserExtendId 接口测试用例
-name: subjectListByUserExtendId
-steps:
-- action: subjectListByUserExtendId
-  api: qs_exam_subjectListByUserExtendId
-  assertparams: {expect: '1', matcher: equalTo, assertparam: obj}
-  params: {userExtendId: '2095', userId: '1889'}

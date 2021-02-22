@@ -1,8 +1,0 @@
-!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
-description: /solveApi/commentLable/V1/commentLableList 接口测试用例
-name: commentLableList
-steps:
-- action: commentLableList
-  api: qs_V1_commentLable_commentLableList
-  assertparams: {expect: '2', matcher: equalTo, assertparam: obj}
-  params: {userId: '1879'}

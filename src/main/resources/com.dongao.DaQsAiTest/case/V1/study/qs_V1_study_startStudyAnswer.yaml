@@ -1,9 +1,0 @@
-!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
-description: /studyApi/study/V1/startStudyAnswer 接口测试用例
-name: startStudyAnswer
-steps:
-- action: startStudyAnswer
-  api: qs_V1_study_startStudyAnswer
-  assertparams: {expect: '2', matcher: equalTo, assertparam: obj}
-  params: {userExtendId: '2095', questionId: '111', buttonUrl: 'cloudclass://app.dongao.com/easy_learn/easy_learn_play?playFrom=2&playId=885&playInfo={"planType":43,"teacherId":23,"lectureList":[{"sort":2,"lectureId":885}],"planId":12603,"planUserExtendId":2095}',
-    userId: '1889', submitId: '20133'}

@@ -1,5 +1,0 @@
-!!com.dongao.DaQsAiTest.Model.ApiObjectModel
-actions:
-  getVideoPlayInfo: {get: 'http://qs.api.test.com/examApi/exam/V1/getVideoPlayInfo',
-    post: null}
-name: qs_exam_getVideoPlayInfo

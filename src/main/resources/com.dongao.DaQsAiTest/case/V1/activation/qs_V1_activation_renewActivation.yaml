@@ -1,8 +1,0 @@
-!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
-description: /activationApi/activation/V1/renewActivation 接口测试用例
-name: renewActivation
-steps:
-- action: renewActivation
-  api: qs_V1_activation_renewActivation
-  assertparams: {expect: '0', matcher: equalTo, assertparam: obj}
-  params: {userExtendId: '3009', userId: '2336'}

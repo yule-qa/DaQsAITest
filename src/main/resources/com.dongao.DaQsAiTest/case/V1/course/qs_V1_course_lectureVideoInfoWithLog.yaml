@@ -1,8 +1,0 @@
-!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
-description: /courseApi/course/V1/lectureVideoInfoWithLog 接口测试用例
-name: lectureVideoInfoWithLog
-steps:
-- action: lectureVideoInfoWithLog
-  api: qs_V1_course_lectureVideoInfoWithLog
-  assertparams: {expect: '2', matcher: equalTo, assertparam: obj}
-  params: {userExtendId: '2095', userId: '1889', lectureId: '887'}

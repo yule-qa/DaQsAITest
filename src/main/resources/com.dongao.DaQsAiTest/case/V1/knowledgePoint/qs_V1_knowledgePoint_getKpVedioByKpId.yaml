@@ -1,8 +1,0 @@
-!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
-description: /knowledgePointApi/knowledgePoint/V1/getKpVedioByKpId 接口测试用例
-name: getKpVedioByKpId
-steps:
-- action: getKpVedioByKpId
-  api: qs_V1_knowledgePoint_getKpVedioByKpId
-  assertparams: {expect: '2', matcher: equalTo, assertparam: obj}
-  params: {userExtendId: '2095', kpId: '2393', userId: '1889'}

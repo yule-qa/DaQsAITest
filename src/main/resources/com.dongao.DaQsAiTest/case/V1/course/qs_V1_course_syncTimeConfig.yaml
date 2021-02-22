@@ -1,9 +1,0 @@
-!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
-description: /courseApi/course/V1/syncTimeConfig 接口测试用例
-name: syncTimeConfig
-steps:
-- action: syncTimeConfig
-  api: qs_V1_course_syncTimeConfig
-  assertparams: {expect: '0', matcher: equalTo, assertparam: obj}
-  params: {userExtendId: '2975', eventTime: '00:01:00', eventType: '1', userId: '34046762',
-    roomId: '1431'}

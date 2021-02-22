@@ -1,8 +1,0 @@
-!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
-description: /knowledgePointApi/knowledgePoint/V1/unlockKpList 接口测试用例
-name: unlockKpList
-steps:
-- action: unlockKpList
-  api: qs_V1_knowledgePoint_unlockKpList
-  assertparams: {expect: '2', matcher: equalTo, assertparam: obj}
-  params: {userExtendId: '2095', userId: '1889'}

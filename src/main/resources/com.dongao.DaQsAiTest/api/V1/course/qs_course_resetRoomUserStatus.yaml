@@ -1,5 +1,0 @@
-!!com.dongao.DaQsAiTest.Model.ApiObjectModel
-actions:
-  resetRoomUserStatus: {get: 'http://qs.api.test.com/courseApi/course/V1/resetRoomUserStatus',
-    post: null}
-name: qs_course_resetRoomUserStatus

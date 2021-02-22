@@ -1,8 +1,0 @@
-!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
-description: /classApi/class/V1/classDetail/classReport 接口测试用例
-name: classReport
-steps:
-- action: classReport
-  api: qs_class_classDetail_classReport
-  assertparams: {expect: '8', matcher: equalTo, assertparam: obj}
-  params: {classId: '21', userId: '1879'}

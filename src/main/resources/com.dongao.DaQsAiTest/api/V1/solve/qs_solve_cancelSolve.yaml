@@ -1,4 +1,0 @@
-!!com.dongao.DaQsAiTest.Model.ApiObjectModel
-actions:
-  cancelSolve: {get: 'http://qs.api.test.com/solveApi/solve/V1/cancelSolve', post: null}
-name: qs_solve_cancelSolve

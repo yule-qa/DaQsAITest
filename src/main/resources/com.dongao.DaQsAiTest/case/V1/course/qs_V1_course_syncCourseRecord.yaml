@@ -1,9 +1,0 @@
-!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
-description: /courseApi/course/V1/syncCourseRecord 接口测试用例
-name: syncCourseRecord
-steps:
-- action: syncCourseRecord
-  api: qs_V1_course_syncCourseRecord
-  assertparams: {expect: '0', matcher: equalTo, assertparam: obj}
-  params: {userExtendId: '2059', userId: '2187', tdata: '{"userExtendId":"2059","listenList":[{"listenTime":"13","planId":"9135","roomId":"0","currentPlayTime":"00:00:14","planType":"43","listenDate":"2021-02-01
-      15:43:56","lectureId":"895","planUserExtendId":"2059"}]}'}

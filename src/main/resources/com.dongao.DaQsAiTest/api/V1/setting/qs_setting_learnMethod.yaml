@@ -1,4 +1,0 @@
-!!com.dongao.DaQsAiTest.Model.ApiObjectModel
-actions:
-  learnMethod: {get: 'http://qs.api.test.com/settingApi/setting/V1/learnMethod', post: null}
-name: qs_setting_learnMethod

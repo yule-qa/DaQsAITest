@@ -1,4 +1,0 @@
-!!com.dongao.DaQsAiTest.Model.ApiObjectModel
-actions:
-  creditDetails: {get: 'http://qs.api.test.com/taskApi/task/V1/creditDetails', post: null}
-name: qs_V1_task_creditDetails

@@ -1,8 +1,0 @@
-!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
-description: /activationApi/activation/V1/completeActivation 接口测试用例
-name: completeActivation
-steps:
-- action: completeActivation
-  api: qs_V1_activation_completeActivation
-  assertparams: {expect: '1', matcher: equalTo, assertparam: obj}
-  params: {userExtendId: '3009', userId: '2336'}

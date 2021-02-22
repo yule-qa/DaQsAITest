@@ -1,5 +1,0 @@
-!!com.dongao.DaQsAiTest.Model.ApiObjectModel
-actions:
-  askAndReplyList: {get: 'http://qs.api.test.com/solveApi/solve/V1/askAndReplyList',
-    post: null}
-name: qs_solve_askAndReplyList

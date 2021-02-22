@@ -1,5 +1,0 @@
-!!com.dongao.DaQsAiTest.Model.ApiObjectModel
-actions:
-  classRank: {get: 'http://qs.api.test.com/classApi/class/V1/classDetail/classRank',
-    post: null}
-name: qs_class_classDetail_classRank

@@ -1,8 +1,0 @@
-!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
-description: /activationApi/activation/V2/submitQues 接口测试用例
-name: submitQues
-steps:
-- action: submitQues
-  api: qs_V2_activation_submitQues
-  assertparams: {expect: '2', matcher: equalTo, assertparam: obj}
-  params: {userExtendId: '3011', questionId: '1', userId: '3319', submitId: '-1'}

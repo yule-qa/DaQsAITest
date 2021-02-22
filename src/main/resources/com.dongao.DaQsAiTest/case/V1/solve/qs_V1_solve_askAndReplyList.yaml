@@ -1,8 +1,0 @@
-!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
-description: /solveApi/solve/V1/askAndReplyList 接口测试用例
-name: askAndReplyList
-steps:
-- action: askAndReplyList
-  api: qs_V1_solve_askAndReplyList
-  assertparams: {expect: '2', matcher: equalTo, assertparam: obj}
-  params: {userExtendId: '2095', questionId: '1769', userId: '1889'}

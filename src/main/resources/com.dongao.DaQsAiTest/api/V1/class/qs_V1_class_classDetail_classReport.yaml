@@ -1,5 +1,0 @@
-!!com.dongao.DaQsAiTest.Model.ApiObjectModel
-actions:
-  classReport: {get: 'http://qs.api.test.com/classApi/class/V1/classDetail/classReport',
-    post: null}
-name: qs_V1_class_classDetail_classReport

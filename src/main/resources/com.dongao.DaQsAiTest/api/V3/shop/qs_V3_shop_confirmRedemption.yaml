@@ -1,4 +1,0 @@
-!!com.dongao.DaQsAiTest.Model.ApiObjectModel
-actions:
-  confirmRedemption: {get: null, post: 'http://qs.api.test.com/shopApi/shop/V3/confirmRedemption'}
-name: qs_V3_shop_confirmRedemption

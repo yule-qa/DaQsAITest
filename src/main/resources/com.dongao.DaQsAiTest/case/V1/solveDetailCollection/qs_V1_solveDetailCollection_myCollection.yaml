@@ -1,8 +1,0 @@
-!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
-description: /solveApi/solveDetailCollection/V1/myCollection 接口测试用例
-name: myCollection
-steps:
-- action: myCollection
-  api: qs_V1_solveDetailCollection_myCollection
-  assertparams: {expect: '2', matcher: equalTo, assertparam: obj}
-  params: {userExtendId: '2095', pageNo: '1', pageSize: '10', userId: '1889', subjectId: '1'}

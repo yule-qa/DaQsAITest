@@ -1,9 +1,0 @@
-!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
-description: /solveApi/replyComment/V1/submitComment 接口测试用例
-name: submitComment
-steps:
-- action: submitComment
-  api: qs_V1_replyComment_submitComment
-  assertparams: {expect: '0', matcher: equalTo, assertparam: obj}
-  params: {userExtendId: '2079', lableIds: '10013,10015,', lableType: '0', replyId: '281',
-    userId: '1879', content: 多大尺寸吃}

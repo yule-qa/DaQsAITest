@@ -1,5 +1,0 @@
-!!com.dongao.DaQsAiTest.Model.ApiObjectModel
-actions:
-  switchTeacher: {get: 'http://qs.api.test.com/settingApi/setting/V2/switchTeacher',
-    post: null}
-name: qs_V2_setting_switchTeacher

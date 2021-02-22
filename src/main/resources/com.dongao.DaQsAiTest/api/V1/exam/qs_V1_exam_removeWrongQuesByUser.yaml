@@ -1,4 +1,0 @@
-!!com.dongao.DaQsAiTest.Model.ApiObjectModel
-actions:
-  removeWrongQuesByUser: {get: null, post: 'http://qs.api.test.com/examApi/exam/V1/removeWrongQuesByUser'}
-name: qs_V1_exam_removeWrongQuesByUser

@@ -1,5 +1,0 @@
-!!com.dongao.DaQsAiTest.Model.ApiObjectModel
-actions:
-  updateStudyStatusAndChatRecord: {get: 'http://qs.api.test.com/studyApi/study/V3/updateStudyStatusAndChatRecord',
-    post: null}
-name: qs_V3_study_updateStudyStatusAndChatRecord

@@ -1,8 +1,0 @@
-!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
-description: /curriculumApi/curriculum/V3/dayList 接口测试用例
-name: dayList
-steps:
-- action: dayList
-  api: qs_curriculum_dayList
-  assertparams: {expect: '1', matcher: equalTo, assertparam: obj}
-  params: {userExtendId: '3013', pageNo: '1', pageSize: '20', userId: '3319'}

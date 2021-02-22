@@ -1,9 +1,0 @@
-!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
-description: /chatRecordApi/chatRecord/V3/chatRecordList 接口测试用例
-name: chatRecordList
-steps:
-- action: chatRecordList
-  api: qs_chatRecord_chatRecordList
-  assertparams: {expect: '5', matcher: equalTo, assertparam: obj}
-  params: {userExtendId: '3013', chatDate: '2021-02-03 14:22:48', pageNo: '1', pageSize: '20',
-    userId: '3319'}

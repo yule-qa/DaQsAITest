@@ -1,8 +1,0 @@
-!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
-description: /classApi/class/V1/classDetail/classRank 接口测试用例
-name: classRank
-steps:
-- action: classRank
-  api: qs_class_classDetail_classRank
-  assertparams: {expect: '1', matcher: equalTo, assertparam: obj}
-  params: {userExtendId: '839', classId: '19', userId: '339'}

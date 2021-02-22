@@ -1,5 +1,0 @@
-!!com.dongao.DaQsAiTest.Model.ApiObjectModel
-actions:
-  getLecturePlayInfoByRoomId: {get: 'http://qs.api.test.com/courseApi/course/V1/getLecturePlayInfoByRoomId',
-    post: null}
-name: qs_course_getLecturePlayInfoByRoomId

@@ -1,4 +1,0 @@
-!!com.dongao.DaQsAiTest.Model.ApiObjectModel
-actions:
-  submitTimeConfigAnswer: {get: null, post: 'http://qs.api.test.com/courseApi/course/V1/submitTimeConfigAnswer'}
-name: qs_V1_course_submitTimeConfigAnswer

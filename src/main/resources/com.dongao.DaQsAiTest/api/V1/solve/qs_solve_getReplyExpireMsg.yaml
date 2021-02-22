@@ -1,5 +1,0 @@
-!!com.dongao.DaQsAiTest.Model.ApiObjectModel
-actions:
-  getReplyExpireMsg: {get: 'http://qs.api.test.com/solveApi/solve/V1/getReplyExpireMsg',
-    post: null}
-name: qs_solve_getReplyExpireMsg

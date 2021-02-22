@@ -1,8 +1,0 @@
-!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
-description: /solveApi/solve/V1/leftAskNum 接口测试用例
-name: leftAskNum
-steps:
-- action: leftAskNum
-  api: qs_solve_leftAskNum
-  assertparams: {expect: '3', matcher: equalTo, assertparam: obj}
-  params: {userExtendId: '2095', type: '3', userId: '1889'}

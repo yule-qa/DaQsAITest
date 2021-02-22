@@ -1,8 +1,0 @@
-!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
-description: /knowledgePointApi/knowledgePoint/V1/kpNoteByUserId 接口测试用例
-name: kpNoteByUserId
-steps:
-- action: kpNoteByUserId
-  api: qs_knowledgePoint_kpNoteByUserId
-  assertparams: {expect: '0', matcher: equalTo, assertparam: obj}
-  params: {userExtendId: '2095', kpId: '2395', notesInfo: vgcf, userId: '1889'}

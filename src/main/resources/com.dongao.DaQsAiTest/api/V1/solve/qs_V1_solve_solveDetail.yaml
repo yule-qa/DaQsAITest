@@ -1,4 +1,0 @@
-!!com.dongao.DaQsAiTest.Model.ApiObjectModel
-actions:
-  solveDetail: {get: 'http://qs.api.test.com/solveApi/solve/V1/solveDetail', post: null}
-name: qs_V1_solve_solveDetail

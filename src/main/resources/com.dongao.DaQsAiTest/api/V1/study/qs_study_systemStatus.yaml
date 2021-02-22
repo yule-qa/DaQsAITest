@@ -1,4 +1,0 @@
-!!com.dongao.DaQsAiTest.Model.ApiObjectModel
-actions:
-  systemStatus: {get: 'http://qs.api.test.com/studyApi/study/V1/systemStatus', post: null}
-name: qs_study_systemStatus

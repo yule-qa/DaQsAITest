@@ -1,8 +1,0 @@
-!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
-description: /examApi/exam/V1/questionInfo 接口测试用例
-name: questionInfo
-steps:
-- action: questionInfo
-  api: qs_exam_questionInfo
-  assertparams: {expect: '2', matcher: equalTo, assertparam: obj}
-  params: {userExtendId: '2061', questionIds: '1775', userId: '3319'}

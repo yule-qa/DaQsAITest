@@ -1,5 +1,0 @@
-!!com.dongao.DaQsAiTest.Model.ApiObjectModel
-actions:
-  selfModeChooseKp: {get: 'http://qs.api.test.com/knowledgePointApi/knowledgePoint/V1/selfModeChooseKp',
-    post: null}
-name: qs_knowledgePoint_selfModeChooseKp

@@ -1,5 +1,0 @@
-!!com.dongao.DaQsAiTest.Model.ApiObjectModel
-actions:
-  startStudyQues: {get: 'http://qs.api.test.com/studyApi/study/V2/startStudyQues',
-    post: null}
-name: qs_V2_study_startStudyQues

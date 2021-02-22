@@ -1,8 +1,0 @@
-!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
-description: /settingApi/setting/V1/classSwitch 接口测试用例
-name: classSwitch
-steps:
-- action: classSwitch
-  api: qs_V1_setting_classSwitch
-  assertparams: {expect: '2', matcher: equalTo, assertparam: obj}
-  params: {userExtendId: '2079', userId: '1879'}

@@ -1,8 +1,0 @@
-!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
-description: /shopApi/shop/V3/redeemRecords 接口测试用例
-name: redeemRecords
-steps:
-- action: redeemRecords
-  api: qs_V3_shop_redeemRecords
-  assertparams: {matcher: equalTo, assertparam: obj}
-  params: {userExtendId: '3013', userId: '3319'}

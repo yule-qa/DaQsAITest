@@ -1,8 +1,0 @@
-!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
-description: /courseApi/course/V1/resetRoomUserStatus 接口测试用例
-name: resetRoomUserStatus
-steps:
-- action: resetRoomUserStatus
-  api: qs_V1_course_resetRoomUserStatus
-  assertparams: {expect: '0', matcher: equalTo, assertparam: obj}
-  params: {userExtendId: '2059', userStatus: '1', userId: '2187', roomId: '1421'}

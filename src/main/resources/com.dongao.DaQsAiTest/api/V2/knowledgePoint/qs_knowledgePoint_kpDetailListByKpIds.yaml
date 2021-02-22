@@ -1,5 +1,0 @@
-!!com.dongao.DaQsAiTest.Model.ApiObjectModel
-actions:
-  kpDetailListByKpIds: {get: 'http://qs.api.test.com/knowledgePointApi/knowledgePoint/V2/kpDetailListByKpIds',
-    post: null}
-name: qs_knowledgePoint_kpDetailListByKpIds

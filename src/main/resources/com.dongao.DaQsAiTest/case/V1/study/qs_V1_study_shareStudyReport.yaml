@@ -1,8 +1,0 @@
-!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
-description: /studyApi/study/V1/shareStudyReport 接口测试用例
-name: shareStudyReport
-steps:
-- action: shareStudyReport
-  api: qs_V1_study_shareStudyReport
-  assertparams: {expect: '2', matcher: equalTo, assertparam: obj}
-  params: {timeStamp: '1612158244', userExtendId: '2889', sign: 8be14090000dab2d76195f562077a0de}

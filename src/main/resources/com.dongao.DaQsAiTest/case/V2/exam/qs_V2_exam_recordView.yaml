@@ -1,9 +1,0 @@
-!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
-description: /examApi/exam/V2/recordView 接口测试用例
-name: recordView
-steps:
-- action: recordView
-  api: qs_V2_exam_recordView
-  assertparams: {expect: '2', matcher: equalTo, assertparam: obj}
-  params: {userExtendId: '3013', operateParam: '', examRecordId: '19457', planType: '',
-    planId: '', userId: '3319'}
