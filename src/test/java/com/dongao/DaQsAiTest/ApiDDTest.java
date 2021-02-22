@@ -91,7 +91,7 @@ public class ApiDDTest {
                         String path = finalTestCaseDir + "/" + name;
                         try {
                             ApiTestCaseModel apiTestCase = ApiTestCaseModel.load(path);
-                            Arguments testcase = arguments(apiTestCase, finalTestCaseDir.substring(finalTestCaseDir.indexOf("V"))+"/"+apiTestCase.name); //这个是为了返回对象变成arguments类型，并且不能为空
+                            Arguments testcase = arguments(apiTestCase, finalTestCaseDir.substring(finalTestCaseDir.indexOf("V"))+"\\"+apiTestCase.name); //这个是为了返回对象变成arguments类型，并且不能为空
                             testcases.add(testcase);
                         } catch (IOException e) {
                             e.printStackTrace();

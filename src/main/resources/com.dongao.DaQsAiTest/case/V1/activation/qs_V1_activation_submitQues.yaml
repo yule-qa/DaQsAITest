@@ -4,5 +4,5 @@ name: submitQues
 steps:
 - action: submitQues
   api: qs_V1_activation_submitQues
-  assertparams: {expect: '2', matcher: equalTo, assertparam: obj}
+  assertparams: {expect: '4', matcher: equalTo, assertparam: obj}
   params: {userExtendId: '3005', questionId: '1', userId: '484', submitId: '-1'}
