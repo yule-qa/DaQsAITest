@@ -1,0 +1,8 @@
+!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
+description: /settingApi/setting/V1/learnMethod 接口测试用例
+name: learnMethod
+steps:
+- action: learnMethod
+  api: qs_V1_setting_learnMethod
+  assertparams: {expect: '3', matcher: equalTo, assertparam: obj}
+  params: {userExtendId: '2079', userId: '1879'}

@@ -1,0 +1,8 @@
+!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
+description: /studyApi/study/V1/systemStatus 接口测试用例
+name: systemStatus
+steps:
+- action: systemStatus
+  api: qs_V1_study_systemStatus
+  assertparams: {expect: '9', matcher: equalTo, assertparam: obj}
+  params: {examId: '176', userId: '1889'}

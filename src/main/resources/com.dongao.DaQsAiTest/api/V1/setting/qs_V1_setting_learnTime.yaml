@@ -1,0 +1,4 @@
+!!com.dongao.DaQsAiTest.Model.ApiObjectModel
+actions:
+  learnTime: {get: 'http://qs.api.test.com/settingApi/setting/V1/learnTime', post: null}
+name: qs_V1_setting_learnTime

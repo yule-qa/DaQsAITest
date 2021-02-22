@@ -1,0 +1,8 @@
+!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
+description: /classApi/class/V3/classDetail/classData 接口测试用例
+name: classData
+steps:
+- action: classData
+  api: qs_V3_class_classDetail_classData
+  assertparams: {expect: '5', matcher: equalTo, assertparam: obj}
+  params: {userExtendId: '2889', pageNo: '1', pageSize: '20', userId: '3237'}

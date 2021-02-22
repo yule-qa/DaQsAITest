@@ -1,0 +1,9 @@
+!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
+description: /examApi/exam/V1/paperListByPaperType 接口测试用例
+name: paperListByPaperType
+steps:
+- action: paperListByPaperType
+  api: qs_V1_exam_paperListByPaperType
+  assertparams: {expect: '1', matcher: equalTo, assertparam: obj}
+  params: {userExtendId: '2095', paperTypeId: '5', seasonId: '15', userId: '1889',
+    subjectId: '1'}

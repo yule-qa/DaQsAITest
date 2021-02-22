@@ -1,0 +1,4 @@
+!!com.dongao.DaQsAiTest.Model.ApiObjectModel
+actions:
+  cacheAnswer: {get: null, post: 'http://qs.api.test.com/examApi/exam/V1/cacheAnswer'}
+name: qs_V1_exam_cacheAnswer

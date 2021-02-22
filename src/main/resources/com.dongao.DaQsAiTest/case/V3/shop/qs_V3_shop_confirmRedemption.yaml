@@ -1,0 +1,8 @@
+!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
+description: /shopApi/shop/V3/confirmRedemption 接口测试用例
+name: confirmRedemption
+steps:
+- action: confirmRedemption
+  api: qs_V3_shop_confirmRedemption
+  assertparams: {expect: '3', matcher: equalTo, assertparam: obj}
+  params: {userExtendId: '3013', userId: '3319', prizeId: '13'}

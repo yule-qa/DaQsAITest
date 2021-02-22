@@ -1,0 +1,4 @@
+!!com.dongao.DaQsAiTest.Model.ApiObjectModel
+actions:
+  index: {get: 'http://qs.api.test.com/taskApi/task/V1/index', post: null}
+name: qs_V1_task_index
