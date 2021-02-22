@@ -1,0 +1,8 @@
+!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
+description: /settingApi/setting/V1/learnTime 接口测试用例
+name: learnTime
+steps:
+- action: learnTime
+  api: qs_V1_setting_learnTime
+  assertparams: {expect: '2', matcher: equalTo, assertparam: obj}
+  params: {userExtendId: '2095', userId: '1889'}

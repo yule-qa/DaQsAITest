@@ -1,0 +1,9 @@
+!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
+description: /courseApi/course/V1/createRoom 接口测试用例
+name: createRoom
+steps:
+- action: createRoom
+  api: qs_V1_course_createRoom
+  assertparams: {expect: '2', matcher: equalTo, assertparam: obj}
+  params: {playStatus: '1', userExtendId: '2095', playInfo: '{"planType":43,"teacherId":23,"lectureList":[{"sort":2,"lectureId":885}],"planId":12603,"planUserExtendId":2095}',
+    playTime: '00:03:36', userId: '1889', speed: '1.5', lectureId: '885'}

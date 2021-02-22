@@ -1,0 +1,8 @@
+!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
+description: /settingApi/setting/V1/classSwitchSubmit 接口测试用例
+name: classSwitchSubmit
+steps:
+- action: classSwitchSubmit
+  api: qs_setting_classSwitchSubmit
+  assertparams: {expect: '0', matcher: equalTo, assertparam: obj}
+  params: {userExtendId: '2079', userId: '1879', needDivision: '0'}

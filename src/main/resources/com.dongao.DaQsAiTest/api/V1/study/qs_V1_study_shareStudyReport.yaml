@@ -1,0 +1,5 @@
+!!com.dongao.DaQsAiTest.Model.ApiObjectModel
+actions:
+  shareStudyReport: {get: 'http://qs.api.test.com/studyApi/study/V1/shareStudyReport',
+    post: null}
+name: qs_V1_study_shareStudyReport

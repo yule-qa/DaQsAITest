@@ -1,0 +1,8 @@
+!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
+description: /solveApi/solve/V1/myAnswerList 接口测试用例
+name: myAnswerList
+steps:
+- action: myAnswerList
+  api: qs_V1_solve_myAnswerList
+  assertparams: {expect: '2', matcher: equalTo, assertparam: obj}
+  params: {userExtendId: '2095', pageNo: '1', pageSize: '10', userId: '1889', subjectId: '1'}

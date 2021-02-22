@@ -1,0 +1,8 @@
+!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
+description: /activationApi/activation/V1/questionsAndAnswers 接口测试用例
+name: questionsAndAnswers
+steps:
+- action: questionsAndAnswers
+  api: qs_V1_activation_questionsAndAnswers
+  assertparams: {expect: '2', matcher: equalTo, assertparam: obj}
+  params: {userExtendId: '', examId: '176', userId: '484'}

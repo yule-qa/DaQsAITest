@@ -1,0 +1,8 @@
+!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
+description: /activationApi/activation/V1/cancelQues 接口测试用例
+name: cancelQues
+steps:
+- action: cancelQues
+  api: qs_V1_activation_cancelQues
+  assertparams: {expect: '2', matcher: equalTo, assertparam: obj}
+  params: {userExtendId: '3009', questionId: '1', userId: '2336'}

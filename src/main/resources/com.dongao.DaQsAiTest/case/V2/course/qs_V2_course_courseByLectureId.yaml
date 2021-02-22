@@ -1,0 +1,10 @@
+!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
+description: /courseApi/course/V2/courseByLectureId 接口测试用例
+name: courseByLectureId
+steps:
+- action: courseByLectureId
+  api: qs_V2_course_courseByLectureId
+  assertparams: {expect: '2', matcher: equalTo, assertparam: obj}
+  params: {userExtendId: '2059', operateParam: '{"type":"one","param":{"chatRecordId":1611,"buttonName":"继续听课"}}',
+    playInfo: '{"planType":43,"teacherId":23,"lectureList":[{"sort":15,"lectureId":921},{"sort":100,"lectureId":1509}],"planId":9151,"planUserExtendId":2059}',
+    userId: '2187', lectureId: '921'}

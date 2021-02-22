@@ -1,0 +1,4 @@
+!!com.dongao.DaQsAiTest.Model.ApiObjectModel
+actions:
+  genUserSign: {get: 'http://qs.api.test.com/courseApi/course/V1/genUserSign', post: null}
+name: qs_V1_course_genUserSign

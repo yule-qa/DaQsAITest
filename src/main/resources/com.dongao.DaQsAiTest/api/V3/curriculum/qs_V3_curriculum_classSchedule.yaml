@@ -1,0 +1,5 @@
+!!com.dongao.DaQsAiTest.Model.ApiObjectModel
+actions:
+  classSchedule: {get: 'http://qs.api.test.com/curriculumApi/curriculum/V3/classSchedule',
+    post: null}
+name: qs_V3_curriculum_classSchedule

@@ -1,0 +1,8 @@
+!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
+description: /solveApi/replyComment/V1/getCommentView 接口测试用例
+name: getCommentView
+steps:
+- action: getCommentView
+  api: qs_V1_replyComment_getCommentView
+  assertparams: {expect: '2', matcher: equalTo, assertparam: obj}
+  params: {userExtendId: '2079', replyId: '281', userId: '1879'}

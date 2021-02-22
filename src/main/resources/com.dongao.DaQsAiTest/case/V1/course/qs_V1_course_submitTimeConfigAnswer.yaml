@@ -1,0 +1,9 @@
+!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
+description: /courseApi/course/V1/submitTimeConfigAnswer 接口测试用例
+name: submitTimeConfigAnswer
+steps:
+- action: submitTimeConfigAnswer
+  api: qs_V1_course_submitTimeConfigAnswer
+  assertparams: {expect: '0', matcher: equalTo, assertparam: obj}
+  params: {userExtendId: '2975', isRight: '0', eventTime: '00:02:00', eventType: '1',
+    userId: '34046762', roomId: '1431'}

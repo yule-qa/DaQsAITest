@@ -1,0 +1,8 @@
+!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
+description: /courseApi/course/V1/kpCardByLectureId 接口测试用例
+name: kpCardByLectureId
+steps:
+- action: kpCardByLectureId
+  api: qs_V1_course_kpCardByLectureId
+  assertparams: {expect: '2', matcher: equalTo, assertparam: obj}
+  params: {userExtendId: '2095', userId: '1889', lectureId: '885'}

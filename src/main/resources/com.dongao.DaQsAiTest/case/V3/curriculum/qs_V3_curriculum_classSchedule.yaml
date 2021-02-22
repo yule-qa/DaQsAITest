@@ -1,0 +1,8 @@
+!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
+description: /curriculumApi/curriculum/V3/classSchedule 接口测试用例
+name: classSchedule
+steps:
+- action: classSchedule
+  api: qs_V3_curriculum_classSchedule
+  assertparams: {expect: '2', matcher: equalTo, assertparam: obj}
+  params: {date: '2021-02-03', userExtendId: '3013', userId: '3319'}

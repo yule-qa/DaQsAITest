@@ -1,0 +1,8 @@
+!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
+description: /solveApi/solveDetailCollection/V1/collectionStatus 接口测试用例
+name: collectionStatus
+steps:
+- action: collectionStatus
+  api: qs_V1_solveDetailCollection_collectionStatus
+  assertparams: {expect: '0', matcher: equalTo, assertparam: obj}
+  params: {optType: '1', userExtendId: '2095', solveId: '413', userId: '1889'}

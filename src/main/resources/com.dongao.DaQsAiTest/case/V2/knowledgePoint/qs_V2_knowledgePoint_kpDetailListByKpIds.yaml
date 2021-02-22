@@ -1,0 +1,9 @@
+!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
+description: /knowledgePointApi/knowledgePoint/V2/kpDetailListByKpIds 接口测试用例
+name: kpDetailListByKpIds
+steps:
+- action: kpDetailListByKpIds
+  api: qs_V2_knowledgePoint_kpDetailListByKpIds
+  assertparams: {expect: '2', matcher: equalTo, assertparam: obj}
+  params: {userExtendId: '3013', operateParam: '', planType: '', kpIds: '2391,2393,2395,2397,2399',
+    planId: '', userId: '3319'}

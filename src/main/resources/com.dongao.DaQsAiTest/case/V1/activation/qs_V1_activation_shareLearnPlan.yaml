@@ -1,0 +1,8 @@
+!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
+description: /activationApi/activation/V1/shareLearnPlan 接口测试用例
+name: shareLearnPlan
+steps:
+- action: shareLearnPlan
+  api: qs_V1_activation_shareLearnPlan
+  assertparams: {expect: '1', matcher: equalTo, assertparam: obj}
+  params: {userExtendId: '2061'}

@@ -1,0 +1,8 @@
+!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
+description: /studyApi/study/V2/startStudyQues 接口测试用例
+name: startStudyQues
+steps:
+- action: startStudyQues
+  api: qs_V2_study_startStudyQues
+  assertparams: {expect: '2', matcher: equalTo, assertparam: obj}
+  params: {userExtendId: '785', userId: '337'}

@@ -1,0 +1,4 @@
+!!com.dongao.DaQsAiTest.Model.ApiObjectModel
+actions:
+  dayList: {get: 'http://qs.api.test.com/curriculumApi/curriculum/V3/dayList', post: null}
+name: qs_curriculum_dayList

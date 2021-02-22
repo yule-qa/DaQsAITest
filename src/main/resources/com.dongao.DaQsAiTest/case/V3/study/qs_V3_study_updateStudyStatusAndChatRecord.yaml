@@ -1,0 +1,9 @@
+!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
+description: /studyApi/study/V3/updateStudyStatusAndChatRecord 接口测试用例
+name: updateStudyStatusAndChatRecord
+steps:
+- action: updateStudyStatusAndChatRecord
+  api: qs_V3_study_updateStudyStatusAndChatRecord
+  assertparams: {expect: '2', matcher: equalTo, assertparam: obj}
+  params: {userExtendId: '2059', operateParam: '%7B%22type%22%3A%22both%22%2C%22param%22%3A%7B%22businessId%22%3A4931%2C%22buttonName%22%3A%22%E5%8E%BB%E7%9C%8B%E7%9C%8B%22%2C%22chatRecordId%22%3A1639%2C%22businessType%22%3A71%7D%7D',
+    userId: '2187'}

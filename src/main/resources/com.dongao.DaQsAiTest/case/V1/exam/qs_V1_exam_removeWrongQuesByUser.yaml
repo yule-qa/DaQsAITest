@@ -1,0 +1,8 @@
+!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
+description: /examApi/exam/V1/removeWrongQuesByUser 接口测试用例
+name: removeWrongQuesByUser
+steps:
+- action: removeWrongQuesByUser
+  api: qs_V1_exam_removeWrongQuesByUser
+  assertparams: {expect: '2', matcher: equalTo, assertparam: obj}
+  params: {userExtendId: '2889', questionIds: '1713', userId: '3237'}

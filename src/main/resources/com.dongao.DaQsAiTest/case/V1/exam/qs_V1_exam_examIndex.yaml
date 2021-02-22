@@ -1,0 +1,8 @@
+!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
+description: /examApi/exam/V1/examIndex 接口测试用例
+name: examIndex
+steps:
+- action: examIndex
+  api: qs_V1_exam_examIndex
+  assertparams: {expect: '2', matcher: equalTo, assertparam: obj}
+  params: {userExtendId: '2095', seasonId: '15', examId: '1', userId: '1889', subjectId: '1'}

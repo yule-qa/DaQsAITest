@@ -1,0 +1,5 @@
+!!com.dongao.DaQsAiTest.Model.ApiObjectModel
+actions:
+  myCollection: {get: 'http://qs.api.test.com/solveApi/solveDetailCollection/V1/myCollection',
+    post: null}
+name: qs_V1_solveDetailCollection_myCollection

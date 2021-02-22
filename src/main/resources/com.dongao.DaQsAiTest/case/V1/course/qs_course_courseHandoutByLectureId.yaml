@@ -1,0 +1,8 @@
+!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
+description: /courseApi/course/V1/courseHandoutByLectureId 接口测试用例
+name: courseHandoutByLectureId
+steps:
+- action: courseHandoutByLectureId
+  api: qs_course_courseHandoutByLectureId
+  assertparams: {expect: '7', matcher: equalTo, assertparam: obj}
+  params: {userExtendId: '2059', pageNo: '1', pageSize: '20', userId: '2187', lectureId: '921'}

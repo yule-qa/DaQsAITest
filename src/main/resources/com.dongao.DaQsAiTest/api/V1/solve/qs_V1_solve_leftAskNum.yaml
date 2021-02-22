@@ -1,0 +1,4 @@
+!!com.dongao.DaQsAiTest.Model.ApiObjectModel
+actions:
+  leftAskNum: {get: 'http://qs.api.test.com/solveApi/solve/V1/leftAskNum', post: null}
+name: qs_V1_solve_leftAskNum

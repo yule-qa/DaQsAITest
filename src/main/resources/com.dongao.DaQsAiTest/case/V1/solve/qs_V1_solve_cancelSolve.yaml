@@ -1,0 +1,8 @@
+!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
+description: /solveApi/solve/V1/cancelSolve 接口测试用例
+name: cancelSolve
+steps:
+- action: cancelSolve
+  api: qs_V1_solve_cancelSolve
+  assertparams: {expect: '2', matcher: equalTo, assertparam: obj}
+  params: {userExtendId: '2079', solveDetailId: '509', userId: '1879'}
