@@ -4,5 +4,5 @@ name: cancelQues
 steps:
 - action: cancelQues
   api: qs_V1_activation_cancelQues
-  assertparams: {expect: '2', matcher: equalTo, assertparam: obj}
+  assertparams: {expect: '0', matcher: equalTo, assertparam: obj}
   params: {userExtendId: '3009', questionId: '1', userId: '2336'}

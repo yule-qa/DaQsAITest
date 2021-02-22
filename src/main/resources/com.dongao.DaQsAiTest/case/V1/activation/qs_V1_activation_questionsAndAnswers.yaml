@@ -4,5 +4,5 @@ name: questionsAndAnswers
 steps:
 - action: questionsAndAnswers
   api: qs_V1_activation_questionsAndAnswers
-  assertparams: {expect: '2', matcher: equalTo, assertparam: obj}
+  assertparams: {expect: '3', matcher: equalTo, assertparam: obj}
   params: {userExtendId: '', examId: '176', userId: '484'}

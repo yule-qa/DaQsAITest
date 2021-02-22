@@ -17,10 +17,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * @Author: yule
@@ -129,8 +126,7 @@ public class JsonToYamlUtils {
             if (obj != null ) {
                 //get请求的obj不为null
                 if(obj instanceof HashMap) {
-                    Map objmap=new org.apache.commons.beanutils.BeanMap(obj);
-                   assertparams.put("expect", String.valueOf(objmap.size()));
+                   assertparams.put("expect", String.valueOf(((HashMap) obj).size()));
                 }else if(obj instanceof String){
                     assertparams.put("expect", "1");
                 }
