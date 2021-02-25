@@ -33,7 +33,7 @@ public class CreateTestCaseTest {
     @Test
     //从json文件中生成测试用例yaml文件
     public void createTestcaseYaml() {
-        String caseSourceFileDir="src/main/resources/com.dongao.DaQsAiTest/data/V1/activation";
+        String caseSourceFileDir="src/main/resources/com.dongao.DaQsAiTest/data/V1/replyComment";
         List testcaseSourceJsonFileList=load(caseSourceFileDir);
         //遍历测试用例列表，根据每个用例json文件地址，生成对应的测试用例
         int i=1;

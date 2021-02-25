@@ -5,4 +5,4 @@ steps:
 - action: encourage
   api: qs_V1_class_encourage
   assertparams: {expect: '0', matcher: equalTo, assertparam: obj}
-  params: {encourageUserExtendId: '2883', userExtendId: '2889', userId: '3237'}
+  params: {encourageUserExtendId: '1957', userExtendId: '2889', userId: '3237'}

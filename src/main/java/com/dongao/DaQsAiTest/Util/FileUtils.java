@@ -181,6 +181,6 @@ public class FileUtils {
     }
     public static void main(String[] args) throws IOException {
 //        System.out.println("最后结果"+findDir("src/main/resources/com.dongao.DaQsAiTest/case"));
-        fileRollBack("src/main/resources/com.dongao.DaQsAiTest/data/V1/activation");
+        fileRollBack("src/main/resources/com.dongao.DaQsAiTest/data/V3");
     }
 }

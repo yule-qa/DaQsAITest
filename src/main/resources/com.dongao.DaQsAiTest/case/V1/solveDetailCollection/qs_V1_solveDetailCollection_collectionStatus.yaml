@@ -5,4 +5,9 @@ steps:
 - action: collectionStatus
   api: qs_V1_solveDetailCollection_collectionStatus
   assertparams: {expect: '0', matcher: equalTo, assertparam: obj}
-  params: {optType: '1', userExtendId: '2095', solveId: '413', userId: '1889'}
+  params: {optType: '0', userExtendId: '2889', solveId: '199', userId: '3237'}
+
+- action: collectionStatus
+  api: qs_V1_solveDetailCollection_collectionStatus
+  assertparams: {expect: '0', matcher: equalTo, assertparam: obj}
+  params: {optType: '1', userExtendId: '2889', solveId: '199', userId: '3237'}

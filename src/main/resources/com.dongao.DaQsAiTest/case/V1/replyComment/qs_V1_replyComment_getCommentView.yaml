@@ -5,4 +5,4 @@ steps:
 - action: getCommentView
   api: qs_V1_replyComment_getCommentView
   assertparams: {expect: '4', matcher: equalTo, assertparam: obj}
-  params: {userExtendId: '2079', replyId: '281', userId: '1879'}
+  params: {userExtendId: '2889', replyId: '287', userId: '3237'}
