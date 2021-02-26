@@ -1,0 +1,9 @@
+!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
+description: /knowledgePointApi/knowledgePoint/V1/selfModeChooseKp 接口测试用例
+name: selfModeChooseKp
+steps:
+- action: selfModeChooseKp
+  api: qs_V1_knowledgePoint_selfModeChooseKp
+  assertparams: {expect: '0', matcher: equalTo, assertparam: obj}
+  params: {userExtendId: '2095', unselectedKpIds: '', selectedKpIds: '2391,2393,2395,2397,2399,2401,2403,2405',
+    userId: '1889'}

@@ -1,0 +1,8 @@
+!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
+description: /courseApi/course/V1/doShareRoom 接口测试用例
+name: doShareRoom
+steps:
+- action: doShareRoom
+  api: qs_V1_course_doShareRoom
+  assertparams: {expect: '0', matcher: equalTo, assertparam: obj}
+  params: {userExtendId: '2059', userId: '2187', roomId: '1405'}

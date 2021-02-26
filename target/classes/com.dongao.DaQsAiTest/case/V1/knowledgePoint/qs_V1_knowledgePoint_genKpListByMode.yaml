@@ -1,0 +1,8 @@
+!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
+description: /knowledgePointApi/knowledgePoint/V1/genKpListByMode 接口测试用例
+name: genKpListByMode
+steps:
+- action: genKpListByMode
+  api: qs_V1_knowledgePoint_genKpListByMode
+  assertparams: {expect: '1', matcher: equalTo, assertparam: obj}
+  params: {userExtendId: '2095', modeSwitch: '1', userId: '1889'}

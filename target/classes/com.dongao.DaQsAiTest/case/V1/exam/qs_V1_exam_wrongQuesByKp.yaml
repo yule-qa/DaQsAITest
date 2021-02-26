@@ -1,0 +1,8 @@
+!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
+description: /examApi/exam/V1/wrongQuesByKp 接口测试用例
+name: wrongQuesByKp
+steps:
+- action: wrongQuesByKp
+  api: qs_V1_exam_wrongQuesByKp
+  assertparams: {expect: '2', matcher: equalTo, assertparam: obj}
+  params: {userExtendId: '2095', userId: '1889', subjectId: '1'}

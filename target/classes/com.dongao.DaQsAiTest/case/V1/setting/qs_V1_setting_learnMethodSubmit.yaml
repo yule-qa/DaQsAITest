@@ -1,0 +1,8 @@
+!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
+description: /settingApi/setting/V1/learnMethodSubmit 接口测试用例
+name: learnMethodSubmit
+steps:
+- action: learnMethodSubmit
+  api: qs_V1_setting_learnMethodSubmit
+  assertparams: {expect: '0', matcher: equalTo, assertparam: obj}
+  params: {userExtendId: '2079', isTogether: '1', userId: '1879', subjectId: '-1'}

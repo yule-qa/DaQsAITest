@@ -1,0 +1,4 @@
+!!com.dongao.DaQsAiTest.Model.ApiObjectModel
+actions:
+  recordView: {get: 'http://qs.api.test.com/examApi/exam/V2/recordView', post: null}
+name: qs_V2_exam_recordView

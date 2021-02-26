@@ -1,0 +1,4 @@
+!!com.dongao.DaQsAiTest.Model.ApiObjectModel
+actions:
+  encourage: {get: 'http://qs.api.test.com/classApi/class/V1/encourage', post: null}
+name: qs_V1_class_encourage

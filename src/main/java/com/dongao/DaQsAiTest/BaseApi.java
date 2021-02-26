@@ -7,6 +7,7 @@ import io.restassured.response.Response;
 import java.io.File;
 import java.io.FilenameFilter;
 import java.io.IOException;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -53,7 +54,11 @@ public class BaseApi {
     public Response run(String name, String action, HashMap query){
         //apis为一个List，所以用流式对象来遍历里面的值api。并且执行api里的方法。来执行测试用例
         apis.stream().filter(api->api.name.equals(name)).forEach(api->{
-             response= api.actions.get(action).run(query); //这里实际调用过的是ApiObjectActionModel里的run方法
+            try {
+                response= api.actions.get(action).run(query); //这里实际调用过的是ApiObjectActionModel里的run方法
+            } catch (SQLException throwables) {
+                throwables.printStackTrace();
+            }
         });
         return response;
     }

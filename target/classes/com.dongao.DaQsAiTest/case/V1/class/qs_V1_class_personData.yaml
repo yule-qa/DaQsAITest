@@ -1,0 +1,8 @@
+!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
+description: /classApi/class/V1/personData 接口测试用例
+name: personData
+steps:
+- action: personData
+  api: qs_V1_class_personData
+  assertparams: {expect: '10', matcher: equalTo, assertparam: obj}
+  params: {userExtendId: '2079', clickUserExtendId: '1817', userId: '1879'}

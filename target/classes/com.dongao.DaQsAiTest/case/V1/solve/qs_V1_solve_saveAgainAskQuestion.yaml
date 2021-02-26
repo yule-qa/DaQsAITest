@@ -1,0 +1,9 @@
+!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
+description: /solveApi/solve/V1/saveAgainAskQuestion 接口测试用例
+name: saveAgainAskQuestion
+steps:
+- action: saveAgainAskQuestion
+  api: qs_V1_solve_saveAgainAskQuestion
+  assertparams: {expect: '0', matcher: equalTo, assertparam: obj}
+  params: {userExtendId: '2079', solveId: '417', plainContent: 突突突方法, seasonId: '15',
+    chapterId: '', examId: '1', source: '0', userId: '1879', subjectId: '1'}

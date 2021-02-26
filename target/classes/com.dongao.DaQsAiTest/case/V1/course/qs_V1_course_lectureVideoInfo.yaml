@@ -1,0 +1,9 @@
+!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
+description: /courseApi/course/V1/lectureVideoInfo 接口测试用例
+name: lectureVideoInfo
+steps:
+- action: lectureVideoInfo
+  api: qs_V1_course_lectureVideoInfo
+  assertparams: {expect: '6', matcher: equalTo, assertparam: obj}
+  params: {userExtendId: '2095', planType: '43', planId: '12603', userId: '1889',
+    lectureId: '885'}

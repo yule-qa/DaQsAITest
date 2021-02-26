@@ -1,0 +1,9 @@
+!!com.dongao.DaQsAiTest.FileDto.CaseYamlFileDto
+description: /examApi/exam/V1/smartGoToExam 接口测试用例
+name: smartGoToExam
+steps:
+- action: smartGoToExam
+  api: qs_V1_exam_smartGoToExam
+  assertparams: {expect: '5', matcher: equalTo, assertparam: obj}
+  params: {userExtendId: '2095', buildTypeId: '8', kpIds: '2627', seasonId: '17',
+    sourceType: '7', userId: '1889', subjectId: '3'}
