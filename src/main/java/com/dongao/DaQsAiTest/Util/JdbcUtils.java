@@ -22,18 +22,7 @@ public class JdbcUtils {
         try {
             Statement stmt = conn.createStatement();
             rs = stmt.executeQuery(sql);
-//            while (rs.next()) {
-//                System.out.println("userExtendId:" + rs.getString("id"));
-//            }
-//            if (rs != null) {
-//                rs.close();
-//            }
-//            if (stmt != null) {
-//                stmt.close();
-//            }
-//            if (conn != null) {
-//                conn.close();
-//            }
+
         } catch (Exception throwables) {
             throwables.printStackTrace();
         }

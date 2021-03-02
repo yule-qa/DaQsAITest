@@ -5,7 +5,7 @@ steps:
   - action: submitComment
     api: qs_V1_replyComment_submitComment
     assertparams: { expect: '0', matcher: equalTo, assertparam: obj }
-    params: { userExtendId: '2889', lableIds: '10013,', lableType: '0', replyId: '287',
-              userId: '3237',content: 'good' }
+    params: { userExtendId: '2889', lableIds: '10013,', lableType: '0', replyId: '289',
+              userId: '3237',content: 'dbsql' }
 
 

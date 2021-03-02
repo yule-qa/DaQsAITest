@@ -1,10 +1,14 @@
 package com.dongao.DaQsAiTest.Model;
 
 import com.dongao.DaQsAiTest.Util.JdbcUtils;
+import com.dongao.DaQsAiTest.Util.SqlUtils;
 import io.restassured.response.Response;
 
 import java.sql.*;
 import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Set;
 
 import static io.restassured.RestAssured.given;
 
@@ -21,6 +25,7 @@ public class ApiObjectActionModel {
 
     public String post;
     public String get;
+    public String sqllable;
 
 
     public String getPost() {
@@ -55,25 +60,20 @@ public class ApiObjectActionModel {
 //        url=url.replaceAll("domain","ip");
         if(query.containsKey("userExtendId") && query.containsKey("userId")) {
             //调用数据库,更新userExtendId
-            String sql = "SELECT qsue.id FROM ei_qs_study.qs_study_user_extend AS qsue\n" +
-                    "WHERE qsue.is_valid = 1 \n" +
-                    "AND qsue.is_valid = 1 \n" +
-                    "AND qsue.user_id = " + query.get("userId") + "\n" +
-                    "AND qsue.`year` = 2021\n";
+            sqllable="userExtendId";
+            query= SqlUtils.getSql(sqllable,query);
 
-            ResultSet resultSet = JdbcUtils.startDbQuery(sql);
-            //获取case.yaml文件中的userExtendId
-            String userExtendId = query.get("userExtendId").toString();
-            while (resultSet.next()) {
-                //获取数据库中更新后的userExtendId
-                queryuserExtendId = resultSet.getString("id");
-            }
-            //比较，如果不同，就覆盖发送请求参数值，如果相同，就直接发送请求，无需修改
-            if (userExtendId != queryuserExtendId) {
-                query.put("userExtendId", queryuserExtendId);
-            }
-            //释放数据库连接
-            JdbcUtils.releaseConnection();
+        }
+        //如果查询条件中，有查询数据库选项，则调用查询数据库sql，执行sql
+        if(query.containsValue("dbsql")){
+            Set set=query.entrySet();
+            Iterator it=set.iterator();
+            while(it.hasNext()) {
+                Map.Entry entry=(Map.Entry)it.next();
+                if(entry.getValue().equals("dbsql")) {
+                    query=SqlUtils.getSql(entry.getKey().toString(),query);
+                }
+                }
         }
         //数据准备好，正式发送请求
         Response response = given().log().all().formParams(query)
