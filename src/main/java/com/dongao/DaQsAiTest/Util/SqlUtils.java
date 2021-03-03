@@ -12,6 +12,7 @@ import java.util.HashMap;
 public class SqlUtils {
     private static String sql;
     public static HashMap getSql(String sqlLabel, HashMap query) throws SQLException {
+        //更新userExtendId
         if(sqlLabel.equals("userExtendId")) {
             sql = "SELECT qsue.id FROM ei_qs_study.qs_study_user_extend AS qsue\n" +
                     "WHERE qsue.is_valid = 1 \n" +
@@ -47,7 +48,7 @@ public class SqlUtils {
                 query.put("encourageUserExtendId", queryuserExtendId);
             }
         }
-
+        //删除评价
         if(sqlLabel.equals("content")){
             sql="delete  from ei_qs_solve.qs_solve_solve_detail_reply_comment where reply_id="+query.get("replyId");
             JdbcUtils.otherquery(sql);
