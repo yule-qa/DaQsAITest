@@ -11,8 +11,16 @@ import java.util.List;
 public class CaseYamlStepDto {
     public String api;
     public String action;
+    public String db;
     public HashMap<String,String> params;
     public HashMap<String,String> assertparams;
+    public String getDb() {
+        return db;
+    }
+
+    public void setDb(String db) {
+        this.db = db;
+    }
 
     public String getApi() {
         return api;
