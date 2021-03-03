@@ -4,11 +4,9 @@ import com.dongao.DaQsAiTest.Util.JdbcUtils;
 import com.dongao.DaQsAiTest.Util.SqlUtils;
 import io.restassured.response.Response;
 
+import java.io.IOException;
 import java.sql.*;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 import static io.restassured.RestAssured.given;
 
@@ -45,7 +43,6 @@ public class ApiObjectActionModel {
     }
 
     public Response run(HashMap query) throws SQLException {
-        String queryuserExtendId=null;
         String url = "";
         String method = "get";
         if (post != null) {
@@ -56,8 +53,26 @@ public class ApiObjectActionModel {
             url = get;
             method = "get";
         }
-        //读取配置文件，获得域名与ip对应关系，在此替换 ,这里解决多环境问题
-//        url=url.replaceAll("domain","ip");
+        /**
+         * 读取配置文件，替换配置文件，在此替换 ,这里解决多环境问题
+         */
+        try {
+            EnvModel evnList = EnvModel.load("src/main/resources/com.dongao.DaQsAiTest/common/env.yaml");
+            String currentEnv=System.getProperty("env");
+            //测试环境
+            if(!"".equals(currentEnv) && "test".equals(currentEnv)){
+                url=evnList.getTest()+url.substring(url.indexOf(".com")+4);
+            //开发环境
+            }else if(!"".equals(currentEnv) && "prod".equals(currentEnv)){
+                url=evnList.getProd()+url.substring(url.indexOf(".com")+4);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        /**
+         * 准备query
+         */
         if(query.containsKey("userExtendId") && query.containsKey("userId")) {
             //调用数据库,更新userExtendId
             sqllable="userExtendId";
@@ -75,7 +90,9 @@ public class ApiObjectActionModel {
                 }
                 }
         }
-        //数据准备好，正式发送请求
+        /**
+         * 数据准备好，正式发送请求
+         */
         Response response = given().log().all().formParams(query)
                 .contentType("application/x-www-form-urlencoded;charset=utf-8")
                 .request(method, url)//发送请求

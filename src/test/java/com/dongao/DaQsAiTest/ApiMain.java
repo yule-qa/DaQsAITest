@@ -1,7 +1,6 @@
 package com.dongao.DaQsAiTest;
 
 import org.junit.platform.engine.discovery.ClassNameFilter;
-import org.junit.platform.engine.discovery.DiscoverySelectors;
 import org.junit.platform.launcher.Launcher;
 import org.junit.platform.launcher.LauncherDiscoveryRequest;
 import org.junit.platform.launcher.TestPlan;
@@ -10,13 +9,17 @@ import org.junit.platform.launcher.core.LauncherFactory;
 import org.junit.platform.launcher.listeners.SummaryGeneratingListener;
 import org.junit.platform.launcher.listeners.TestExecutionSummary;
 
+import static org.junit.platform.engine.discovery.DiscoverySelectors.selectClass;
+import static org.junit.platform.engine.discovery.DiscoverySelectors.selectPackage;
+
+
 public class ApiMain {
     public static void main(String[] args){
         //junit-platform-launcher这个jar包，必须1.6.0才能正确运行
         LauncherDiscoveryRequest request = LauncherDiscoveryRequestBuilder.request()
                 .selectors(
-                        DiscoverySelectors.selectPackage("DaQsAiTest"),
-                        DiscoverySelectors.selectClass(ApiDDTest.class)
+                        selectPackage("DaQsAiTest"),
+                        selectClass(ApiDDTest.class)
                 ).filters(
                         ClassNameFilter.includeClassNamePatterns(".*Test")
                 )

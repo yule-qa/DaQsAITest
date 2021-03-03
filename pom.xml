@@ -155,6 +155,7 @@
     </dependencies>
 
     <build>
+        <sourceDirectory>src/main/java</sourceDirectory>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -203,7 +204,7 @@
                             <archive>
                                 <manifest>
                                     <mainClass>
-                                        com.dongao.DaQsAiTest.ApiMain
+                                        src.test.java.com.dongao.DaQsAiTest.ApiMain
                                     </mainClass>
                                 </manifest>
                             </archive>
@@ -214,6 +215,7 @@
                     </execution>
                 </executions>
             </plugin>
+
         </plugins>
     </build>
 

@@ -4550,3 +4550,2591 @@
 2021-03-03 13:15:15 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_replyComment_submitComment断言完毕！！
  返回消息体code-----0
 2021-03-03 13:15:15 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 13:48:44 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_study_startStudyQues断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:48:44 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_study_startStudyQues断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:48:45 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_study_startStudyQues断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 13:48:45 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_study_index断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:48:45 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_study_index断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:48:45 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_study_index断言完毕！！
+ 期待obj返回消息体3
+ 实际obj返回消息体3
+2021-03-03 13:48:46 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_study_getTodayLecture断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:48:46 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_study_getTodayLecture断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:48:46 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_study_getTodayLecture断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 13:48:46 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_study_systemStatus断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:48:46 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_study_systemStatus断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:48:46 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_study_systemStatus断言完毕！！
+ 期待obj返回消息体9
+ 实际obj返回消息体9
+2021-03-03 13:48:48 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_study_shareStudyReport断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:48:48 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_study_shareStudyReport断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:48:48 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_study_shareStudyReport断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 13:48:48 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_study_startStudyAnswer断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:48:48 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_study_startStudyAnswer断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:48:48 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_study_startStudyAnswer断言完毕！！
+ 期待obj返回消息体2
+ 实际obj返回消息体2
+2021-03-03 13:48:49 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_courseTimeConfig断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:48:49 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_courseTimeConfig断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:48:49 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_course_courseTimeConfig断言完毕！！
+ 期待obj返回消息体2
+ 实际obj返回消息体2
+2021-03-03 13:48:49 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_resetRoomUserStatus断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:48:49 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_resetRoomUserStatus断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:48:49 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 13:48:50 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_courseByKpId断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:48:50 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_courseByKpId断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:48:50 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_course_courseByKpId断言完毕！！
+ 期待obj返回消息体8
+ 实际obj返回消息体8
+2021-03-03 13:48:50 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_courseByLectureId断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:48:50 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_courseByLectureId断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:48:50 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_course_courseByLectureId断言完毕！！
+ 期待obj返回消息体7
+ 实际obj返回消息体7
+2021-03-03 13:48:50 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_teacherListByLectureId断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:48:50 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_teacherListByLectureId断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:48:50 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_course_teacherListByLectureId断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 13:48:50 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_doShareRoom断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:48:50 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_doShareRoom断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:48:50 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 13:48:51 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_submitTimeConfigAnswer断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:48:51 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_submitTimeConfigAnswer断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:48:51 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 13:48:51 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_genUserSign断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:48:51 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_genUserSign断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:48:51 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_course_genUserSign断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 13:48:51 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_getLecturePlayInfoByRoomId断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:48:51 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_getLecturePlayInfoByRoomId断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:48:51 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_course_getLecturePlayInfoByRoomId断言完毕！！
+ 期待obj返回消息体19
+ 实际obj返回消息体19
+2021-03-03 13:48:52 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_lectureVideoInfo断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:48:52 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_lectureVideoInfo断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:48:52 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_course_lectureVideoInfo断言完毕！！
+ 期待obj返回消息体6
+ 实际obj返回消息体6
+2021-03-03 13:48:52 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_kpCardByLectureId断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:48:52 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_kpCardByLectureId断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:48:52 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_course_kpCardByLectureId断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 13:48:54 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_roomListByLectureIds断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:48:54 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_roomListByLectureIds断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:48:54 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_course_roomListByLectureIds断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 13:48:54 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_courseHandoutByLectureId断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:48:54 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_courseHandoutByLectureId断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:48:54 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_course_courseHandoutByLectureId断言完毕！！
+ 期待obj返回消息体7
+ 实际obj返回消息体7
+2021-03-03 13:48:54 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_syncTimeConfig断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:48:54 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_syncTimeConfig断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:48:54 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 13:48:55 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_syncCourseRecord断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:48:55 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_syncCourseRecord断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:48:55 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 13:48:57 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_createRoom断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:48:57 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_createRoom断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:48:57 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_course_createRoom断言完毕！！
+ 期待obj返回消息体6
+ 实际obj返回消息体6
+2021-03-03 13:48:57 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_lectureVideoInfoWithLog断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:48:57 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_lectureVideoInfoWithLog断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:48:57 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_course_lectureVideoInfoWithLog断言完毕！！
+ 期待obj返回消息体4
+ 实际obj返回消息体4
+2021-03-03 13:48:59 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_solve_solveDetail断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:48:59 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_solve_solveDetail断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:48:59 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_solve_solveDetail断言完毕！！
+ 期待obj返回消息体9
+ 实际obj返回消息体9
+2021-03-03 13:48:59 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_solve_askAndReplyList断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:48:59 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_solve_askAndReplyList断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:48:59 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_solve_askAndReplyList断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 13:49:00 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_solve_saveAskQuestion断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:00 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_solve_saveAskQuestion断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:00 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 13:49:00 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_solve_saveAgainAskQuestion断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:00 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_solve_saveAgainAskQuestion断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:00 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 13:49:00 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_solve_getReplyExpireMsg断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:00 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_solve_getReplyExpireMsg断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:00 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_solve_getReplyExpireMsg断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 13:49:00 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_solve_saveSolveDetail断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:00 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_solve_saveSolveDetail断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:00 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 13:49:01 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_solve_myAnswerList断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:01 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_solve_myAnswerList断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:01 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_solve_myAnswerList断言完毕！！
+ 期待obj返回消息体5
+ 实际obj返回消息体5
+2021-03-03 13:49:01 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_solve_cancelSolve断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:01 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_solve_cancelSolve断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:01 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_solve_cancelSolve断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 13:49:01 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_solve_leftAskNum断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:01 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_solve_leftAskNum断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:01 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_solve_leftAskNum断言完毕！！
+ 期待obj返回消息体3
+ 实际obj返回消息体3
+2021-03-03 13:49:02 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_curriculum_dayList断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:02 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_curriculum_dayList断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:02 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_curriculum_dayList断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 13:49:02 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_shop_prizeExchange断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:02 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_shop_prizeExchange断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:02 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_shop_prizeExchange断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 13:49:03 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_shop_index断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:03 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_shop_index断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:03 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_shop_index断言完毕！！
+ 期待obj返回消息体4
+ 实际obj返回消息体4
+2021-03-03 13:49:04 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_activation_completeActivation断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:04 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_activation_completeActivation断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:04 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_activation_completeActivation断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 13:49:05 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_activation_questionsAndAnswers断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:05 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_activation_questionsAndAnswers断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:05 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_activation_questionsAndAnswers断言完毕！！
+ 期待obj返回消息体3
+ 实际obj返回消息体3
+2021-03-03 13:49:07 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_activation_shareLearnPlan断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:07 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_activation_shareLearnPlan断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:08 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_activation_normalMode断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:08 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_activation_normalMode断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:08 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_activation_normalMode断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 13:49:08 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_activation_submitQues断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:08 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_activation_submitQues断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:08 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_activation_submitQues断言完毕！！
+ 期待obj返回消息体4
+ 实际obj返回消息体4
+2021-03-03 13:49:08 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_activation_renewActivation断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:08 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_activation_renewActivation断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:08 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_activation_renewActivation断言完毕！！
+ 期待obj返回消息体0
+ 实际obj返回消息体0
+2021-03-03 13:49:08 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_activation_cancelQues断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:08 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_activation_cancelQues断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:08 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_activation_cancelQues断言完毕！！
+ 期待obj返回消息体0
+ 实际obj返回消息体0
+2021-03-03 13:49:08 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_knowledgePoint_syncKpVoiceRecord断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:08 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_knowledgePoint_syncKpVoiceRecord断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:08 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 13:49:09 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_knowledgePoint_selfModeKpList断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:09 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_knowledgePoint_selfModeKpList断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:09 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_knowledgePoint_selfModeKpList断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 13:49:09 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_knowledgePoint_unlockKpList断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:09 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_knowledgePoint_unlockKpList断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:09 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_knowledgePoint_unlockKpList断言完毕！！
+ 期待obj返回消息体3
+ 实际obj返回消息体3
+2021-03-03 13:49:09 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_knowledgePoint_selfModeChooseKp断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:09 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_knowledgePoint_selfModeChooseKp断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:09 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 13:49:09 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_knowledgePoint_genKpListByMode断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:09 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_knowledgePoint_genKpListByMode断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:09 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_knowledgePoint_genKpListByMode断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 13:49:10 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_knowledgePoint_kpDetailListByKpIds断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:10 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_knowledgePoint_kpDetailListByKpIds断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:10 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_knowledgePoint_kpDetailListByKpIds断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 13:49:10 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_knowledgePoint_getKpVedioByKpId断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:10 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_knowledgePoint_getKpVedioByKpId断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:10 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_knowledgePoint_getKpVedioByKpId断言完毕！！
+ 期待obj返回消息体2
+ 实际obj返回消息体2
+2021-03-03 13:49:10 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_knowledgePoint_kpNoteByUserId断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:10 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_knowledgePoint_kpNoteByUserId断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:10 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 13:49:10 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_solveDetailCollection_collectionStatus断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:10 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_solveDetailCollection_collectionStatus断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:10 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 13:49:10 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_solveDetailCollection_collectionStatus断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:10 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_solveDetailCollection_collectionStatus断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:10 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 13:49:11 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_solveDetailCollection_myCollection断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:11 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_solveDetailCollection_myCollection断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:11 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_solveDetailCollection_myCollection断言完毕！！
+ 期待obj返回消息体5
+ 实际obj返回消息体5
+2021-03-03 13:49:11 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_task_index断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:11 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_task_index断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:11 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_task_index断言完毕！！
+ 期待obj返回消息体2
+ 实际obj返回消息体2
+2021-03-03 13:49:11 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_task_creditDetails断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:11 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_task_creditDetails断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:11 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_task_creditDetails断言完毕！！
+ 期待obj返回消息体5
+ 实际obj返回消息体5
+2021-03-03 13:49:12 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_class_index断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:12 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_class_index断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:12 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_class_index断言完毕！！
+ 期待obj返回消息体4
+ 实际obj返回消息体4
+2021-03-03 13:49:13 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_class_personData断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:13 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_class_personData断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:13 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_class_personData断言完毕！！
+ 期待obj返回消息体10
+ 实际obj返回消息体10
+2021-03-03 13:49:13 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_class_classDetail_classData断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:13 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_class_classDetail_classData断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:13 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_class_classDetail_classData断言完毕！！
+ 期待obj返回消息体5
+ 实际obj返回消息体5
+2021-03-03 13:49:13 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_class_classDetail_classReport断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:13 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_class_classDetail_classReport断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:13 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_class_classDetail_classReport断言完毕！！
+ 期待obj返回消息体8
+ 实际obj返回消息体8
+2021-03-03 13:49:14 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_class_classDetail_classRank断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:14 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_class_classDetail_classRank断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:14 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_class_classDetail_classRank断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 13:49:15 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_class_encourage断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:15 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_class_encourage断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:15 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 13:49:15 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_removeWrongQuesByUser断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:15 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_removeWrongQuesByUser断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:15 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_exam_removeWrongQuesByUser断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 13:49:15 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_paperRecordList断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:15 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_paperRecordList断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:15 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_exam_paperRecordList断言完毕！！
+ 期待obj返回消息体5
+ 实际obj返回消息体5
+2021-03-03 13:49:15 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_wrongQuesByKp断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:15 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_wrongQuesByKp断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:15 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_exam_wrongQuesByKp断言完毕！！
+ 期待obj返回消息体2
+ 实际obj返回消息体2
+2021-03-03 13:49:16 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_smartGoToExam断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:16 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_smartGoToExam断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:16 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_exam_smartGoToExam断言完毕！！
+ 期待obj返回消息体5
+ 实际obj返回消息体5
+2021-03-03 13:49:16 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_cacheAnswer断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:16 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_cacheAnswer断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:16 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 13:49:18 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_correctionTypeList断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:18 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_correctionTypeList断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:18 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_exam_correctionTypeList断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 13:49:18 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_subjectListByUserExtendId断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:18 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_subjectListByUserExtendId断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:18 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_exam_subjectListByUserExtendId断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 13:49:18 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_getVideoPlayInfo断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:18 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_getVideoPlayInfo断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:18 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_exam_getVideoPlayInfo断言完毕！！
+ 期待obj返回消息体4
+ 实际obj返回消息体4
+2021-03-03 13:49:19 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_collectQues断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:19 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_collectQues断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:19 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 13:49:19 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_unCollectQues断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:19 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_unCollectQues断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:19 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 13:49:19 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_examIndex断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:19 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_examIndex断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:19 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_exam_examIndex断言完毕！！
+ 期待obj返回消息体5
+ 实际obj返回消息体5
+2021-03-03 13:49:20 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_smartExam断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:20 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_smartExam断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:20 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_exam_smartExam断言完毕！！
+ 期待obj返回消息体3
+ 实际obj返回消息体3
+2021-03-03 13:49:20 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_wrongQuesByQuesType断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:20 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_wrongQuesByQuesType断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:20 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_exam_wrongQuesByQuesType断言完毕！！
+ 期待obj返回消息体2
+ 实际obj返回消息体2
+2021-03-03 13:49:21 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_examAnalysis断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:21 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_examAnalysis断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:21 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_exam_examAnalysis断言完毕！！
+ 期待obj返回消息体2
+ 实际obj返回消息体2
+2021-03-03 13:49:21 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_wrongQuesDetail断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:21 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_wrongQuesDetail断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:21 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_exam_wrongQuesDetail断言完毕！！
+ 期待obj返回消息体5
+ 实际obj返回消息体5
+2021-03-03 13:49:21 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_recordView断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:21 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_recordView断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:21 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_exam_recordView断言完毕！！
+ 期待obj返回消息体15
+ 实际obj返回消息体15
+2021-03-03 13:49:21 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_collectQues断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:21 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_collectQues断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:21 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 13:49:22 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_unCollectQues断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:22 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_unCollectQues断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:22 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 13:49:22 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_goToExam断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:22 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_goToExam断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:22 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_exam_goToExam断言完毕！！
+ 期待obj返回消息体5
+ 实际obj返回消息体5
+2021-03-03 13:49:22 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_paperListByPaperType断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:22 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_paperListByPaperType断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:22 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_exam_paperListByPaperType断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 13:49:23 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_questionInfo断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:23 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_questionInfo断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:23 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_exam_questionInfo断言完毕！！
+ 期待obj返回消息体2
+ 实际obj返回消息体2
+2021-03-03 13:49:23 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_commentLable_commentLableList断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:23 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_commentLable_commentLableList断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:23 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_commentLable_commentLableList断言完毕！！
+ 期待obj返回消息体2
+ 实际obj返回消息体2
+2021-03-03 13:49:23 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_setting_learnProgress断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:23 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_setting_learnProgress断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:23 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_setting_learnProgress断言完毕！！
+ 期待obj返回消息体2
+ 实际obj返回消息体2
+2021-03-03 13:49:23 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_setting_learnPlanSwitch断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:23 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_setting_learnPlanSwitch断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:23 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_setting_learnPlanSwitch断言完毕！！
+ 期待obj返回消息体2
+ 实际obj返回消息体2
+2021-03-03 13:49:24 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_setting_switchTeacher断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:24 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_setting_switchTeacher断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:24 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_setting_switchTeacher断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 13:49:24 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_setting_classSwitch断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:24 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_setting_classSwitch断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:24 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_setting_classSwitch断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 13:49:25 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_setting_learnPlanSwitchSubmit断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:25 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_setting_learnPlanSwitchSubmit断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:25 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 13:49:25 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_setting_learnTime断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:25 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_setting_learnTime断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:25 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_setting_learnTime断言完毕！！
+ 期待obj返回消息体3
+ 实际obj返回消息体3
+2021-03-03 13:49:26 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_setting_learnCycleSubmit断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:26 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_setting_learnCycleSubmit断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:26 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 13:49:26 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_setting_learnMethodSubmit断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:26 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_setting_learnMethodSubmit断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:26 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 13:49:26 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_setting_restCycleSubmit断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:26 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_setting_restCycleSubmit断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:26 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 13:49:27 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_setting_learnMethod断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:27 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_setting_learnMethod断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:27 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_setting_learnMethod断言完毕！！
+ 期待obj返回消息体3
+ 实际obj返回消息体3
+2021-03-03 13:49:27 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_setting_index断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:27 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_setting_index断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:27 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_setting_index断言完毕！！
+ 期待obj返回消息体2
+ 实际obj返回消息体2
+2021-03-03 13:49:27 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_setting_autoCache断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:27 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_setting_autoCache断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:27 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_setting_autoCache断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 13:49:29 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_setting_switchTeacherSubmit断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:29 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_setting_switchTeacherSubmit断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:29 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 13:49:29 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_setting_classSwitchSubmit断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:29 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_setting_classSwitchSubmit断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:29 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 13:49:30 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_setting_learnProgressSubmit断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:30 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_setting_learnProgressSubmit断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:30 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 13:49:31 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_replyComment_getCommentView断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:31 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_replyComment_getCommentView断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:31 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_replyComment_getCommentView断言完毕！！
+ 期待obj返回消息体4
+ 实际obj返回消息体4
+2021-03-03 13:49:32 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_replyComment_submitComment断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:32 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_replyComment_submitComment断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:32 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 13:49:32 INFO  ApiTestCaseModel:63 - 测试用例qs_V2_study_startStudyQues断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:32 INFO  ApiTestCaseModel:66 - 测试用例qs_V2_study_startStudyQues断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:32 INFO  ApiTestCaseModel:72 - 测试用例qs_V2_study_startStudyQues断言完毕！！
+ 期待obj返回消息体2
+ 实际obj返回消息体2
+2021-03-03 13:49:37 INFO  ApiTestCaseModel:63 - 测试用例qs_V2_course_courseByLectureId断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:37 INFO  ApiTestCaseModel:66 - 测试用例qs_V2_course_courseByLectureId断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:37 INFO  ApiTestCaseModel:72 - 测试用例qs_V2_course_courseByLectureId断言完毕！！
+ 期待obj返回消息体7
+ 实际obj返回消息体7
+2021-03-03 13:49:37 INFO  ApiTestCaseModel:63 - 测试用例qs_V2_activation_submitQues断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:37 INFO  ApiTestCaseModel:66 - 测试用例qs_V2_activation_submitQues断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:37 INFO  ApiTestCaseModel:72 - 测试用例qs_V2_activation_submitQues断言完毕！！
+ 期待obj返回消息体4
+ 实际obj返回消息体4
+2021-03-03 13:49:38 INFO  ApiTestCaseModel:63 - 测试用例qs_V2_activation_questionsAndAnswers断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:38 INFO  ApiTestCaseModel:66 - 测试用例qs_V2_activation_questionsAndAnswers断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:38 INFO  ApiTestCaseModel:72 - 测试用例qs_V2_activation_questionsAndAnswers断言完毕！！
+ 期待obj返回消息体3
+ 实际obj返回消息体3
+2021-03-03 13:49:38 INFO  ApiTestCaseModel:63 - 测试用例qs_V2_knowledgePoint_unlockKpList断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:38 INFO  ApiTestCaseModel:66 - 测试用例qs_V2_knowledgePoint_unlockKpList断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:38 INFO  ApiTestCaseModel:72 - 测试用例qs_V2_knowledgePoint_unlockKpList断言完毕！！
+ 期待obj返回消息体3
+ 实际obj返回消息体3
+2021-03-03 13:49:38 INFO  ApiTestCaseModel:63 - 测试用例qs_V2_knowledgePoint_kpDetailListByKpIds断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:38 INFO  ApiTestCaseModel:66 - 测试用例qs_V2_knowledgePoint_kpDetailListByKpIds断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:38 INFO  ApiTestCaseModel:72 - 测试用例qs_V2_knowledgePoint_kpDetailListByKpIds断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 13:49:39 INFO  ApiTestCaseModel:63 - 测试用例qs_V2_class_index断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:39 INFO  ApiTestCaseModel:66 - 测试用例qs_V2_class_index断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:39 INFO  ApiTestCaseModel:72 - 测试用例qs_V2_class_index断言完毕！！
+ 期待obj返回消息体4
+ 实际obj返回消息体4
+2021-03-03 13:49:42 INFO  ApiTestCaseModel:63 - 测试用例qs_V2_exam_recordView断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:42 INFO  ApiTestCaseModel:66 - 测试用例qs_V2_exam_recordView断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:42 INFO  ApiTestCaseModel:72 - 测试用例qs_V2_exam_recordView断言完毕！！
+ 期待obj返回消息体15
+ 实际obj返回消息体15
+2021-03-03 13:49:43 INFO  ApiTestCaseModel:63 - 测试用例qs_V2_exam_goToExam断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:43 INFO  ApiTestCaseModel:66 - 测试用例qs_V2_exam_goToExam断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:43 INFO  ApiTestCaseModel:72 - 测试用例qs_V2_exam_goToExam断言完毕！！
+ 期待obj返回消息体5
+ 实际obj返回消息体5
+2021-03-03 13:49:43 INFO  ApiTestCaseModel:63 - 测试用例qs_V2_setting_switchTeacher断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:43 INFO  ApiTestCaseModel:66 - 测试用例qs_V2_setting_switchTeacher断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:43 INFO  ApiTestCaseModel:72 - 测试用例qs_V2_setting_switchTeacher断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 13:49:43 INFO  ApiTestCaseModel:63 - 测试用例qs_V3_study_updateStudyStatusAndChatRecord断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:43 INFO  ApiTestCaseModel:66 - 测试用例qs_V3_study_updateStudyStatusAndChatRecord断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:43 INFO  ApiTestCaseModel:72 - 测试用例qs_V3_study_updateStudyStatusAndChatRecord断言完毕！！
+ 期待obj返回消息体0
+ 实际obj返回消息体0
+2021-03-03 13:49:43 INFO  ApiTestCaseModel:63 - 测试用例qs_V3_study_startStudyQues断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:43 INFO  ApiTestCaseModel:66 - 测试用例qs_V3_study_startStudyQues断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:43 INFO  ApiTestCaseModel:72 - 测试用例qs_V3_study_startStudyQues断言完毕！！
+ 期待obj返回消息体2
+ 实际obj返回消息体2
+2021-03-03 13:49:44 INFO  ApiTestCaseModel:63 - 测试用例qs_V3_study_startStudyAnswer断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:44 INFO  ApiTestCaseModel:66 - 测试用例qs_V3_study_startStudyAnswer断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:44 INFO  ApiTestCaseModel:72 - 测试用例qs_V3_study_startStudyAnswer断言完毕！！
+ 期待obj返回消息体2
+ 实际obj返回消息体2
+2021-03-03 13:49:44 INFO  ApiTestCaseModel:63 - 测试用例qs_V3_study_index断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:44 INFO  ApiTestCaseModel:66 - 测试用例qs_V3_study_index断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:44 INFO  ApiTestCaseModel:72 - 测试用例qs_V3_study_index断言完毕！！
+ 期待obj返回消息体3
+ 实际obj返回消息体3
+2021-03-03 13:49:44 INFO  ApiTestCaseModel:63 - 测试用例qs_V3_curriculum_classSchedule断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:44 INFO  ApiTestCaseModel:66 - 测试用例qs_V3_curriculum_classSchedule断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:44 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 13:49:44 INFO  ApiTestCaseModel:63 - 测试用例qs_V3_curriculum_dayList断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:44 INFO  ApiTestCaseModel:66 - 测试用例qs_V3_curriculum_dayList断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:44 INFO  ApiTestCaseModel:72 - 测试用例qs_V3_curriculum_dayList断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 13:49:45 INFO  ApiTestCaseModel:63 - 测试用例qs_V3_marketingMessage_getMarketingMessageDetail断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:45 INFO  ApiTestCaseModel:66 - 测试用例qs_V3_marketingMessage_getMarketingMessageDetail断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:45 INFO  ApiTestCaseModel:72 - 测试用例qs_V3_marketingMessage_getMarketingMessageDetail断言完毕！！
+ 期待obj返回消息体3
+ 实际obj返回消息体3
+2021-03-03 13:49:45 INFO  ApiTestCaseModel:63 - 测试用例qs_V3_shop_redeemNow断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:45 INFO  ApiTestCaseModel:66 - 测试用例qs_V3_shop_redeemNow断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:45 INFO  ApiTestCaseModel:72 - 测试用例qs_V3_shop_redeemNow断言完毕！！
+ 期待obj返回消息体5
+ 实际obj返回消息体5
+2021-03-03 13:49:45 INFO  ApiTestCaseModel:63 - 测试用例qs_V3_shop_index断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:45 INFO  ApiTestCaseModel:66 - 测试用例qs_V3_shop_index断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:45 INFO  ApiTestCaseModel:72 - 测试用例qs_V3_shop_index断言完毕！！
+ 期待obj返回消息体6
+ 实际obj返回消息体6
+2021-03-03 13:49:46 INFO  ApiTestCaseModel:63 - 测试用例qs_V3_shop_redeemRecords断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:46 INFO  ApiTestCaseModel:66 - 测试用例qs_V3_shop_redeemRecords断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:46 INFO  ApiTestCaseModel:63 - 测试用例qs_V3_shop_confirmRedemption断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:46 INFO  ApiTestCaseModel:66 - 测试用例qs_V3_shop_confirmRedemption断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:46 INFO  ApiTestCaseModel:72 - 测试用例qs_V3_shop_confirmRedemption断言完毕！！
+ 期待obj返回消息体3
+ 实际obj返回消息体3
+2021-03-03 13:49:46 INFO  ApiTestCaseModel:63 - 测试用例qs_V3_chatRecord_chatRecordList断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:46 INFO  ApiTestCaseModel:66 - 测试用例qs_V3_chatRecord_chatRecordList断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:46 INFO  ApiTestCaseModel:72 - 测试用例qs_V3_chatRecord_chatRecordList断言完毕！！
+ 期待obj返回消息体5
+ 实际obj返回消息体5
+2021-03-03 13:49:47 INFO  ApiTestCaseModel:63 - 测试用例qs_V3_task_voucherData断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:47 INFO  ApiTestCaseModel:66 - 测试用例qs_V3_task_voucherData断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:47 INFO  ApiTestCaseModel:72 - 测试用例qs_V3_task_voucherData断言完毕！！
+ 期待obj返回消息体6
+ 实际obj返回消息体6
+2021-03-03 13:49:47 INFO  ApiTestCaseModel:63 - 测试用例qs_V3_task_creditData断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:47 INFO  ApiTestCaseModel:66 - 测试用例qs_V3_task_creditData断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:47 INFO  ApiTestCaseModel:72 - 测试用例qs_V3_task_creditData断言完毕！！
+ 期待obj返回消息体6
+ 实际obj返回消息体6
+2021-03-03 13:49:47 INFO  ApiTestCaseModel:63 - 测试用例qs_V3_class_classDetail_classData断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:47 INFO  ApiTestCaseModel:66 - 测试用例qs_V3_class_classDetail_classData断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:49:47 INFO  ApiTestCaseModel:72 - 测试用例qs_V3_class_classDetail_classData断言完毕！！
+ 期待obj返回消息体5
+ 实际obj返回消息体5
+2021-03-03 13:49:48 INFO  ApiTestCaseModel:63 - 测试用例qs_V3_setting_renewActive断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:49:48 INFO  ApiTestCaseModel:66 - 测试用例qs_V3_setting_renewActive断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:31 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_study_startStudyQues断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:31 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_study_startStudyQues断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:31 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_study_startStudyQues断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 15:14:31 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_study_index断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:31 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_study_index断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:31 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_study_index断言完毕！！
+ 期待obj返回消息体3
+ 实际obj返回消息体3
+2021-03-03 15:14:31 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_study_getTodayLecture断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:32 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_study_getTodayLecture断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:32 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_study_getTodayLecture断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 15:14:32 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_study_systemStatus断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:32 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_study_systemStatus断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:32 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_study_systemStatus断言完毕！！
+ 期待obj返回消息体9
+ 实际obj返回消息体9
+2021-03-03 15:14:33 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_study_shareStudyReport断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:33 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_study_shareStudyReport断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:33 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_study_shareStudyReport断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 15:14:33 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_study_startStudyAnswer断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:33 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_study_startStudyAnswer断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:33 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_study_startStudyAnswer断言完毕！！
+ 期待obj返回消息体2
+ 实际obj返回消息体2
+2021-03-03 15:14:34 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_courseTimeConfig断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:34 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_courseTimeConfig断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:34 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_course_courseTimeConfig断言完毕！！
+ 期待obj返回消息体2
+ 实际obj返回消息体2
+2021-03-03 15:14:34 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_resetRoomUserStatus断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:34 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_resetRoomUserStatus断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:34 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 15:14:34 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_courseByKpId断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:34 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_courseByKpId断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:34 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_course_courseByKpId断言完毕！！
+ 期待obj返回消息体8
+ 实际obj返回消息体8
+2021-03-03 15:14:34 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_courseByLectureId断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:34 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_courseByLectureId断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:35 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_course_courseByLectureId断言完毕！！
+ 期待obj返回消息体7
+ 实际obj返回消息体7
+2021-03-03 15:14:35 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_teacherListByLectureId断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:35 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_teacherListByLectureId断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:35 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_course_teacherListByLectureId断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 15:14:35 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_doShareRoom断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:35 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_doShareRoom断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:35 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 15:14:35 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_submitTimeConfigAnswer断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:35 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_submitTimeConfigAnswer断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:35 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 15:14:35 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_genUserSign断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:35 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_genUserSign断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:35 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_course_genUserSign断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 15:14:36 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_getLecturePlayInfoByRoomId断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:36 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_getLecturePlayInfoByRoomId断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:36 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_course_getLecturePlayInfoByRoomId断言完毕！！
+ 期待obj返回消息体19
+ 实际obj返回消息体19
+2021-03-03 15:14:36 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_lectureVideoInfo断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:36 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_lectureVideoInfo断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:36 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_course_lectureVideoInfo断言完毕！！
+ 期待obj返回消息体6
+ 实际obj返回消息体6
+2021-03-03 15:14:36 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_kpCardByLectureId断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:36 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_kpCardByLectureId断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:36 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_course_kpCardByLectureId断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 15:14:36 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_roomListByLectureIds断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:36 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_roomListByLectureIds断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:36 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_course_roomListByLectureIds断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 15:14:37 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_courseHandoutByLectureId断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:37 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_courseHandoutByLectureId断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:37 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_course_courseHandoutByLectureId断言完毕！！
+ 期待obj返回消息体7
+ 实际obj返回消息体7
+2021-03-03 15:14:37 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_syncTimeConfig断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:37 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_syncTimeConfig断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:37 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 15:14:37 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_syncCourseRecord断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:37 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_syncCourseRecord断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:37 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 15:14:40 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_createRoom断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:40 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_createRoom断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:40 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_course_createRoom断言完毕！！
+ 期待obj返回消息体6
+ 实际obj返回消息体6
+2021-03-03 15:14:40 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_lectureVideoInfoWithLog断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:40 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_lectureVideoInfoWithLog断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:40 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_course_lectureVideoInfoWithLog断言完毕！！
+ 期待obj返回消息体4
+ 实际obj返回消息体4
+2021-03-03 15:14:40 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_solve_solveDetail断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:40 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_solve_solveDetail断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:40 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_solve_solveDetail断言完毕！！
+ 期待obj返回消息体9
+ 实际obj返回消息体9
+2021-03-03 15:14:40 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_solve_askAndReplyList断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:40 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_solve_askAndReplyList断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:40 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_solve_askAndReplyList断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 15:14:41 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_solve_saveAskQuestion断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:41 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_solve_saveAskQuestion断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:41 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 15:14:41 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_solve_saveAgainAskQuestion断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:41 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_solve_saveAgainAskQuestion断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:41 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 15:14:41 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_solve_getReplyExpireMsg断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:41 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_solve_getReplyExpireMsg断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:41 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_solve_getReplyExpireMsg断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 15:14:41 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_solve_saveSolveDetail断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:41 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_solve_saveSolveDetail断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:41 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 15:14:42 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_solve_myAnswerList断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:42 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_solve_myAnswerList断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:42 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_solve_myAnswerList断言完毕！！
+ 期待obj返回消息体5
+ 实际obj返回消息体5
+2021-03-03 15:14:42 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_solve_cancelSolve断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:42 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_solve_cancelSolve断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:42 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_solve_cancelSolve断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 15:14:42 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_solve_leftAskNum断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:42 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_solve_leftAskNum断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:42 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_solve_leftAskNum断言完毕！！
+ 期待obj返回消息体3
+ 实际obj返回消息体3
+2021-03-03 15:14:43 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_curriculum_dayList断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:43 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_curriculum_dayList断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:43 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_curriculum_dayList断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 15:14:43 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_shop_prizeExchange断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:43 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_shop_prizeExchange断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:43 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_shop_prizeExchange断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 15:14:43 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_shop_index断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:43 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_shop_index断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:43 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_shop_index断言完毕！！
+ 期待obj返回消息体4
+ 实际obj返回消息体4
+2021-03-03 15:14:45 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_activation_completeActivation断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:45 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_activation_completeActivation断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:45 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_activation_completeActivation断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 15:14:45 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_activation_questionsAndAnswers断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:45 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_activation_questionsAndAnswers断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:45 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_activation_questionsAndAnswers断言完毕！！
+ 期待obj返回消息体3
+ 实际obj返回消息体3
+2021-03-03 15:14:46 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_activation_shareLearnPlan断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:46 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_activation_shareLearnPlan断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:46 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_activation_normalMode断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:46 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_activation_normalMode断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:46 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_activation_normalMode断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 15:14:46 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_activation_submitQues断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:46 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_activation_submitQues断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:46 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_activation_submitQues断言完毕！！
+ 期待obj返回消息体4
+ 实际obj返回消息体4
+2021-03-03 15:14:47 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_activation_renewActivation断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:47 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_activation_renewActivation断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:47 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_activation_renewActivation断言完毕！！
+ 期待obj返回消息体0
+ 实际obj返回消息体0
+2021-03-03 15:14:47 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_activation_cancelQues断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:47 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_activation_cancelQues断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:47 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_activation_cancelQues断言完毕！！
+ 期待obj返回消息体0
+ 实际obj返回消息体0
+2021-03-03 15:14:47 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_knowledgePoint_syncKpVoiceRecord断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:47 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_knowledgePoint_syncKpVoiceRecord断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:47 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 15:14:47 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_knowledgePoint_selfModeKpList断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:47 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_knowledgePoint_selfModeKpList断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:47 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_knowledgePoint_selfModeKpList断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 15:14:48 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_knowledgePoint_unlockKpList断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:48 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_knowledgePoint_unlockKpList断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:48 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_knowledgePoint_unlockKpList断言完毕！！
+ 期待obj返回消息体3
+ 实际obj返回消息体3
+2021-03-03 15:14:48 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_knowledgePoint_selfModeChooseKp断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:48 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_knowledgePoint_selfModeChooseKp断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:48 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 15:14:48 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_knowledgePoint_genKpListByMode断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:48 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_knowledgePoint_genKpListByMode断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:48 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_knowledgePoint_genKpListByMode断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 15:14:48 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_knowledgePoint_kpDetailListByKpIds断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:48 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_knowledgePoint_kpDetailListByKpIds断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:48 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_knowledgePoint_kpDetailListByKpIds断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 15:14:48 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_knowledgePoint_getKpVedioByKpId断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:48 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_knowledgePoint_getKpVedioByKpId断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:49 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_knowledgePoint_getKpVedioByKpId断言完毕！！
+ 期待obj返回消息体2
+ 实际obj返回消息体2
+2021-03-03 15:14:49 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_knowledgePoint_kpNoteByUserId断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:49 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_knowledgePoint_kpNoteByUserId断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:49 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 15:14:49 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_solveDetailCollection_collectionStatus断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:49 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_solveDetailCollection_collectionStatus断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:49 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 15:14:49 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_solveDetailCollection_collectionStatus断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:49 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_solveDetailCollection_collectionStatus断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:49 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 15:14:49 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_solveDetailCollection_myCollection断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:49 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_solveDetailCollection_myCollection断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:49 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_solveDetailCollection_myCollection断言完毕！！
+ 期待obj返回消息体5
+ 实际obj返回消息体5
+2021-03-03 15:14:49 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_task_index断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:49 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_task_index断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:49 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_task_index断言完毕！！
+ 期待obj返回消息体2
+ 实际obj返回消息体2
+2021-03-03 15:14:50 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_task_creditDetails断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:50 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_task_creditDetails断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:50 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_task_creditDetails断言完毕！！
+ 期待obj返回消息体5
+ 实际obj返回消息体5
+2021-03-03 15:14:50 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_class_index断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:50 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_class_index断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:50 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_class_index断言完毕！！
+ 期待obj返回消息体4
+ 实际obj返回消息体4
+2021-03-03 15:14:51 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_class_personData断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:51 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_class_personData断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:51 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_class_personData断言完毕！！
+ 期待obj返回消息体10
+ 实际obj返回消息体10
+2021-03-03 15:14:51 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_class_classDetail_classData断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:51 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_class_classDetail_classData断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:51 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_class_classDetail_classData断言完毕！！
+ 期待obj返回消息体5
+ 实际obj返回消息体5
+2021-03-03 15:14:51 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_class_classDetail_classReport断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:51 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_class_classDetail_classReport断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:51 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_class_classDetail_classReport断言完毕！！
+ 期待obj返回消息体8
+ 实际obj返回消息体8
+2021-03-03 15:14:51 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_class_classDetail_classRank断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:51 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_class_classDetail_classRank断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:51 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_class_classDetail_classRank断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 15:14:52 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_class_encourage断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:52 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_class_encourage断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:52 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 15:14:52 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_removeWrongQuesByUser断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:52 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_removeWrongQuesByUser断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:52 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_exam_removeWrongQuesByUser断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 15:14:52 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_paperRecordList断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:52 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_paperRecordList断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:52 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_exam_paperRecordList断言完毕！！
+ 期待obj返回消息体5
+ 实际obj返回消息体5
+2021-03-03 15:14:52 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_wrongQuesByKp断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:52 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_wrongQuesByKp断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:52 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_exam_wrongQuesByKp断言完毕！！
+ 期待obj返回消息体2
+ 实际obj返回消息体2
+2021-03-03 15:14:53 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_smartGoToExam断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:53 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_smartGoToExam断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:53 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_exam_smartGoToExam断言完毕！！
+ 期待obj返回消息体5
+ 实际obj返回消息体5
+2021-03-03 15:14:53 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_cacheAnswer断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:53 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_cacheAnswer断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:53 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 15:14:54 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_correctionTypeList断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:54 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_correctionTypeList断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:54 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_exam_correctionTypeList断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 15:14:54 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_subjectListByUserExtendId断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:54 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_subjectListByUserExtendId断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:54 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_exam_subjectListByUserExtendId断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 15:14:56 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_getVideoPlayInfo断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:56 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_getVideoPlayInfo断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:56 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_exam_getVideoPlayInfo断言完毕！！
+ 期待obj返回消息体4
+ 实际obj返回消息体4
+2021-03-03 15:14:56 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_collectQues断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:56 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_collectQues断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:56 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 15:14:56 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_unCollectQues断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:56 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_unCollectQues断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:56 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 15:14:56 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_examIndex断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:56 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_examIndex断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:56 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_exam_examIndex断言完毕！！
+ 期待obj返回消息体5
+ 实际obj返回消息体5
+2021-03-03 15:14:57 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_smartExam断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:57 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_smartExam断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:57 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_exam_smartExam断言完毕！！
+ 期待obj返回消息体3
+ 实际obj返回消息体3
+2021-03-03 15:14:57 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_wrongQuesByQuesType断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:57 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_wrongQuesByQuesType断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:57 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_exam_wrongQuesByQuesType断言完毕！！
+ 期待obj返回消息体2
+ 实际obj返回消息体2
+2021-03-03 15:14:57 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_examAnalysis断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:57 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_examAnalysis断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:57 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_exam_examAnalysis断言完毕！！
+ 期待obj返回消息体2
+ 实际obj返回消息体2
+2021-03-03 15:14:58 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_wrongQuesDetail断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:58 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_wrongQuesDetail断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:58 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_exam_wrongQuesDetail断言完毕！！
+ 期待obj返回消息体5
+ 实际obj返回消息体5
+2021-03-03 15:14:58 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_recordView断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:58 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_recordView断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:58 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_exam_recordView断言完毕！！
+ 期待obj返回消息体15
+ 实际obj返回消息体15
+2021-03-03 15:14:58 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_collectQues断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:58 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_collectQues断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:58 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 15:14:58 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_unCollectQues断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:58 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_unCollectQues断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:58 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 15:14:59 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_goToExam断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:59 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_goToExam断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:59 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_exam_goToExam断言完毕！！
+ 期待obj返回消息体5
+ 实际obj返回消息体5
+2021-03-03 15:14:59 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_paperListByPaperType断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:59 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_paperListByPaperType断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:59 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_exam_paperListByPaperType断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 15:14:59 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_questionInfo断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:59 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_questionInfo断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:59 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_exam_questionInfo断言完毕！！
+ 期待obj返回消息体2
+ 实际obj返回消息体2
+2021-03-03 15:14:59 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_commentLable_commentLableList断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:14:59 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_commentLable_commentLableList断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:14:59 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_commentLable_commentLableList断言完毕！！
+ 期待obj返回消息体2
+ 实际obj返回消息体2
+2021-03-03 15:15:00 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_setting_learnProgress断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:15:00 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_setting_learnProgress断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:15:00 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_setting_learnProgress断言完毕！！
+ 期待obj返回消息体2
+ 实际obj返回消息体2
+2021-03-03 15:15:00 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_setting_learnPlanSwitch断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:15:00 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_setting_learnPlanSwitch断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:15:00 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_setting_learnPlanSwitch断言完毕！！
+ 期待obj返回消息体2
+ 实际obj返回消息体2
+2021-03-03 15:15:00 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_setting_switchTeacher断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:15:00 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_setting_switchTeacher断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:15:00 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_setting_switchTeacher断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 15:15:00 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_setting_classSwitch断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:15:00 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_setting_classSwitch断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:15:00 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_setting_classSwitch断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 15:15:01 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_setting_learnPlanSwitchSubmit断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:15:01 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_setting_learnPlanSwitchSubmit断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:15:01 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 15:15:01 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_setting_learnTime断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:15:01 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_setting_learnTime断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:15:01 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_setting_learnTime断言完毕！！
+ 期待obj返回消息体3
+ 实际obj返回消息体3
+2021-03-03 15:15:02 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_setting_learnCycleSubmit断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:15:02 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_setting_learnCycleSubmit断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:15:02 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 15:15:02 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_setting_learnMethodSubmit断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:15:02 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_setting_learnMethodSubmit断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:15:02 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 15:15:03 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_setting_restCycleSubmit断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:15:03 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_setting_restCycleSubmit断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:15:03 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 15:15:03 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_setting_learnMethod断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:15:03 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_setting_learnMethod断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:15:03 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_setting_learnMethod断言完毕！！
+ 期待obj返回消息体3
+ 实际obj返回消息体3
+2021-03-03 15:15:03 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_setting_index断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:15:03 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_setting_index断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:15:03 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_setting_index断言完毕！！
+ 期待obj返回消息体2
+ 实际obj返回消息体2
+2021-03-03 15:15:03 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_setting_autoCache断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:15:03 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_setting_autoCache断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:15:03 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_setting_autoCache断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 15:15:04 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_setting_switchTeacherSubmit断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:15:04 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_setting_switchTeacherSubmit断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:15:04 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 15:15:04 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_setting_classSwitchSubmit断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:15:04 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_setting_classSwitchSubmit断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:15:04 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 15:15:04 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_setting_learnProgressSubmit断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:15:05 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_setting_learnProgressSubmit断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:15:05 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 15:15:05 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_replyComment_getCommentView断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:15:05 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_replyComment_getCommentView断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:15:05 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_replyComment_getCommentView断言完毕！！
+ 期待obj返回消息体4
+ 实际obj返回消息体4
+2021-03-03 15:15:05 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_replyComment_submitComment断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:15:05 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_replyComment_submitComment断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:15:05 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 15:15:05 INFO  ApiTestCaseModel:63 - 测试用例qs_V2_study_startStudyQues断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:15:05 INFO  ApiTestCaseModel:66 - 测试用例qs_V2_study_startStudyQues断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:15:05 INFO  ApiTestCaseModel:72 - 测试用例qs_V2_study_startStudyQues断言完毕！！
+ 期待obj返回消息体2
+ 实际obj返回消息体2
+2021-03-03 15:15:05 INFO  ApiTestCaseModel:63 - 测试用例qs_V2_course_courseByLectureId断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:15:05 INFO  ApiTestCaseModel:66 - 测试用例qs_V2_course_courseByLectureId断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:15:05 INFO  ApiTestCaseModel:72 - 测试用例qs_V2_course_courseByLectureId断言完毕！！
+ 期待obj返回消息体7
+ 实际obj返回消息体7
+2021-03-03 15:15:06 INFO  ApiTestCaseModel:63 - 测试用例qs_V2_activation_submitQues断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:15:06 INFO  ApiTestCaseModel:66 - 测试用例qs_V2_activation_submitQues断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:15:06 INFO  ApiTestCaseModel:72 - 测试用例qs_V2_activation_submitQues断言完毕！！
+ 期待obj返回消息体4
+ 实际obj返回消息体4
+2021-03-03 15:15:06 INFO  ApiTestCaseModel:63 - 测试用例qs_V2_activation_questionsAndAnswers断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:15:06 INFO  ApiTestCaseModel:66 - 测试用例qs_V2_activation_questionsAndAnswers断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:15:06 INFO  ApiTestCaseModel:72 - 测试用例qs_V2_activation_questionsAndAnswers断言完毕！！
+ 期待obj返回消息体3
+ 实际obj返回消息体3
+2021-03-03 15:15:06 INFO  ApiTestCaseModel:63 - 测试用例qs_V2_knowledgePoint_unlockKpList断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:15:06 INFO  ApiTestCaseModel:66 - 测试用例qs_V2_knowledgePoint_unlockKpList断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:15:06 INFO  ApiTestCaseModel:72 - 测试用例qs_V2_knowledgePoint_unlockKpList断言完毕！！
+ 期待obj返回消息体3
+ 实际obj返回消息体3
+2021-03-03 15:15:07 INFO  ApiTestCaseModel:63 - 测试用例qs_V2_knowledgePoint_kpDetailListByKpIds断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:15:07 INFO  ApiTestCaseModel:66 - 测试用例qs_V2_knowledgePoint_kpDetailListByKpIds断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:15:07 INFO  ApiTestCaseModel:72 - 测试用例qs_V2_knowledgePoint_kpDetailListByKpIds断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 15:15:07 INFO  ApiTestCaseModel:63 - 测试用例qs_V2_class_index断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:15:07 INFO  ApiTestCaseModel:66 - 测试用例qs_V2_class_index断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:15:07 INFO  ApiTestCaseModel:72 - 测试用例qs_V2_class_index断言完毕！！
+ 期待obj返回消息体4
+ 实际obj返回消息体4
+2021-03-03 15:15:07 INFO  ApiTestCaseModel:63 - 测试用例qs_V2_exam_recordView断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:15:07 INFO  ApiTestCaseModel:66 - 测试用例qs_V2_exam_recordView断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:15:07 INFO  ApiTestCaseModel:72 - 测试用例qs_V2_exam_recordView断言完毕！！
+ 期待obj返回消息体15
+ 实际obj返回消息体15
+2021-03-03 15:15:08 INFO  ApiTestCaseModel:63 - 测试用例qs_V2_exam_goToExam断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:15:08 INFO  ApiTestCaseModel:66 - 测试用例qs_V2_exam_goToExam断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:15:08 INFO  ApiTestCaseModel:72 - 测试用例qs_V2_exam_goToExam断言完毕！！
+ 期待obj返回消息体5
+ 实际obj返回消息体5
+2021-03-03 15:15:08 INFO  ApiTestCaseModel:63 - 测试用例qs_V2_setting_switchTeacher断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:15:08 INFO  ApiTestCaseModel:66 - 测试用例qs_V2_setting_switchTeacher断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:15:08 INFO  ApiTestCaseModel:72 - 测试用例qs_V2_setting_switchTeacher断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 15:15:08 INFO  ApiTestCaseModel:63 - 测试用例qs_V3_study_updateStudyStatusAndChatRecord断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:15:08 INFO  ApiTestCaseModel:66 - 测试用例qs_V3_study_updateStudyStatusAndChatRecord断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:15:08 INFO  ApiTestCaseModel:72 - 测试用例qs_V3_study_updateStudyStatusAndChatRecord断言完毕！！
+ 期待obj返回消息体0
+ 实际obj返回消息体0
+2021-03-03 15:15:08 INFO  ApiTestCaseModel:63 - 测试用例qs_V3_study_startStudyQues断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:15:08 INFO  ApiTestCaseModel:66 - 测试用例qs_V3_study_startStudyQues断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:15:08 INFO  ApiTestCaseModel:72 - 测试用例qs_V3_study_startStudyQues断言完毕！！
+ 期待obj返回消息体2
+ 实际obj返回消息体2
+2021-03-03 15:15:09 INFO  ApiTestCaseModel:63 - 测试用例qs_V3_study_startStudyAnswer断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:15:09 INFO  ApiTestCaseModel:66 - 测试用例qs_V3_study_startStudyAnswer断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:15:09 INFO  ApiTestCaseModel:72 - 测试用例qs_V3_study_startStudyAnswer断言完毕！！
+ 期待obj返回消息体2
+ 实际obj返回消息体2
+2021-03-03 15:15:09 INFO  ApiTestCaseModel:63 - 测试用例qs_V3_study_index断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:15:09 INFO  ApiTestCaseModel:66 - 测试用例qs_V3_study_index断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:15:09 INFO  ApiTestCaseModel:72 - 测试用例qs_V3_study_index断言完毕！！
+ 期待obj返回消息体3
+ 实际obj返回消息体3
+2021-03-03 15:15:09 INFO  ApiTestCaseModel:63 - 测试用例qs_V3_curriculum_classSchedule断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:15:09 INFO  ApiTestCaseModel:66 - 测试用例qs_V3_curriculum_classSchedule断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:15:09 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 15:15:09 INFO  ApiTestCaseModel:63 - 测试用例qs_V3_curriculum_dayList断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:15:09 INFO  ApiTestCaseModel:66 - 测试用例qs_V3_curriculum_dayList断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:15:09 INFO  ApiTestCaseModel:72 - 测试用例qs_V3_curriculum_dayList断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 15:15:10 INFO  ApiTestCaseModel:63 - 测试用例qs_V3_marketingMessage_getMarketingMessageDetail断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:15:10 INFO  ApiTestCaseModel:66 - 测试用例qs_V3_marketingMessage_getMarketingMessageDetail断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:15:10 INFO  ApiTestCaseModel:72 - 测试用例qs_V3_marketingMessage_getMarketingMessageDetail断言完毕！！
+ 期待obj返回消息体3
+ 实际obj返回消息体3
+2021-03-03 15:15:10 INFO  ApiTestCaseModel:63 - 测试用例qs_V3_shop_redeemNow断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:15:10 INFO  ApiTestCaseModel:66 - 测试用例qs_V3_shop_redeemNow断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:15:10 INFO  ApiTestCaseModel:72 - 测试用例qs_V3_shop_redeemNow断言完毕！！
+ 期待obj返回消息体5
+ 实际obj返回消息体5
+2021-03-03 15:15:10 INFO  ApiTestCaseModel:63 - 测试用例qs_V3_shop_index断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:15:10 INFO  ApiTestCaseModel:66 - 测试用例qs_V3_shop_index断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:15:10 INFO  ApiTestCaseModel:72 - 测试用例qs_V3_shop_index断言完毕！！
+ 期待obj返回消息体6
+ 实际obj返回消息体6
+2021-03-03 15:15:10 INFO  ApiTestCaseModel:63 - 测试用例qs_V3_shop_redeemRecords断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:15:10 INFO  ApiTestCaseModel:66 - 测试用例qs_V3_shop_redeemRecords断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:15:11 INFO  ApiTestCaseModel:63 - 测试用例qs_V3_shop_confirmRedemption断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:15:11 INFO  ApiTestCaseModel:66 - 测试用例qs_V3_shop_confirmRedemption断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:15:11 INFO  ApiTestCaseModel:72 - 测试用例qs_V3_shop_confirmRedemption断言完毕！！
+ 期待obj返回消息体3
+ 实际obj返回消息体3
+2021-03-03 15:15:11 INFO  ApiTestCaseModel:63 - 测试用例qs_V3_chatRecord_chatRecordList断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:15:11 INFO  ApiTestCaseModel:66 - 测试用例qs_V3_chatRecord_chatRecordList断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:15:11 INFO  ApiTestCaseModel:72 - 测试用例qs_V3_chatRecord_chatRecordList断言完毕！！
+ 期待obj返回消息体5
+ 实际obj返回消息体5
+2021-03-03 15:15:12 INFO  ApiTestCaseModel:63 - 测试用例qs_V3_task_voucherData断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:15:12 INFO  ApiTestCaseModel:66 - 测试用例qs_V3_task_voucherData断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:15:12 INFO  ApiTestCaseModel:72 - 测试用例qs_V3_task_voucherData断言完毕！！
+ 期待obj返回消息体6
+ 实际obj返回消息体6
+2021-03-03 15:15:12 INFO  ApiTestCaseModel:63 - 测试用例qs_V3_task_creditData断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:15:12 INFO  ApiTestCaseModel:66 - 测试用例qs_V3_task_creditData断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:15:12 INFO  ApiTestCaseModel:72 - 测试用例qs_V3_task_creditData断言完毕！！
+ 期待obj返回消息体6
+ 实际obj返回消息体6
+2021-03-03 15:15:12 INFO  ApiTestCaseModel:63 - 测试用例qs_V3_class_classDetail_classData断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:15:12 INFO  ApiTestCaseModel:66 - 测试用例qs_V3_class_classDetail_classData断言完毕！！
+ 返回消息体code-----0
+2021-03-03 15:15:12 INFO  ApiTestCaseModel:72 - 测试用例qs_V3_class_classDetail_classData断言完毕！！
+ 期待obj返回消息体5
+ 实际obj返回消息体5
+2021-03-03 15:15:12 INFO  ApiTestCaseModel:63 - 测试用例qs_V3_setting_renewActive断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 15:15:12 INFO  ApiTestCaseModel:66 - 测试用例qs_V3_setting_renewActive断言完毕！！
+ 返回消息体code-----0
+2021-03-03 16:15:36 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_study_startStudyQues断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 16:15:36 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_study_startStudyQues断言完毕！！
+ 返回消息体code-----0
+2021-03-03 16:15:36 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_study_startStudyQues断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 16:15:37 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_study_index断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 16:15:37 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_study_index断言完毕！！
+ 返回消息体code-----0
+2021-03-03 16:15:37 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_study_index断言完毕！！
+ 期待obj返回消息体3
+ 实际obj返回消息体3
+2021-03-03 16:15:37 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_study_getTodayLecture断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 16:15:37 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_study_getTodayLecture断言完毕！！
+ 返回消息体code-----0
+2021-03-03 16:15:37 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_study_getTodayLecture断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 16:15:37 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_study_systemStatus断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 16:15:37 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_study_systemStatus断言完毕！！
+ 返回消息体code-----0
+2021-03-03 16:15:37 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_study_systemStatus断言完毕！！
+ 期待obj返回消息体9
+ 实际obj返回消息体9
+2021-03-03 16:15:38 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_study_shareStudyReport断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 16:15:38 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_study_shareStudyReport断言完毕！！
+ 返回消息体code-----0
+2021-03-03 16:15:38 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_study_shareStudyReport断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 16:15:38 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_study_startStudyAnswer断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 16:15:38 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_study_startStudyAnswer断言完毕！！
+ 返回消息体code-----0
+2021-03-03 16:15:38 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_study_startStudyAnswer断言完毕！！
+ 期待obj返回消息体2
+ 实际obj返回消息体2
+2021-03-03 16:15:39 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_courseTimeConfig断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 16:15:39 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_courseTimeConfig断言完毕！！
+ 返回消息体code-----0
+2021-03-03 16:15:39 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_course_courseTimeConfig断言完毕！！
+ 期待obj返回消息体2
+ 实际obj返回消息体2
+2021-03-03 16:15:39 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_resetRoomUserStatus断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 16:15:39 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_resetRoomUserStatus断言完毕！！
+ 返回消息体code-----0
+2021-03-03 16:15:39 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 16:15:40 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_courseByKpId断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 16:15:40 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_courseByKpId断言完毕！！
+ 返回消息体code-----0
+2021-03-03 16:15:40 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_course_courseByKpId断言完毕！！
+ 期待obj返回消息体8
+ 实际obj返回消息体8
+2021-03-03 16:15:40 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_courseByLectureId断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 16:15:40 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_courseByLectureId断言完毕！！
+ 返回消息体code-----0
+2021-03-03 16:15:40 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_course_courseByLectureId断言完毕！！
+ 期待obj返回消息体7
+ 实际obj返回消息体7
+2021-03-03 16:15:40 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_teacherListByLectureId断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 16:15:40 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_teacherListByLectureId断言完毕！！
+ 返回消息体code-----0
+2021-03-03 16:15:40 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_course_teacherListByLectureId断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 16:15:40 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_doShareRoom断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 16:15:40 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_doShareRoom断言完毕！！
+ 返回消息体code-----0
+2021-03-03 16:15:40 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 16:15:41 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_submitTimeConfigAnswer断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 16:15:41 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_submitTimeConfigAnswer断言完毕！！
+ 返回消息体code-----0
+2021-03-03 16:15:41 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 16:15:41 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_genUserSign断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 16:15:41 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_genUserSign断言完毕！！
+ 返回消息体code-----0
+2021-03-03 16:15:41 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_course_genUserSign断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 16:15:41 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_getLecturePlayInfoByRoomId断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 16:15:41 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_getLecturePlayInfoByRoomId断言完毕！！
+ 返回消息体code-----0
+2021-03-03 16:15:41 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_course_getLecturePlayInfoByRoomId断言完毕！！
+ 期待obj返回消息体19
+ 实际obj返回消息体19
+2021-03-03 16:15:41 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_lectureVideoInfo断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 16:15:41 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_lectureVideoInfo断言完毕！！
+ 返回消息体code-----0
+2021-03-03 16:15:41 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_course_lectureVideoInfo断言完毕！！
+ 期待obj返回消息体6
+ 实际obj返回消息体6
+2021-03-03 16:15:42 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_kpCardByLectureId断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 16:15:42 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_kpCardByLectureId断言完毕！！
+ 返回消息体code-----0
+2021-03-03 16:15:42 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_course_kpCardByLectureId断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 16:15:42 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_roomListByLectureIds断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 16:15:42 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_roomListByLectureIds断言完毕！！
+ 返回消息体code-----0
+2021-03-03 16:15:42 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_course_roomListByLectureIds断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 16:15:42 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_courseHandoutByLectureId断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 16:15:42 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_courseHandoutByLectureId断言完毕！！
+ 返回消息体code-----0
+2021-03-03 16:15:42 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_course_courseHandoutByLectureId断言完毕！！
+ 期待obj返回消息体7
+ 实际obj返回消息体7
+2021-03-03 16:15:42 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_syncTimeConfig断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 16:15:42 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_syncTimeConfig断言完毕！！
+ 返回消息体code-----0
+2021-03-03 16:15:42 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 16:15:43 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_syncCourseRecord断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 16:15:43 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_syncCourseRecord断言完毕！！
+ 返回消息体code-----0
+2021-03-03 16:15:43 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 17:03:46 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_study_startStudyQues断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:03:47 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_study_startStudyQues断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:03:47 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_study_startStudyQues断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 17:03:47 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_study_index断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:03:47 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_study_index断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:03:47 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_study_index断言完毕！！
+ 期待obj返回消息体3
+ 实际obj返回消息体3
+2021-03-03 17:03:47 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_study_getTodayLecture断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:03:47 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_study_getTodayLecture断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:03:47 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_study_getTodayLecture断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 17:03:47 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_study_systemStatus断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:03:47 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_study_systemStatus断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:03:47 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_study_systemStatus断言完毕！！
+ 期待obj返回消息体9
+ 实际obj返回消息体9
+2021-03-03 17:03:48 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_study_shareStudyReport断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:03:48 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_study_shareStudyReport断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:03:48 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_study_shareStudyReport断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 17:03:49 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_study_startStudyAnswer断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:03:49 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_study_startStudyAnswer断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:03:49 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_study_startStudyAnswer断言完毕！！
+ 期待obj返回消息体2
+ 实际obj返回消息体2
+2021-03-03 17:03:49 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_courseTimeConfig断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:03:49 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_courseTimeConfig断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:03:49 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_course_courseTimeConfig断言完毕！！
+ 期待obj返回消息体2
+ 实际obj返回消息体2
+2021-03-03 17:03:49 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_resetRoomUserStatus断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:03:49 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_resetRoomUserStatus断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:03:49 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 17:03:49 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_courseByKpId断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:03:49 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_courseByKpId断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:03:49 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_course_courseByKpId断言完毕！！
+ 期待obj返回消息体8
+ 实际obj返回消息体8
+2021-03-03 17:03:50 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_courseByLectureId断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:03:50 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_courseByLectureId断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:03:50 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_course_courseByLectureId断言完毕！！
+ 期待obj返回消息体7
+ 实际obj返回消息体7
+2021-03-03 17:03:50 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_teacherListByLectureId断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:03:50 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_teacherListByLectureId断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:03:50 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_course_teacherListByLectureId断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 17:03:50 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_doShareRoom断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:03:50 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_doShareRoom断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:03:50 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 17:03:50 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_submitTimeConfigAnswer断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:03:50 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_submitTimeConfigAnswer断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:03:50 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 17:03:50 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_genUserSign断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:03:50 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_genUserSign断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:03:50 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_course_genUserSign断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 17:03:51 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_getLecturePlayInfoByRoomId断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:03:51 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_getLecturePlayInfoByRoomId断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:03:51 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_course_getLecturePlayInfoByRoomId断言完毕！！
+ 期待obj返回消息体19
+ 实际obj返回消息体19
+2021-03-03 17:03:51 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_lectureVideoInfo断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:03:51 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_lectureVideoInfo断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:03:51 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_course_lectureVideoInfo断言完毕！！
+ 期待obj返回消息体6
+ 实际obj返回消息体6
+2021-03-03 17:03:51 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_kpCardByLectureId断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:03:51 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_kpCardByLectureId断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:03:51 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_course_kpCardByLectureId断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 17:03:51 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_roomListByLectureIds断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:03:51 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_roomListByLectureIds断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:03:51 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_course_roomListByLectureIds断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 17:03:52 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_courseHandoutByLectureId断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:03:52 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_courseHandoutByLectureId断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:03:52 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_course_courseHandoutByLectureId断言完毕！！
+ 期待obj返回消息体7
+ 实际obj返回消息体7
+2021-03-03 17:03:52 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_syncTimeConfig断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:03:52 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_syncTimeConfig断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:03:52 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 17:03:52 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_syncCourseRecord断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:03:52 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_syncCourseRecord断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:03:52 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 17:03:54 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_createRoom断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:03:55 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_createRoom断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:03:55 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_course_createRoom断言完毕！！
+ 期待obj返回消息体6
+ 实际obj返回消息体6
+2021-03-03 17:03:55 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_course_lectureVideoInfoWithLog断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:03:55 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_course_lectureVideoInfoWithLog断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:03:55 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_course_lectureVideoInfoWithLog断言完毕！！
+ 期待obj返回消息体4
+ 实际obj返回消息体4
+2021-03-03 17:03:55 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_solve_solveDetail断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:03:55 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_solve_solveDetail断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:03:55 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_solve_solveDetail断言完毕！！
+ 期待obj返回消息体9
+ 实际obj返回消息体9
+2021-03-03 17:03:55 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_solve_askAndReplyList断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:03:55 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_solve_askAndReplyList断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:03:55 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_solve_askAndReplyList断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 17:03:55 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_solve_saveAskQuestion断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:03:55 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_solve_saveAskQuestion断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:03:55 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 17:03:56 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_solve_saveAgainAskQuestion断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:03:56 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_solve_saveAgainAskQuestion断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:03:56 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 17:03:56 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_solve_getReplyExpireMsg断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:03:56 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_solve_getReplyExpireMsg断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:03:56 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_solve_getReplyExpireMsg断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 17:03:56 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_solve_saveSolveDetail断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:03:56 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_solve_saveSolveDetail断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:03:56 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 17:03:56 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_solve_myAnswerList断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:03:56 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_solve_myAnswerList断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:03:56 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_solve_myAnswerList断言完毕！！
+ 期待obj返回消息体5
+ 实际obj返回消息体5
+2021-03-03 17:03:56 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_solve_cancelSolve断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:03:56 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_solve_cancelSolve断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:03:56 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_solve_cancelSolve断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 17:03:56 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_solve_leftAskNum断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:03:57 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_solve_leftAskNum断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:03:57 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_solve_leftAskNum断言完毕！！
+ 期待obj返回消息体3
+ 实际obj返回消息体3
+2021-03-03 17:03:57 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_curriculum_dayList断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:03:57 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_curriculum_dayList断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:03:57 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_curriculum_dayList断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 17:03:58 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_shop_prizeExchange断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:03:58 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_shop_prizeExchange断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:03:58 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_shop_prizeExchange断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 17:03:58 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_shop_index断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:03:58 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_shop_index断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:03:58 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_shop_index断言完毕！！
+ 期待obj返回消息体4
+ 实际obj返回消息体4
+2021-03-03 17:03:58 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_activation_completeActivation断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:03:58 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_activation_completeActivation断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:03:58 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_activation_completeActivation断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 17:03:59 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_activation_questionsAndAnswers断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:03:59 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_activation_questionsAndAnswers断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:03:59 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_activation_questionsAndAnswers断言完毕！！
+ 期待obj返回消息体3
+ 实际obj返回消息体3
+2021-03-03 17:04:00 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_activation_shareLearnPlan断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:00 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_activation_shareLearnPlan断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:00 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_activation_normalMode断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:00 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_activation_normalMode断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:00 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_activation_normalMode断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 17:04:00 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_activation_submitQues断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:00 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_activation_submitQues断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:00 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_activation_submitQues断言完毕！！
+ 期待obj返回消息体4
+ 实际obj返回消息体4
+2021-03-03 17:04:00 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_activation_renewActivation断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:00 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_activation_renewActivation断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:00 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_activation_renewActivation断言完毕！！
+ 期待obj返回消息体0
+ 实际obj返回消息体0
+2021-03-03 17:04:00 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_activation_cancelQues断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:00 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_activation_cancelQues断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:00 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_activation_cancelQues断言完毕！！
+ 期待obj返回消息体0
+ 实际obj返回消息体0
+2021-03-03 17:04:01 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_knowledgePoint_syncKpVoiceRecord断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:01 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_knowledgePoint_syncKpVoiceRecord断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:01 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 17:04:01 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_knowledgePoint_selfModeKpList断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:01 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_knowledgePoint_selfModeKpList断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:01 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_knowledgePoint_selfModeKpList断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 17:04:01 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_knowledgePoint_unlockKpList断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:01 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_knowledgePoint_unlockKpList断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:01 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_knowledgePoint_unlockKpList断言完毕！！
+ 期待obj返回消息体3
+ 实际obj返回消息体3
+2021-03-03 17:04:01 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_knowledgePoint_selfModeChooseKp断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:01 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_knowledgePoint_selfModeChooseKp断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:01 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 17:04:02 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_knowledgePoint_genKpListByMode断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:02 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_knowledgePoint_genKpListByMode断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:02 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_knowledgePoint_genKpListByMode断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 17:04:02 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_knowledgePoint_kpDetailListByKpIds断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:02 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_knowledgePoint_kpDetailListByKpIds断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:02 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_knowledgePoint_kpDetailListByKpIds断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 17:04:02 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_knowledgePoint_getKpVedioByKpId断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:02 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_knowledgePoint_getKpVedioByKpId断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:02 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_knowledgePoint_getKpVedioByKpId断言完毕！！
+ 期待obj返回消息体2
+ 实际obj返回消息体2
+2021-03-03 17:04:02 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_knowledgePoint_kpNoteByUserId断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:02 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_knowledgePoint_kpNoteByUserId断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:02 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 17:04:02 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_solveDetailCollection_collectionStatus断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:02 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_solveDetailCollection_collectionStatus断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:02 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 17:04:03 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_solveDetailCollection_collectionStatus断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:03 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_solveDetailCollection_collectionStatus断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:03 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 17:04:03 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_solveDetailCollection_myCollection断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:03 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_solveDetailCollection_myCollection断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:03 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_solveDetailCollection_myCollection断言完毕！！
+ 期待obj返回消息体5
+ 实际obj返回消息体5
+2021-03-03 17:04:03 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_task_index断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:03 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_task_index断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:03 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_task_index断言完毕！！
+ 期待obj返回消息体2
+ 实际obj返回消息体2
+2021-03-03 17:04:03 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_task_creditDetails断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:03 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_task_creditDetails断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:03 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_task_creditDetails断言完毕！！
+ 期待obj返回消息体5
+ 实际obj返回消息体5
+2021-03-03 17:04:04 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_class_index断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:04 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_class_index断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:04 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_class_index断言完毕！！
+ 期待obj返回消息体4
+ 实际obj返回消息体4
+2021-03-03 17:04:04 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_class_personData断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:04 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_class_personData断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:04 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_class_personData断言完毕！！
+ 期待obj返回消息体10
+ 实际obj返回消息体10
+2021-03-03 17:04:04 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_class_classDetail_classData断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:05 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_class_classDetail_classData断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:05 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_class_classDetail_classData断言完毕！！
+ 期待obj返回消息体5
+ 实际obj返回消息体5
+2021-03-03 17:04:05 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_class_classDetail_classReport断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:05 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_class_classDetail_classReport断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:05 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_class_classDetail_classReport断言完毕！！
+ 期待obj返回消息体8
+ 实际obj返回消息体8
+2021-03-03 17:04:05 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_class_classDetail_classRank断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:05 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_class_classDetail_classRank断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:05 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_class_classDetail_classRank断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 17:04:05 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_class_encourage断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:05 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_class_encourage断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:05 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 17:04:05 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_removeWrongQuesByUser断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:05 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_removeWrongQuesByUser断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:05 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_exam_removeWrongQuesByUser断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 17:04:06 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_paperRecordList断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:06 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_paperRecordList断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:06 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_exam_paperRecordList断言完毕！！
+ 期待obj返回消息体5
+ 实际obj返回消息体5
+2021-03-03 17:04:06 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_wrongQuesByKp断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:06 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_wrongQuesByKp断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:06 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_exam_wrongQuesByKp断言完毕！！
+ 期待obj返回消息体2
+ 实际obj返回消息体2
+2021-03-03 17:04:07 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_smartGoToExam断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:07 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_smartGoToExam断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:07 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_exam_smartGoToExam断言完毕！！
+ 期待obj返回消息体5
+ 实际obj返回消息体5
+2021-03-03 17:04:07 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_cacheAnswer断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:07 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_cacheAnswer断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:07 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 17:04:07 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_correctionTypeList断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:07 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_correctionTypeList断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:07 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_exam_correctionTypeList断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 17:04:08 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_subjectListByUserExtendId断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:08 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_subjectListByUserExtendId断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:08 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_exam_subjectListByUserExtendId断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 17:04:08 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_getVideoPlayInfo断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:08 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_getVideoPlayInfo断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:08 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_exam_getVideoPlayInfo断言完毕！！
+ 期待obj返回消息体4
+ 实际obj返回消息体4
+2021-03-03 17:04:08 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_collectQues断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:08 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_collectQues断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:08 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 17:04:08 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_unCollectQues断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:08 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_unCollectQues断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:08 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 17:04:08 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_examIndex断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:08 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_examIndex断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:08 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_exam_examIndex断言完毕！！
+ 期待obj返回消息体5
+ 实际obj返回消息体5
+2021-03-03 17:04:09 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_smartExam断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:09 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_smartExam断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:09 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_exam_smartExam断言完毕！！
+ 期待obj返回消息体3
+ 实际obj返回消息体3
+2021-03-03 17:04:09 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_wrongQuesByQuesType断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:09 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_wrongQuesByQuesType断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:09 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_exam_wrongQuesByQuesType断言完毕！！
+ 期待obj返回消息体2
+ 实际obj返回消息体2
+2021-03-03 17:04:10 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_examAnalysis断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:10 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_examAnalysis断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:10 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_exam_examAnalysis断言完毕！！
+ 期待obj返回消息体2
+ 实际obj返回消息体2
+2021-03-03 17:04:10 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_wrongQuesDetail断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:10 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_wrongQuesDetail断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:10 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_exam_wrongQuesDetail断言完毕！！
+ 期待obj返回消息体5
+ 实际obj返回消息体5
+2021-03-03 17:04:10 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_recordView断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:10 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_recordView断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:10 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_exam_recordView断言完毕！！
+ 期待obj返回消息体15
+ 实际obj返回消息体15
+2021-03-03 17:04:11 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_collectQues断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:11 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_collectQues断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:11 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 17:04:11 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_unCollectQues断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:11 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_unCollectQues断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:11 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 17:04:11 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_goToExam断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:11 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_goToExam断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:11 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_exam_goToExam断言完毕！！
+ 期待obj返回消息体5
+ 实际obj返回消息体5
+2021-03-03 17:04:12 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_paperListByPaperType断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:12 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_paperListByPaperType断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:12 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_exam_paperListByPaperType断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 17:04:12 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_exam_questionInfo断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:12 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_exam_questionInfo断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:12 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_exam_questionInfo断言完毕！！
+ 期待obj返回消息体2
+ 实际obj返回消息体2
+2021-03-03 17:04:12 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_commentLable_commentLableList断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:12 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_commentLable_commentLableList断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:12 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_commentLable_commentLableList断言完毕！！
+ 期待obj返回消息体2
+ 实际obj返回消息体2
+2021-03-03 17:04:12 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_setting_learnProgress断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:12 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_setting_learnProgress断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:12 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_setting_learnProgress断言完毕！！
+ 期待obj返回消息体2
+ 实际obj返回消息体2
+2021-03-03 17:04:12 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_setting_learnPlanSwitch断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:12 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_setting_learnPlanSwitch断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:12 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_setting_learnPlanSwitch断言完毕！！
+ 期待obj返回消息体2
+ 实际obj返回消息体2
+2021-03-03 17:04:13 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_setting_switchTeacher断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:13 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_setting_switchTeacher断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:13 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_setting_switchTeacher断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 17:04:13 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_setting_classSwitch断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:13 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_setting_classSwitch断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:13 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_setting_classSwitch断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 17:04:13 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_setting_learnPlanSwitchSubmit断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:13 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_setting_learnPlanSwitchSubmit断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:13 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 17:04:13 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_setting_learnTime断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:14 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_setting_learnTime断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:14 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_setting_learnTime断言完毕！！
+ 期待obj返回消息体3
+ 实际obj返回消息体3
+2021-03-03 17:04:14 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_setting_learnCycleSubmit断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:14 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_setting_learnCycleSubmit断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:14 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 17:04:14 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_setting_learnMethodSubmit断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:14 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_setting_learnMethodSubmit断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:14 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 17:04:14 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_setting_restCycleSubmit断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:14 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_setting_restCycleSubmit断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:14 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 17:04:14 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_setting_learnMethod断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:14 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_setting_learnMethod断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:14 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_setting_learnMethod断言完毕！！
+ 期待obj返回消息体3
+ 实际obj返回消息体3
+2021-03-03 17:04:15 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_setting_index断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:15 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_setting_index断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:15 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_setting_index断言完毕！！
+ 期待obj返回消息体2
+ 实际obj返回消息体2
+2021-03-03 17:04:15 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_setting_autoCache断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:15 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_setting_autoCache断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:15 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_setting_autoCache断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 17:04:15 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_setting_switchTeacherSubmit断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:15 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_setting_switchTeacherSubmit断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:15 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 17:04:16 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_setting_classSwitchSubmit断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:16 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_setting_classSwitchSubmit断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:16 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 17:04:16 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_setting_learnProgressSubmit断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:16 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_setting_learnProgressSubmit断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:16 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 17:04:16 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_replyComment_getCommentView断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:16 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_replyComment_getCommentView断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:16 INFO  ApiTestCaseModel:72 - 测试用例qs_V1_replyComment_getCommentView断言完毕！！
+ 期待obj返回消息体4
+ 实际obj返回消息体4
+2021-03-03 17:04:16 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_replyComment_submitComment断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:16 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_replyComment_submitComment断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:16 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 17:04:16 INFO  ApiTestCaseModel:63 - 测试用例qs_V2_study_startStudyQues断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:16 INFO  ApiTestCaseModel:66 - 测试用例qs_V2_study_startStudyQues断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:16 INFO  ApiTestCaseModel:72 - 测试用例qs_V2_study_startStudyQues断言完毕！！
+ 期待obj返回消息体2
+ 实际obj返回消息体2
+2021-03-03 17:04:17 INFO  ApiTestCaseModel:63 - 测试用例qs_V2_course_courseByLectureId断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:17 INFO  ApiTestCaseModel:66 - 测试用例qs_V2_course_courseByLectureId断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:17 INFO  ApiTestCaseModel:72 - 测试用例qs_V2_course_courseByLectureId断言完毕！！
+ 期待obj返回消息体7
+ 实际obj返回消息体7
+2021-03-03 17:04:17 INFO  ApiTestCaseModel:63 - 测试用例qs_V2_activation_submitQues断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:17 INFO  ApiTestCaseModel:66 - 测试用例qs_V2_activation_submitQues断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:17 INFO  ApiTestCaseModel:72 - 测试用例qs_V2_activation_submitQues断言完毕！！
+ 期待obj返回消息体4
+ 实际obj返回消息体4
+2021-03-03 17:04:17 INFO  ApiTestCaseModel:63 - 测试用例qs_V2_activation_questionsAndAnswers断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:17 INFO  ApiTestCaseModel:66 - 测试用例qs_V2_activation_questionsAndAnswers断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:17 INFO  ApiTestCaseModel:72 - 测试用例qs_V2_activation_questionsAndAnswers断言完毕！！
+ 期待obj返回消息体3
+ 实际obj返回消息体3
+2021-03-03 17:04:18 INFO  ApiTestCaseModel:63 - 测试用例qs_V2_knowledgePoint_unlockKpList断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:18 INFO  ApiTestCaseModel:66 - 测试用例qs_V2_knowledgePoint_unlockKpList断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:18 INFO  ApiTestCaseModel:72 - 测试用例qs_V2_knowledgePoint_unlockKpList断言完毕！！
+ 期待obj返回消息体3
+ 实际obj返回消息体3
+2021-03-03 17:04:18 INFO  ApiTestCaseModel:63 - 测试用例qs_V2_knowledgePoint_kpDetailListByKpIds断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:18 INFO  ApiTestCaseModel:66 - 测试用例qs_V2_knowledgePoint_kpDetailListByKpIds断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:18 INFO  ApiTestCaseModel:72 - 测试用例qs_V2_knowledgePoint_kpDetailListByKpIds断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 17:04:18 INFO  ApiTestCaseModel:63 - 测试用例qs_V2_class_index断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:18 INFO  ApiTestCaseModel:66 - 测试用例qs_V2_class_index断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:18 INFO  ApiTestCaseModel:72 - 测试用例qs_V2_class_index断言完毕！！
+ 期待obj返回消息体4
+ 实际obj返回消息体4
+2021-03-03 17:04:19 INFO  ApiTestCaseModel:63 - 测试用例qs_V2_exam_recordView断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:19 INFO  ApiTestCaseModel:66 - 测试用例qs_V2_exam_recordView断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:19 INFO  ApiTestCaseModel:72 - 测试用例qs_V2_exam_recordView断言完毕！！
+ 期待obj返回消息体15
+ 实际obj返回消息体15
+2021-03-03 17:04:19 INFO  ApiTestCaseModel:63 - 测试用例qs_V2_exam_goToExam断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:19 INFO  ApiTestCaseModel:66 - 测试用例qs_V2_exam_goToExam断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:19 INFO  ApiTestCaseModel:72 - 测试用例qs_V2_exam_goToExam断言完毕！！
+ 期待obj返回消息体5
+ 实际obj返回消息体5
+2021-03-03 17:04:19 INFO  ApiTestCaseModel:63 - 测试用例qs_V2_setting_switchTeacher断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:19 INFO  ApiTestCaseModel:66 - 测试用例qs_V2_setting_switchTeacher断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:19 INFO  ApiTestCaseModel:72 - 测试用例qs_V2_setting_switchTeacher断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 17:04:19 INFO  ApiTestCaseModel:63 - 测试用例qs_V3_study_updateStudyStatusAndChatRecord断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:19 INFO  ApiTestCaseModel:66 - 测试用例qs_V3_study_updateStudyStatusAndChatRecord断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:19 INFO  ApiTestCaseModel:72 - 测试用例qs_V3_study_updateStudyStatusAndChatRecord断言完毕！！
+ 期待obj返回消息体0
+ 实际obj返回消息体0
+2021-03-03 17:04:20 INFO  ApiTestCaseModel:63 - 测试用例qs_V3_study_startStudyQues断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:20 INFO  ApiTestCaseModel:66 - 测试用例qs_V3_study_startStudyQues断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:20 INFO  ApiTestCaseModel:72 - 测试用例qs_V3_study_startStudyQues断言完毕！！
+ 期待obj返回消息体2
+ 实际obj返回消息体2
+2021-03-03 17:04:20 INFO  ApiTestCaseModel:63 - 测试用例qs_V3_study_startStudyAnswer断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:20 INFO  ApiTestCaseModel:66 - 测试用例qs_V3_study_startStudyAnswer断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:20 INFO  ApiTestCaseModel:72 - 测试用例qs_V3_study_startStudyAnswer断言完毕！！
+ 期待obj返回消息体2
+ 实际obj返回消息体2
+2021-03-03 17:04:20 INFO  ApiTestCaseModel:63 - 测试用例qs_V3_study_index断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:20 INFO  ApiTestCaseModel:66 - 测试用例qs_V3_study_index断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:20 INFO  ApiTestCaseModel:72 - 测试用例qs_V3_study_index断言完毕！！
+ 期待obj返回消息体3
+ 实际obj返回消息体3
+2021-03-03 17:04:20 INFO  ApiTestCaseModel:63 - 测试用例qs_V3_curriculum_classSchedule断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:20 INFO  ApiTestCaseModel:66 - 测试用例qs_V3_curriculum_classSchedule断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:20 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言
+2021-03-03 17:04:20 INFO  ApiTestCaseModel:63 - 测试用例qs_V3_curriculum_dayList断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:20 INFO  ApiTestCaseModel:66 - 测试用例qs_V3_curriculum_dayList断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:20 INFO  ApiTestCaseModel:72 - 测试用例qs_V3_curriculum_dayList断言完毕！！
+ 期待obj返回消息体1
+ 实际obj返回消息体1
+2021-03-03 17:04:20 INFO  ApiTestCaseModel:63 - 测试用例qs_V3_marketingMessage_getMarketingMessageDetail断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:21 INFO  ApiTestCaseModel:66 - 测试用例qs_V3_marketingMessage_getMarketingMessageDetail断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:21 INFO  ApiTestCaseModel:72 - 测试用例qs_V3_marketingMessage_getMarketingMessageDetail断言完毕！！
+ 期待obj返回消息体3
+ 实际obj返回消息体3
+2021-03-03 17:04:21 INFO  ApiTestCaseModel:63 - 测试用例qs_V3_shop_redeemNow断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:21 INFO  ApiTestCaseModel:66 - 测试用例qs_V3_shop_redeemNow断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:21 INFO  ApiTestCaseModel:72 - 测试用例qs_V3_shop_redeemNow断言完毕！！
+ 期待obj返回消息体5
+ 实际obj返回消息体5
+2021-03-03 17:04:21 INFO  ApiTestCaseModel:63 - 测试用例qs_V3_shop_index断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:21 INFO  ApiTestCaseModel:66 - 测试用例qs_V3_shop_index断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:21 INFO  ApiTestCaseModel:72 - 测试用例qs_V3_shop_index断言完毕！！
+ 期待obj返回消息体6
+ 实际obj返回消息体6
+2021-03-03 17:04:21 INFO  ApiTestCaseModel:63 - 测试用例qs_V3_shop_redeemRecords断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:21 INFO  ApiTestCaseModel:66 - 测试用例qs_V3_shop_redeemRecords断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:22 INFO  ApiTestCaseModel:63 - 测试用例qs_V3_shop_confirmRedemption断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:22 INFO  ApiTestCaseModel:66 - 测试用例qs_V3_shop_confirmRedemption断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:22 INFO  ApiTestCaseModel:72 - 测试用例qs_V3_shop_confirmRedemption断言完毕！！
+ 期待obj返回消息体3
+ 实际obj返回消息体3
+2021-03-03 17:04:22 INFO  ApiTestCaseModel:63 - 测试用例qs_V3_chatRecord_chatRecordList断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:22 INFO  ApiTestCaseModel:66 - 测试用例qs_V3_chatRecord_chatRecordList断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:22 INFO  ApiTestCaseModel:72 - 测试用例qs_V3_chatRecord_chatRecordList断言完毕！！
+ 期待obj返回消息体5
+ 实际obj返回消息体5
+2021-03-03 17:04:22 INFO  ApiTestCaseModel:63 - 测试用例qs_V3_task_voucherData断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:22 INFO  ApiTestCaseModel:66 - 测试用例qs_V3_task_voucherData断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:22 INFO  ApiTestCaseModel:72 - 测试用例qs_V3_task_voucherData断言完毕！！
+ 期待obj返回消息体6
+ 实际obj返回消息体6
+2021-03-03 17:04:22 INFO  ApiTestCaseModel:63 - 测试用例qs_V3_task_creditData断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:22 INFO  ApiTestCaseModel:66 - 测试用例qs_V3_task_creditData断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:23 INFO  ApiTestCaseModel:72 - 测试用例qs_V3_task_creditData断言完毕！！
+ 期待obj返回消息体6
+ 实际obj返回消息体6
+2021-03-03 17:04:23 INFO  ApiTestCaseModel:63 - 测试用例qs_V3_class_classDetail_classData断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:23 INFO  ApiTestCaseModel:66 - 测试用例qs_V3_class_classDetail_classData断言完毕！！
+ 返回消息体code-----0
+2021-03-03 17:04:23 INFO  ApiTestCaseModel:72 - 测试用例qs_V3_class_classDetail_classData断言完毕！！
+ 期待obj返回消息体5
+ 实际obj返回消息体5
+2021-03-03 17:04:23 INFO  ApiTestCaseModel:63 - 测试用例qs_V3_setting_renewActive断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 17:04:23 INFO  ApiTestCaseModel:66 - 测试用例qs_V3_setting_renewActive断言完毕！！
+ 返回消息体code-----0

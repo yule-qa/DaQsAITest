@@ -152,6 +152,9 @@ public class MyTest {
         }
         writer.close();
     }
-
-
+    @Test
+    public void test7(){
+        String url="http://qs.api.test.com/solveApi/replyComment/V1/submitComment";
+        System.out.println();
+    }
 }
