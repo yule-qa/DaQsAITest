@@ -5,4 +5,4 @@ steps:
 - action: getTodayLecture
   api: qs_V1_study_getTodayLecture
   assertparams: {expect: '1', matcher: equalTo, assertparam: obj}
-  params: {userExtendId: '2095', userId: '1889'}
+  params: {userExtendId: '2889', userId: '3237'}

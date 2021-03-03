@@ -4545,3 +4545,8 @@
  返回消息体msg-----成功
 2021-03-02 16:40:48 INFO  ApiTestCaseModel:66 - 测试用例qs_V3_setting_renewActive断言完毕！！
  返回消息体code-----0
+2021-03-03 13:15:15 INFO  ApiTestCaseModel:63 - 测试用例qs_V1_replyComment_submitComment断言完毕！！
+ 返回消息体msg-----成功
+2021-03-03 13:15:15 INFO  ApiTestCaseModel:66 - 测试用例qs_V1_replyComment_submitComment断言完毕！！
+ 返回消息体code-----0
+2021-03-03 13:15:15 INFO  ApiTestCaseModel:69 - 返回消息obj体中为空，无需断言

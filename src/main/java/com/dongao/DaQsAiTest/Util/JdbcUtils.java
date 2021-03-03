@@ -8,18 +8,11 @@ public class JdbcUtils {
     private static ResultSet rs;
     private static Connection conn;
 
-    //外部调用方法[
-    public static ResultSet startDbQuery(String sql){
-        conn = getConnection("root", "root");
-        //调用数据库连接
-        rs=query(conn,sql);
-
-        return rs;
-    }
 
     //查询数据，定义query方法
-    public static ResultSet query(Connection conn,String sql) {
+    public static ResultSet selectquery(String sql) {
         try {
+            conn = getConnection("root", "root");
             Statement stmt = conn.createStatement();
             rs = stmt.executeQuery(sql);
 
@@ -29,6 +22,17 @@ public class JdbcUtils {
 
         return rs;
     }
+    //其他数据库操作
+    public static void otherquery(String sql)  {
+        try {
+            conn = getConnection("root", "root");
+            Statement stmt = conn.createStatement();
+            stmt.execute(sql);
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }
+    }
+
 
     //数据库连接
     public static Connection getConnection(String user, String pass) {
@@ -60,5 +64,9 @@ public class JdbcUtils {
         } catch (Exception throwables) {
             throwables.printStackTrace();
         }
+    }
+
+    public static void main(String[] args) {
+        otherquery("delete  from ei_qs_solve.qs_solve_solve_detail_reply_comment where reply_id=289");
     }
 }

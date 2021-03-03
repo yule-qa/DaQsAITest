@@ -18,7 +18,7 @@ public class SqlUtils {
                     "AND qsue.is_valid = 1 \n" +
                     "AND qsue.user_id = " + query.get("userId") + "\n" +
                     "AND qsue.`year` = 2021\n";
-            ResultSet resultSet = JdbcUtils.startDbQuery(sql);
+            ResultSet resultSet = JdbcUtils.selectquery(sql);
             //获取case.yaml文件中的userExtendId
             String userExtendId = query.get(sqlLabel).toString();
             String queryuserExtendId = null;
@@ -34,7 +34,7 @@ public class SqlUtils {
         //鼓励
         if(sqlLabel.equals("encourageUserExtendId")){
             sql="select user_extend_id from ei_qs_study.qs_study_user_class where  is_valid = 1 order by rand() LIMIT 1";
-            ResultSet resultSet = JdbcUtils.startDbQuery(sql);
+            ResultSet resultSet = JdbcUtils.selectquery(sql);
             //获取case.yaml文件中的userExtendId
             String encourageUserExtendId = query.get(sqlLabel).toString();
             String queryuserExtendId = null;
@@ -50,7 +50,7 @@ public class SqlUtils {
 
         if(sqlLabel.equals("content")){
             sql="delete  from ei_qs_solve.qs_solve_solve_detail_reply_comment where reply_id="+query.get("replyId");
-            ResultSet resultSet = JdbcUtils.startDbQuery(sql);
+            JdbcUtils.otherquery(sql);
             query.put("content", "自动化测试用例评价");
         }
         //释放数据库连接
