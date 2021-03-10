@@ -5,4 +5,4 @@ steps:
 - action: confirmRedemption
   api: qs_V3_shop_confirmRedemption
   assertparams: {expect: '3', matcher: equalTo, assertparam: obj}
-  params: {userExtendId: '2059', userId: '2437', prizeId: '13'}
+  params: {userExtendId: '2059', userId: '2336', prizeId: '13'}
