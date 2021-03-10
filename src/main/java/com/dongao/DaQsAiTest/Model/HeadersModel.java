@@ -17,6 +17,8 @@ public class HeadersModel {
     public String name="";
     public String description="";
 
+    public HashMap<String,String> headers;
+
     public void setName(String name) {
         this.name = name;
     }
@@ -25,16 +27,9 @@ public class HeadersModel {
         this.description = description;
     }
 
-    public void setEnv(List<HashMap<String, Object>> env) {
-        this.env = env;
-    }
-
     public void setHeaders(HashMap<String, String> headers) {
         this.headers = headers;
     }
-
-    public List<HashMap<String,Object>> env;
-    public HashMap<String,String> headers;
 
     public String getName() {
         return name;
@@ -42,10 +37,6 @@ public class HeadersModel {
 
     public String getDescription() {
         return description;
-    }
-
-    public List<HashMap<String, Object>> getEnv() {
-        return env;
     }
 
     public HashMap<String, String> getHeaders() {
@@ -62,5 +53,5 @@ public class HeadersModel {
         ObjectMapper objectMapper=new ObjectMapper(new YAMLFactory());
         return objectMapper.readValue(new File(path),HeadersModel.class);
     }
-
+    public List<HashMap<String,Object>> env;
 }

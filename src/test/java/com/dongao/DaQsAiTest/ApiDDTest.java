@@ -1,10 +1,7 @@
 package com.dongao.DaQsAiTest;
 
 import com.dongao.DaQsAiTest.Model.ApiTestCaseModel;
-import com.dongao.DaQsAiTest.Model.HeadersModel;
-import com.dongao.DaQsAiTest.Util.FakerUtils;
 import com.dongao.DaQsAiTest.Util.FileUtils;
-import com.dongao.DaQsAiTest.Util.GetSign;
 import com.dongao.DaQsAiTest.Util.HeadersUtil;
 import io.restassured.RestAssured;
 import io.restassured.builder.ResponseBuilder;
@@ -14,14 +11,12 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
-
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
-import java.util.concurrent.atomic.AtomicReference;
 
 import static org.junit.jupiter.params.provider.Arguments.arguments;
 

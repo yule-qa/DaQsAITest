@@ -8,6 +8,10 @@
     <artifactId>DaQsAITest</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <properties>
+    <!-- swagger.version -->
+        <aspectj.version>1.8.13</aspectj.version>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -152,8 +156,14 @@
            <artifactId>mysql-connector-java</artifactId>
            <version>8.0.22</version>
        </dependency>
-    </dependencies>
 
+       <!-- https://mvnrepository.com/artifact/org.aspectj/aspectjweaver -->
+       <dependency>
+           <groupId>org.aspectj</groupId>
+           <artifactId>aspectjweaver</artifactId>
+           <version>1.9.6</version>
+       </dependency>
+    </dependencies>
     <build>
         <plugins>
             <plugin>
@@ -167,19 +177,27 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.0.0-M5</version>
+                <version>3.0.0-M4</version>
                 <configuration>
-                    <testFailureIgnore>false</testFailureIgnore>
-                    <argLine>
-                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
-                    </argLine>
-                    <systemProperties>
-                        <property>
-                            <name>junit.jupiter.extensions.autodetection.enabled</name>
-                            <value>true</value>
-                        </property>
-                    </systemProperties>
-                </configuration>
+                     <testFailureIgnore>true</testFailureIgnore>
+                     <argLine>
+                           -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+                     </argLine>
+                     <argLine>
+                           -Xmx1024m -XX:MaxPermSize=256m
+                     </argLine>
+                     <systemProperties>
+                          <property>
+                              <name>junit.jupiter.extensions.autodetection.enabled</name>
+                              <value>true</value>
+                          </property>
+                          <!--设置生成allure报告到存放路径下 ，target/allure-results -->
+                           <property>
+                               <name>allure.results.directory</name>
+                               <value>${project.build.directory}/allure-results</value>
+                           </property>
+                     </systemProperties>
+                 </configuration>
             </plugin>
             <plugin>
                 <groupId>io.qameta.allure</groupId>
@@ -214,6 +232,7 @@
                     </execution>
                 </executions>
             </plugin>
+
         </plugins>
     </build>
 
